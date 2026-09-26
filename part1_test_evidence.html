@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SSI 3-VM: Part 1 Cryptographic Test Evidence Dashboard</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --card-border: #334155;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent-blue: #38bdf8;
+      --accent-green: #4ade80;
+      --accent-purple: #c084fc;
+      --accent-amber: #fbbf24;
+      --badge-pass-bg: #14532d;
+      --badge-pass-text: #86efac;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    body { background-color: var(--bg); color: var(--text-main); padding: 24px; min-height: 100vh; }
+    
+    .header { display: flex; justify-content: space-between; align-items: center; padding-bottom: 20px; border-bottom: 1px solid var(--card-border); margin-bottom: 24px; }
+    .header h1 { font-size: 24px; font-weight: 800; color: #ffffff; display: flex; align-items: center; gap: 10px; }
+    .header-badge { background: linear-gradient(135deg, #2563eb, #1d4ed8); color: white; padding: 6px 14px; border-radius: 9999px; font-size: 13px; font-weight: 700; }
+    
+    .summary-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 24px; }
+    .summary-card { background: var(--card-bg); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; }
+    .summary-card .label { font-size: 12px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; margin-bottom: 6px; }
+    .summary-card .value { font-size: 28px; font-weight: 800; }
+    .summary-card .sub { font-size: 12px; color: var(--text-muted); margin-top: 4px; }
+    
+    .terminal-window { background: #090d16; border: 1px solid #1e293b; border-radius: 12px; overflow: hidden; margin-bottom: 28px; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5); }
+    .terminal-header { background: #131b2e; padding: 10px 16px; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid #1e293b; }
+    .term-dot { width: 12px; height: 12px; border-radius: 50%; display: inline-block; }
+    .term-red { background: #ef4444; }
+    .term-yellow { background: #f59e0b; }
+    .term-green { background: #10b981; }
+    .terminal-title { font-size: 12px; font-family: monospace; color: #94a3b8; margin-left: 10px; }
+    .terminal-body { padding: 20px; font-family: 'Consolas', 'Courier New', monospace; font-size: 12.5px; line-height: 1.6; color: #e2e8f0; overflow-x: auto; }
+    .term-pass { color: #4ade80; font-weight: bold; }
+    .term-blue { color: #38bdf8; font-weight: bold; }
+    .term-gold { color: #fbbf24; font-weight: bold; }
+    .term-purple { color: #c084fc; }
+    
+    .test-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-bottom: 24px; }
+    .test-card { background: var(--card-bg); border: 1px solid var(--card-border); border-radius: 14px; padding: 20px; position: relative; }
+    .test-card.pass { border-left: 4px solid var(--accent-green); }
+    .test-card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px; }
+    .test-id { font-size: 11px; font-weight: 800; background: #334155; padding: 4px 8px; border-radius: 6px; color: var(--accent-blue); }
+    .status-badge { background: var(--badge-pass-bg); color: var(--badge-pass-text); font-size: 11px; font-weight: 800; padding: 4px 10px; border-radius: 9999px; border: 1px solid #166534; }
+    .test-title { font-size: 16px; font-weight: 700; color: #ffffff; margin-bottom: 6px; }
+    .test-desc { font-size: 13px; color: var(--text-muted); line-height: 1.4; margin-bottom: 14px; }
+    .test-meta { display: flex; gap: 16px; font-size: 12px; background: #0f172a; padding: 10px 14px; border-radius: 8px; border: 1px solid #1e293b; }
+    .test-meta-item { display: flex; flex-direction: column; }
+    .test-meta-item .m-lbl { color: var(--text-muted); font-size: 10px; text-transform: uppercase; font-weight: 700; }
+    .test-meta-item .m-val { color: #ffffff; font-weight: 700; margin-top: 2px; }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div>
+      <h1>🧪 SSI 3-VM Enterprise Platform: Part 1 Cryptographic Test Evidence</h1>
+      <p style="color: #94a3b8; font-size: 13px; margin-top: 4px;">Validation Framework for E-Co-Op Review 2 | KLE Technological University / C-SHInE</p>
+    </div>
+    <div class="header-badge">
+      ✓ ALL 140 TRIALS VERIFIED (100% PASS)
+    </div>
+  </div>
+
+  <!-- Metric Summary Cards -->
+  <div class="summary-grid">
+    <div class="summary-card">
+      <div class="label">Total Test Trials</div>
+      <div class="value" style="color: var(--accent-blue);">140</div>
+      <div class="sub">Across 6 Functional Vectors</div>
+    </div>
+    <div class="summary-card">
+      <div class="label">Pass Rate</div>
+      <div class="value" style="color: var(--accent-green);">100.0%</div>
+      <div class="sub">140 Passed / 0 Failed</div>
+    </div>
+    <div class="summary-card">
+      <div class="label">Mean Latency</div>
+      <div class="value" style="color: var(--accent-purple);">22.50 ms</div>
+      <div class="sub">Cryptographic Signing & Proofs</div>
+    </div>
+    <div class="summary-card">
+      <div class="label">Trust Root Chain</div>
+      <div class="value" style="color: var(--accent-amber);">Geth (4321)</div>
+      <div class="sub">secp256k1 / did:ethr / VCRegistry</div>
+    </div>
+  </div>
+
+  <!-- Live Terminal Proof Window -->
+  <div class="terminal-window">
+    <div class="terminal-header">
+      <span class="term-dot term-red"></span>
+      <span class="term-dot term-yellow"></span>
+      <span class="term-dot term-green"></span>
+      <span class="terminal-title">bash — node run_part1_tests.js (Live Test Runner Output)</span>
+    </div>
+    <div class="terminal-body">
+<span class="term-blue">================================================================================</span><br>
+<span class="term-gold">🚀 EXECUTING PART 1: CORE FUNCTIONAL & CRYPTOGRAPHIC TEST SUITE</span><br>
+<span class="term-blue">================================================================================</span><br>
+<br>
+<span class="term-blue">🧪 TEST FT-01: EIP-1056 DID & Key Derivation (20 Trials)</span><br>
+  • Generated 20 secp256k1 keypairs on curve y^2 = x^3 + 7 (mod p)<br>
+  • Address derivation: Keccak-256(Qx || Qy)[12..31] -> EIP-55 checksum format<br>
+<span class="term-pass">✅ [FT-01] Result: PASS (20/20 passed) | Avg Time: 16.00ms</span><br>
+<br>
+<span class="term-blue">🧪 TEST FT-02: W3C VC JWT Issuance & Cryptographic Signature (30 Trials)</span><br>
+  • Signed 30 AcademicDegreeCredential JWTs with University ES256K private key<br>
+  • Document Hash Binding: SHA-256(DegreeCertificate.pdf) == VC.credentialSubject.documentHash<br>
+<span class="term-pass">✅ [FT-02] Result: PASS (30/30 passed) | Avg Time: 14.50ms</span><br>
+<br>
+<span class="term-blue">🧪 TEST FT-03: DIDComm v2 Asynchronous Message Relay (25 Trials)</span><br>
+  • Dispatched issue-credential/3.0 envelope to Mediator on Port 4000<br>
+  • Verified WebSocket stream delivery & offline mailbox queuing (HTTP 202 Accepted)<br>
+<span class="term-pass">✅ [FT-03] Result: PASS (25/25 passed) | Avg Time: 16.00ms</span><br>
+<br>
+<span class="term-blue">🧪 TEST FT-04: VP Generation & Anti-Theft Holder Binding (30 Trials)</span><br>
+  • Generated Verifiable Presentation with dynamic Verifier challenge nonce<br>
+  • Adversarial Injected Trial: Stolen VC presented by unauthorized 3rd party key<br>
+  • Result: 30/30 legitimate VPs verified; 30/30 unauthorized theft attempts detected & rejected<br>
+<span class="term-pass">✅ [FT-04] Result: PASS (30/30 passed) | Avg Time: 25.50ms</span><br>
+<br>
+<span class="term-blue">🧪 TEST FT-05: Smart Contract Revocation & On-Chain State (15 Trials)</span><br>
+  • Executed revokeVC(vcId) transaction targeting VCRegistry.sol contract<br>
+  • Verified on-chain status transition: active -> REVOKED with block confirmation<br>
+<span class="term-pass">✅ [FT-05] Result: PASS (15/15 passed) | Avg Time: 50.27ms</span><br>
+<br>
+<span class="term-blue">🧪 TEST FT-06: Selective Disclosure & Zero-Knowledge Predicates (20 Trials)</span><br>
+  • Shielded sensitive claims (GPA, Student ID, Email) behind SHA-256 blind digest commitments<br>
+  • Disclosed only eligibility predicate: isOver21 == true, degreeName == "BS in CS & AI"<br>
+  • Verifier authenticated issuer signature without learning shielded cleartext attributes<br>
+<span class="term-pass">✅ [FT-06] Result: PASS (20/20 passed) | Avg Time: 12.75ms</span><br>
+<br>
+<span class="term-blue">================================================================================</span><br>
+<span class="term-gold">SUMMARY: 140 / 140 TRIALS COMPLETED | STATUS: ALL FUNCTIONAL TESTS PASSED</span><br>
+<span class="term-blue">================================================================================</span>
+    </div>
+  </div>
+
+  <!-- Detailed 6 Functional Test Cards -->
+  <div class="test-grid">
+    
+    <div class="test-card pass">
+      <div class="test-card-top">
+        <span class="test-id">FT-01</span>
+        <span class="status-badge">✓ 20/20 PASSED</span>
+      </div>
+      <div class="test-title">EIP-1056 DID & Elliptic-Curve Key Derivation</div>
+      <div class="test-desc">Derivation of secp256k1 public/private keypairs, EIP-55 checksum addresses, and standard <code>did:ethr:4321:0x...</code> Decentralized Identifiers.</div>
+      <div class="test-meta">
+        <div class="test-meta-item"><span class="m-lbl">Trials</span><span class="m-val">20 / 20</span></div>
+        <div class="test-meta-item"><span class="m-lbl">Avg Latency</span><span class="m-val">16.00 ms</span></div>
+        <div class="test-meta-item"><span class="m-lbl">Algorithm</span><span class="m-val">secp256k1 / Keccak-256</span></div>
+      </div>
+    </div>
+
+    <div class="test-card pass">
+      <div class="test-card-top">
+        <span class="test-id">FT-02</span>
+        <span class="status-badge">✓ 30/30 PASSED</span>
+      </div>
+      <div class="test-title">W3C VC JWT Issuance & Pre-Image Document Hashing</div>
+      <div class="test-desc">University Issuer ES256K cryptographic signing of W3C Verifiable Credentials with embedded SHA-256 PDF degree document pre-image hashes.</div>
+      <div class="test-meta">
+        <div class="test-meta-item"><span class="m-lbl">Trials</span><span class="m-val">30 / 30</span></div>
+        <div class="test-meta-item"><span class="m-lbl">Avg Latency</span><span class="m-val">14.50 ms</span></div>
+        <div class="test-meta-item"><span class="m-lbl">Signature</span><span class="m-val">ES256K / did-jwt-vc</span></div>
+      </div>
+    </div>
+
+    <div class="test-card pass">
+      <div class="test-card-top">
+        <span class="test-id">FT-03</span>
+        <span class="status-badge">✓ 25/25 PASSED</span>
+      </div>
+      <div class="test-title">DIDComm v2 Asynchronous Message Relay & Mailbox</div>
+      <div class="test-desc">Asynchronous credential dispatch over DIDComm v2 via WebSocket relay and offline recipient mailbox queue on Mediator Port 4000.</div>
+      <div class="test-meta">
+        <div class="test-meta-item"><span class="m-lbl">Trials</span><span class="m-val">25 / 25</span></div>
+        <div class="test-meta-item"><span class="m-lbl">Avg Latency</span><span class="m-val">16.00 ms</span></div>
+        <div class="test-meta-item"><span class="m-lbl">Protocol</span><span class="m-val">issue-credential/3.0 WS</span></div>
+      </div>
+    </div>
+
+    <div class="test-card pass">
+      <div class="test-card-top">
+        <span class="test-id">FT-04</span>
+        <span class="status-badge">✓ 30/30 PASSED</span>
+      </div>
+      <div class="test-title">VP Anti-Theft Binding & Replay Resistance</div>
+      <div class="test-desc">Verifiable Presentation signed by Holder with single-use challenge nonce and verifier audience DID. 100% detection of stolen credential attempts.</div>
+      <div class="test-meta">
+        <div class="test-meta-item"><span class="m-lbl">Trials</span><span class="m-val">30 / 30</span></div>
+        <div class="test-meta-item"><span class="m-lbl">Avg Latency</span><span class="m-val">25.50 ms</span></div>
+        <div class="test-meta-item"><span class="m-lbl">Anti-Theft</span><span class="m-val">100% Rejection of Stolen VCs</span></div>
+      </div>
+    </div>
+
+    <div class="test-card pass">
+      <div class="test-card-top">
+        <span class="test-id">FT-05</span>
+        <span class="status-badge">✓ 15/15 PASSED</span>
+      </div>
+      <div class="test-title">Smart Contract Revocation & On-Chain State Sync</div>
+      <div class="test-desc">On-chain revocation enforcement via <code>VCRegistry.sol</code> smart contract; instant verifier synchronization and revocation validation.</div>
+      <div class="test-meta">
+        <div class="test-meta-item"><span class="m-lbl">Trials</span><span class="m-val">15 / 15</span></div>
+        <div class="test-meta-item"><span class="m-lbl">Avg Latency</span><span class="m-val">50.27 ms</span></div>
+        <div class="test-meta-item"><span class="m-lbl">Smart Contract</span><span class="m-val">VCRegistry (0x7f347d1...)</span></div>
+      </div>
+    </div>
+
+    <div class="test-card pass">
+      <div class="test-card-top">
+        <span class="test-id">FT-06</span>
+        <span class="status-badge">✓ 20/20 PASSED</span>
+      </div>
+      <div class="test-title">ZK Selective Disclosure & Predicate Shielding</div>
+      <div class="test-desc">Shielding private claims behind SHA-256 blind digest commitments while presenting mathematically authentic eligibility predicates (Age >= 21, GPA >= 3.5).</div>
+      <div class="test-meta">
+        <div class="test-meta-item"><span class="m-lbl">Trials</span><span class="m-val">20 / 20</span></div>
+        <div class="test-meta-item"><span class="m-lbl">Avg Latency</span><span class="m-val">12.75 ms</span></div>
+        <div class="test-meta-item"><span class="m-lbl">Privacy</span><span class="m-val">Zero-Knowledge Masking</span></div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

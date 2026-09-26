@@ -1,0 +1,76 @@
+version: '3.8'
+
+services:
+  # DIDComm Mediator Gateway
+  didcomm-mediator:
+    build:
+      context: ./didcomm-mediator
+    ports:
+      - "4000:4000"
+    environment:
+      - PORT=4000
+    restart: always
+
+  # Issuer Microservice & Enterprise SSO Connector
+  issuer-service:
+    build:
+      context: ./issuer-vm/issuer-service
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - MEDIATOR_URL=http://didcomm-mediator:4000
+      - CHAIN_ID=4321
+      - RPC_URL=${RPC_URL:-http://192.168.245.65:8545}
+
+    depends_on:
+      - didcomm-mediator
+    restart: always
+
+  # Holder Agent Microservice
+  holder-agent:
+    build:
+      context: ./holder-vm/holder-agent
+    ports:
+      - "3001:3001"
+    environment:
+      - PORT=3001
+      - MEDIATOR_URL=http://didcomm-mediator:4000
+    depends_on:
+      - didcomm-mediator
+    restart: always
+
+  # Verifier Agent Microservice (Bulk & ZK Ephemeral Mode)
+  verifier-agent:
+    build:
+      context: ./verifier-vm/verifier-agent
+    ports:
+      - "8081:8081"
+    environment:
+      - PORT=8081
+      - MEDIATOR_URL=http://didcomm-mediator:4000
+      - RPC_URL=${RPC_URL:-http://192.168.245.65:8545}
+
+    depends_on:
+      - didcomm-mediator
+    restart: always
+
+  # Database & Caching Services for Stored Audit & Fast Resolution
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_DB: ssi_startup_db
+      POSTGRES_USER: ssi_admin
+      POSTGRES_PASSWORD: ssi_secure_password_2026
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+
+volumes:
+  pgdata:

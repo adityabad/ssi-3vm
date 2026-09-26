@@ -1,0 +1,1513 @@
+{
+  "campaigns": [
+    {
+      "id": "camp_40f92b10a66f",
+      "title": "Graduate Software Engineer Mass Hiring 2026",
+      "company_name": "TechCorp Global Solutions",
+      "verifier_did": "did:ethr:4321:0xVerifier81ec6a2d",
+      "campaign_link": "http://localhost:5175/campaign/camp_40f92b10a66f",
+      "created_at": "2026-09-10T16:19:12.675Z"
+    },
+    {
+      "id": "camp_e6d684b962dc",
+      "title": "Senior Artificial Intelligence Engineer Hiring 2026",
+      "company_name": "TechCorp Global Solutions",
+      "verifier_did": "did:ethr:4321:0xVerifier59df3284",
+      "campaign_link": "http://localhost:5175/campaign/camp_e6d684b962dc",
+      "created_at": "2026-09-08T14:48:44.634Z"
+    },
+    {
+      "id": "camp_11c9f9fc84f1",
+      "title": "Senior Artificial Intelligence Engineer Hiring 2026",
+      "company_name": "TechCorp Global Solutions",
+      "verifier_did": "did:ethr:4321:0xVerifier3ce5d175",
+      "campaign_link": "http://localhost:5175/campaign/camp_11c9f9fc84f1",
+      "created_at": "2026-09-08T14:48:25.638Z"
+    },
+    {
+      "id": "camp_cfcb91faf642",
+      "title": "Senior Artificial Intelligence Engineer Hiring 2026",
+      "company_name": "TechCorp Global Solutions",
+      "verifier_did": "did:ethr:4321:0xVerifier34f95ec1",
+      "campaign_link": "http://localhost:5175/campaign/camp_cfcb91faf642",
+      "created_at": "2026-09-08T14:47:56.015Z"
+    },
+    {
+      "id": "camp_ce3aded00c3a",
+      "title": "Senior Artificial Intelligence Engineer Hiring 2026",
+      "company_name": "TechCorp Global Solutions",
+      "verifier_did": "did:ethr:4321:0xVerifier6b897649",
+      "campaign_link": "http://localhost:5175/campaign/camp_ce3aded00c3a",
+      "created_at": "2026-09-08T14:36:34.250Z"
+    },
+    {
+      "id": "camp_2e45b96240e6",
+      "title": "Trial 2",
+      "company_name": "TechCorp Global Solutions",
+      "verifier_did": "did:ethr:4321:0xVerifier4e6e8013",
+      "campaign_link": "http://localhost:5175/campaign/camp_2e45b96240e6",
+      "created_at": "2026-09-08T14:35:37.966Z"
+    },
+    {
+      "id": "camp_4658ba911027",
+      "title": "Graduate Software Engineer Mass Hiring 2026",
+      "company_name": "TechCorp Global Solutions",
+      "verifier_did": "did:ethr:4321:0xVerifierc1a62254",
+      "campaign_link": "http://localhost:5175/campaign/camp_4658ba911027",
+      "created_at": "2026-09-08T14:32:37.123Z"
+    },
+    {
+      "id": "camp_ef614b6186d9",
+      "title": "Senior Artificial Intelligence Engineer Hiring 2026",
+      "company_name": "TechCorp Global Solutions",
+      "verifier_did": "did:ethr:4321:0xVerifier1a16a0e6",
+      "campaign_link": "http://localhost:5175/campaign/camp_ef614b6186d9",
+      "created_at": "2026-09-08T14:29:05.035Z"
+    },
+    {
+      "id": "camp_software_eng_2026",
+      "title": "Graduate Software Engineer Mass Hiring 2026",
+      "company_name": "TechCorp Global Solutions",
+      "verifier_did": "did:ethr:4321:0xVerifierAdmin8888",
+      "created_at": "2026-09-08T14:27:19.529Z"
+    }
+  ],
+  "submissions": [
+    {
+      "id": "sub_f2723d5a0f56",
+      "campaign_id": "camp_2e45b96240e6",
+      "candidate_name": "Alex Rivera",
+      "candidate_email": "alex@mit.edu",
+      "vp_jwt": "eyJhbGciOiJFUzI1NksifQ.eyJpc3MiOiJkaWQ6ZXRocjo0MzIxOjB4ODFjMEU5MzJkQzBBRUQ4MzNmQWQwRWMyRTkyNGZkOTcyZDg2ZUQ4RSIsImF1ZCI6ImRpZDpldGhyOjQzMjE6MHhDYW1wYWlnbkVtcGxveWVyIiwicHJlc2VudGF0aW9uTW9kZSI6InNlbGVjdGl2ZSIsInNlbGVjdGl2ZURpc2Nsb3N1cmUiOnRydWUsInZwIjp7IkBjb250ZXh0IjpbImh0dHBzOi8vd3d3LnczLm9yZy8yMDE4L2NyZWRlbnRpYWxzL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZVByZXNlbnRhdGlvbiIsIlNlbGVjdGl2ZURpc2Nsb3N1cmVQcmVzZW50YXRpb24iXSwidmVyaWZpYWJsZUNyZWRlbnRpYWwiOlsiZXlKaGJHY2lPaUpGVXpJMU5rc2lmUS5leUpwYzNNaU9pSmthV1E2WlhSb2NqbzBNekl4T2pCNFFqQXdOekl4UXpFME1EWTNPVGcwWVdZd1pETkNNelF3UVdNd1EwUXhNRE0wWTBRM09HWTRaaUlzSW5OMVlpSTZJbVJwWkRwbGRHaHlPalF6TWpFNk1IZzRNV013UlRrek1tUkRNRUZGUkRnek0yWkJaREJGWXpKRk9USTBabVE1TnpKa09EWmxSRGhGSWl3aWFuUnBJam9pTldGa1lUWTRPVEJsT1dObVlXSTROQ0lzSW5ObGJHVmpkR2wyWlVScGMyTnNiM04xY21VaU9uUnlkV1VzSW1ScGMyTnNiM05sWkVOc1lXbHRjeUk2ZXlKa1pXZHlaV1ZPWVcxbElqb2lUMlptYVdOcFlXd2dRV05oWkdWdGFXTWdSR1ZuY21WbElFTmxjblJwWm1sallYUmxJaXdpYldGcWIzSWlPaUpEYjIxd2RYUmxjaUJUWTJsbGJtTmxJQ1lnUVhKMGFXWnBZMmxoYkNCSmJuUmxiR3hwWjJWdVkyVWlMQ0puY21Ga2RXRjBhVzl1V1dWaGNpSTZJakl3TWpZaUxDSnBibk4wYVhSMWRHbHZiazVoYldVaU9pSk5TVlFnU1c1emRHbDBkWFJsSUc5bUlGUmxZMmh1YjJ4dloza2lMQ0p5YjJ4bElqb2lWbVZ5YVdacFpXUWdSM0poWkhWaGRHVWdMeUJCYkhWdGJta2lMQ0prYjJOMWJXVnVkRWhoYzJnaU9pSTNNamcxWlRjME9UVXhZV05qTkdObVlXWXlaV1JsTWpReU1HTmlaVGd4T1dGbE9UZ3paREl5Tmpjd05ERmpPVFUxTlRReU1URTRNak0xTTJNMFpHVmxJaXdpYUdGemFFRnNaMjl5YVhSb2JTSTZJbE5JUVMweU5UWWlmU3dpY21Wa1lXTjBaV1JEYkdGcGJYTWlPbHQ3SW1acFpXeGtJam9pWjNCaElpd2ljM1JoZEhWeklqb2lVa1ZFUVVOVVJVUmZRbGxmU0U5TVJFVlNJaXdpWkdsblpYTjBJam9pTUhnMU5qbGpZbU5tTURoaFpqTmhZalppTkRBNE9HUXpabVkyT1dGbU5tSmxNalk1WkRjeE9Ea3haRGMxTm1Vd1lXVmpOVGhqTkdVMVpqVTFObVl5TkdaakluMHNleUptYVdWc1pDSTZJbk4wZFdSbGJuUkpaQ0lzSW5OMFlYUjFjeUk2SWxKRlJFRkRWRVZFWDBKWlgwaFBURVJGVWlJc0ltUnBaMlZ6ZENJNklqQjROR1UwWTJZd1kyWTVOemhoWVRFME9HUTBNV0kyT1dabE1qSXhaRFZtTldZeVlXTTVNREZoTVdJNE1EZGxPVFl3TURBMllqY3dZMlkyTkRjd056aG1NU0o5WFN3aWRtTWlPbnNpUUdOdmJuUmxlSFFpT2xzaWFIUjBjSE02THk5M2QzY3Vkek11YjNKbkx6SXdNVGd2WTNKbFpHVnVkR2xoYkhNdmRqRWlYU3dpZEhsd1pTSTZXeUpXWlhKcFptbGhZbXhsUTNKbFpHVnVkR2xoYkNJc0lsTmxiR1ZqZEdsMlpVUnBjMk5zYjNOMWNtVkRjbVZrWlc1MGFXRnNJaXdpUVdOaFpHVnRhV05FWldkeVpXVkRjbVZrWlc1MGFXRnNJbDBzSW1OeVpXUmxiblJwWVd4VGRXSnFaV04wSWpwN0ltUmxaM0psWlU1aGJXVWlPaUpQWm1acFkybGhiQ0JCWTJGa1pXMXBZeUJFWldkeVpXVWdRMlZ5ZEdsbWFXTmhkR1VpTENKdFlXcHZjaUk2SWtOdmJYQjFkR1Z5SUZOamFXVnVZMlVnSmlCQmNuUnBabWxqYVdGc0lFbHVkR1ZzYkdsblpXNWpaU0lzSW1kd1lTSTZJbHRTUlVSQlExUkZSRjlDV1Y5SVQweEVSVklnTFNCRWFXZGxjM1E2SURVMk9XTmlZMll3TGk0dVhTSXNJbWR5WVdSMVlYUnBiMjVaWldGeUlqb2lNakF5TmlJc0ltbHVjM1JwZEhWMGFXOXVUbUZ0WlNJNklrMUpWQ0JKYm5OMGFYUjFkR1VnYjJZZ1ZHVmphRzV2Ykc5bmVTSXNJbkp2YkdVaU9pSldaWEpwWm1sbFpDQkhjbUZrZFdGMFpTQXZJRUZzZFcxdWFTSXNJbk4wZFdSbGJuUkpaQ0k2SWx0U1JVUkJRMVJGUkY5Q1dWOUlUMHhFUlZJZ0xTQkVhV2RsYzNRNklEUmxOR05tTUdObUxpNHVYU0lzSW1SdlkzVnRaVzUwU0dGemFDSTZJamN5T0RWbE56UTVOVEZoWTJNMFkyWmhaakpsWkdVeU5ESXdZMkpsT0RFNVlXVTVPRE5rTWpJMk56QTBNV001TlRVMU5ESXhNVGd5TXpVell6UmtaV1VpTENKb1lYTm9RV3huYjNKcGRHaHRJam9pVTBoQkxUSTFOaUlzSW5aalNXUWlPaUkxWVdSaE5qZzVNR1U1WTJaaFlqZzBJbjBzSW5ObGJHVmpkR2wyWlVScGMyTnNiM04xY21VaU9uUnlkV1Y5ZlEuc2RfaXNzdWVyX3Byb29mIl19fQ.holder_sd_vp_signature",
+      "status": "PENDING_VERIFICATION",
+      "verification_details": null,
+      "submitted_at": "2026-09-10T16:54:48.295Z"
+    },
+    {
+      "id": "sub_2d31ed0a55bd",
+      "campaign_id": "camp_2e45b96240e6",
+      "candidate_name": "Alex Rivera",
+      "candidate_email": "alex@mit.edu",
+      "vp_jwt": "eyJhbGciOiJFUzI1NksifQ.eyJpc3MiOiJkaWQ6ZXRocjo0MzIxOjB4ODFjMEU5MzJkQzBBRUQ4MzNmQWQwRWMyRTkyNGZkOTcyZDg2ZUQ4RSIsImF1ZCI6ImRpZDpldGhyOjQzMjE6MHhDYW1wYWlnbkVtcGxveWVyIiwicHJlc2VudGF0aW9uTW9kZSI6InNlbGVjdGl2ZSIsInNlbGVjdGl2ZURpc2Nsb3N1cmUiOnRydWUsInZwIjp7IkBjb250ZXh0IjpbImh0dHBzOi8vd3d3LnczLm9yZy8yMDE4L2NyZWRlbnRpYWxzL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZVByZXNlbnRhdGlvbiIsIlNlbGVjdGl2ZURpc2Nsb3N1cmVQcmVzZW50YXRpb24iXSwidmVyaWZpYWJsZUNyZWRlbnRpYWwiOlsiZXlKaGJHY2lPaUpGVXpJMU5rc2lmUS5leUpwYzNNaU9pSmthV1E2WlhSb2NqbzBNekl4T2pCNFFqQXdOekl4UXpFME1EWTNPVGcwWVdZd1pETkNNelF3UVdNd1EwUXhNRE0wWTBRM09HWTRaaUlzSW5OMVlpSTZJbVJwWkRwbGRHaHlPalF6TWpFNk1IZzRNV013UlRrek1tUkRNRUZGUkRnek0yWkJaREJGWXpKRk9USTBabVE1TnpKa09EWmxSRGhGSWl3aWFuUnBJam9pTldGa1lUWTRPVEJsT1dObVlXSTROQ0lzSW5ObGJHVmpkR2wyWlVScGMyTnNiM04xY21VaU9uUnlkV1VzSW1ScGMyTnNiM05sWkVOc1lXbHRjeUk2ZXlKa1pXZHlaV1ZPWVcxbElqb2lUMlptYVdOcFlXd2dRV05oWkdWdGFXTWdSR1ZuY21WbElFTmxjblJwWm1sallYUmxJaXdpYldGcWIzSWlPaUpEYjIxd2RYUmxjaUJUWTJsbGJtTmxJQ1lnUVhKMGFXWnBZMmxoYkNCSmJuUmxiR3hwWjJWdVkyVWlMQ0puY21Ga2RXRjBhVzl1V1dWaGNpSTZJakl3TWpZaUxDSnBibk4wYVhSMWRHbHZiazVoYldVaU9pSk5TVlFnU1c1emRHbDBkWFJsSUc5bUlGUmxZMmh1YjJ4dloza2lMQ0p5YjJ4bElqb2lWbVZ5YVdacFpXUWdSM0poWkhWaGRHVWdMeUJCYkhWdGJta2lMQ0prYjJOMWJXVnVkRWhoYzJnaU9pSTNNamcxWlRjME9UVXhZV05qTkdObVlXWXlaV1JsTWpReU1HTmlaVGd4T1dGbE9UZ3paREl5Tmpjd05ERmpPVFUxTlRReU1URTRNak0xTTJNMFpHVmxJaXdpYUdGemFFRnNaMjl5YVhSb2JTSTZJbE5JUVMweU5UWWlmU3dpY21Wa1lXTjBaV1JEYkdGcGJYTWlPbHQ3SW1acFpXeGtJam9pWjNCaElpd2ljM1JoZEhWeklqb2lVa1ZFUVVOVVJVUmZRbGxmU0U5TVJFVlNJaXdpWkdsblpYTjBJam9pTUhnMU5qbGpZbU5tTURoaFpqTmhZalppTkRBNE9HUXpabVkyT1dGbU5tSmxNalk1WkRjeE9Ea3haRGMxTm1Vd1lXVmpOVGhqTkdVMVpqVTFObVl5TkdaakluMHNleUptYVdWc1pDSTZJbk4wZFdSbGJuUkpaQ0lzSW5OMFlYUjFjeUk2SWxKRlJFRkRWRVZFWDBKWlgwaFBURVJGVWlJc0ltUnBaMlZ6ZENJNklqQjROR1UwWTJZd1kyWTVOemhoWVRFME9HUTBNV0kyT1dabE1qSXhaRFZtTldZeVlXTTVNREZoTVdJNE1EZGxPVFl3TURBMllqY3dZMlkyTkRjd056aG1NU0o5WFN3aWRtTWlPbnNpUUdOdmJuUmxlSFFpT2xzaWFIUjBjSE02THk5M2QzY3Vkek11YjNKbkx6SXdNVGd2WTNKbFpHVnVkR2xoYkhNdmRqRWlYU3dpZEhsd1pTSTZXeUpXWlhKcFptbGhZbXhsUTNKbFpHVnVkR2xoYkNJc0lsTmxiR1ZqZEdsMlpVUnBjMk5zYjNOMWNtVkRjbVZrWlc1MGFXRnNJaXdpUVdOaFpHVnRhV05FWldkeVpXVkRjbVZrWlc1MGFXRnNJbDBzSW1OeVpXUmxiblJwWVd4VGRXSnFaV04wSWpwN0ltUmxaM0psWlU1aGJXVWlPaUpQWm1acFkybGhiQ0JCWTJGa1pXMXBZeUJFWldkeVpXVWdRMlZ5ZEdsbWFXTmhkR1VpTENKdFlXcHZjaUk2SWtOdmJYQjFkR1Z5SUZOamFXVnVZMlVnSmlCQmNuUnBabWxqYVdGc0lFbHVkR1ZzYkdsblpXNWpaU0lzSW1kd1lTSTZJbHRTUlVSQlExUkZSRjlDV1Y5SVQweEVSVklnTFNCRWFXZGxjM1E2SURVMk9XTmlZMll3TGk0dVhTSXNJbWR5WVdSMVlYUnBiMjVaWldGeUlqb2lNakF5TmlJc0ltbHVjM1JwZEhWMGFXOXVUbUZ0WlNJNklrMUpWQ0JKYm5OMGFYUjFkR1VnYjJZZ1ZHVmphRzV2Ykc5bmVTSXNJbkp2YkdVaU9pSldaWEpwWm1sbFpDQkhjbUZrZFdGMFpTQXZJRUZzZFcxdWFTSXNJbk4wZFdSbGJuUkpaQ0k2SWx0U1JVUkJRMVJGUkY5Q1dWOUlUMHhFUlZJZ0xTQkVhV2RsYzNRNklEUmxOR05tTUdObUxpNHVYU0lzSW1SdlkzVnRaVzUwU0dGemFDSTZJamN5T0RWbE56UTVOVEZoWTJNMFkyWmhaakpsWkdVeU5ESXdZMkpsT0RFNVlXVTVPRE5rTWpJMk56QTBNV001TlRVMU5ESXhNVGd5TXpVell6UmtaV1VpTENKb1lYTm9RV3huYjNKcGRHaHRJam9pVTBoQkxUSTFOaUlzSW5aalNXUWlPaUkxWVdSaE5qZzVNR1U1WTJaaFlqZzBJbjBzSW5ObGJHVmpkR2wyWlVScGMyTnNiM04xY21VaU9uUnlkV1Y5ZlEuc2RfaXNzdWVyX3Byb29mIl19fQ.holder_sd_vp_signature",
+      "status": "VERIFIED_VALID",
+      "verification_details": {
+        "vp": {
+          "isValid": true,
+          "payload": {
+            "iss": "did:ethr:4321:0x81c0E932dC0AED833fAd0Ec2E924fd972d86eD8E",
+            "aud": "did:ethr:4321:0xCampaignEmployer",
+            "presentationMode": "selective",
+            "selectiveDisclosure": true,
+            "vp": {
+              "@context": [
+                "https://www.w3.org/2018/credentials/v1"
+              ],
+              "type": [
+                "VerifiablePresentation",
+                "SelectiveDisclosurePresentation"
+              ],
+              "verifiableCredential": [
+                "eyJhbGciOiJFUzI1NksifQ.eyJpc3MiOiJkaWQ6ZXRocjo0MzIxOjB4QjAwNzIxQzE0MDY3OTg0YWYwZDNCMzQwQWMwQ0QxMDM0Y0Q3OGY4ZiIsInN1YiI6ImRpZDpldGhyOjQzMjE6MHg4MWMwRTkzMmRDMEFFRDgzM2ZBZDBFYzJFOTI0ZmQ5NzJkODZlRDhFIiwianRpIjoiNWFkYTY4OTBlOWNmYWI4NCIsInNlbGVjdGl2ZURpc2Nsb3N1cmUiOnRydWUsImRpc2Nsb3NlZENsYWltcyI6eyJkZWdyZWVOYW1lIjoiT2ZmaWNpYWwgQWNhZGVtaWMgRGVncmVlIENlcnRpZmljYXRlIiwibWFqb3IiOiJDb21wdXRlciBTY2llbmNlICYgQXJ0aWZpY2lhbCBJbnRlbGxpZ2VuY2UiLCJncmFkdWF0aW9uWWVhciI6IjIwMjYiLCJpbnN0aXR1dGlvbk5hbWUiOiJNSVQgSW5zdGl0dXRlIG9mIFRlY2hub2xvZ3kiLCJyb2xlIjoiVmVyaWZpZWQgR3JhZHVhdGUgLyBBbHVtbmkiLCJkb2N1bWVudEhhc2giOiI3Mjg1ZTc0OTUxYWNjNGNmYWYyZWRlMjQyMGNiZTgxOWFlOTgzZDIyNjcwNDFjOTU1NTQyMTE4MjM1M2M0ZGVlIiwiaGFzaEFsZ29yaXRobSI6IlNIQS0yNTYifSwicmVkYWN0ZWRDbGFpbXMiOlt7ImZpZWxkIjoiZ3BhIiwic3RhdHVzIjoiUkVEQUNURURfQllfSE9MREVSIiwiZGlnZXN0IjoiMHg1NjljYmNmMDhhZjNhYjZiNDA4OGQzZmY2OWFmNmJlMjY5ZDcxODkxZDc1NmUwYWVjNThjNGU1ZjU1NmYyNGZjIn0seyJmaWVsZCI6InN0dWRlbnRJZCIsInN0YXR1cyI6IlJFREFDVEVEX0JZX0hPTERFUiIsImRpZ2VzdCI6IjB4NGU0Y2YwY2Y5NzhhYTE0OGQ0MWI2OWZlMjIxZDVmNWYyYWM5MDFhMWI4MDdlOTYwMDA2YjcwY2Y2NDcwNzhmMSJ9XSwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIlNlbGVjdGl2ZURpc2Nsb3N1cmVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZU5hbWUiOiJPZmZpY2lhbCBBY2FkZW1pYyBEZWdyZWUgQ2VydGlmaWNhdGUiLCJtYWpvciI6IkNvbXB1dGVyIFNjaWVuY2UgJiBBcnRpZmljaWFsIEludGVsbGlnZW5jZSIsImdwYSI6IltSRURBQ1RFRF9CWV9IT0xERVIgLSBEaWdlc3Q6IDU2OWNiY2YwLi4uXSIsImdyYWR1YXRpb25ZZWFyIjoiMjAyNiIsImluc3RpdHV0aW9uTmFtZSI6Ik1JVCBJbnN0aXR1dGUgb2YgVGVjaG5vbG9neSIsInJvbGUiOiJWZXJpZmllZCBHcmFkdWF0ZSAvIEFsdW1uaSIsInN0dWRlbnRJZCI6IltSRURBQ1RFRF9CWV9IT0xERVIgLSBEaWdlc3Q6IDRlNGNmMGNmLi4uXSIsImRvY3VtZW50SGFzaCI6IjcyODVlNzQ5NTFhY2M0Y2ZhZjJlZGUyNDIwY2JlODE5YWU5ODNkMjI2NzA0MWM5NTU1NDIxMTgyMzUzYzRkZWUiLCJoYXNoQWxnb3JpdGhtIjoiU0hBLTI1NiIsInZjSWQiOiI1YWRhNjg5MGU5Y2ZhYjg0In0sInNlbGVjdGl2ZURpc2Nsb3N1cmUiOnRydWV9fQ.sd_issuer_proof"
+              ]
+            }
+          },
+          "error": "Unexpected end of data",
+          "isSelectiveDisclosure": true
+        },
+        "vcs": [
+          {
+            "isValid": true,
+            "onChainValid": true,
+            "error": null,
+            "payload": {
+              "iss": "did:ethr:4321:0xB00721C14067984af0d3B340Ac0CD1034cD78f8f",
+              "sub": "did:ethr:4321:0x81c0E932dC0AED833fAd0Ec2E924fd972d86eD8E",
+              "jti": "5ada6890e9cfab84",
+              "selectiveDisclosure": true,
+              "disclosedClaims": {
+                "degreeName": "Official Academic Degree Certificate",
+                "major": "Computer Science & Artificial Intelligence",
+                "graduationYear": "2026",
+                "institutionName": "MIT Institute of Technology",
+                "role": "Verified Graduate / Alumni",
+                "documentHash": "7285e74951acc4cfaf2ede2420cbe819ae983d2267041c9555421182353c4dee",
+                "hashAlgorithm": "SHA-256"
+              },
+              "redactedClaims": [
+                {
+                  "field": "gpa",
+                  "status": "REDACTED_BY_HOLDER",
+                  "digest": "0x569cbcf08af3ab6b4088d3ff69af6be269d71891d756e0aec58c4e5f556f24fc"
+                },
+                {
+                  "field": "studentId",
+                  "status": "REDACTED_BY_HOLDER",
+                  "digest": "0x4e4cf0cf978aa148d41b69fe221d5f5f2ac901a1b807e960006b70cf647078f1"
+                }
+              ],
+              "vc": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1"
+                ],
+                "type": [
+                  "VerifiableCredential",
+                  "SelectiveDisclosureCredential",
+                  "AcademicDegreeCredential"
+                ],
+                "credentialSubject": {
+                  "degreeName": "Official Academic Degree Certificate",
+                  "major": "Computer Science & Artificial Intelligence",
+                  "gpa": "[REDACTED_BY_HOLDER - Digest: 569cbcf0...]",
+                  "graduationYear": "2026",
+                  "institutionName": "MIT Institute of Technology",
+                  "role": "Verified Graduate / Alumni",
+                  "studentId": "[REDACTED_BY_HOLDER - Digest: 4e4cf0cf...]",
+                  "documentHash": "7285e74951acc4cfaf2ede2420cbe819ae983d2267041c9555421182353c4dee",
+                  "hashAlgorithm": "SHA-256",
+                  "vcId": "5ada6890e9cfab84"
+                },
+                "selectiveDisclosure": true
+              }
+            },
+            "jwt": "eyJhbGciOiJFUzI1NksifQ.eyJpc3MiOiJkaWQ6ZXRocjo0MzIxOjB4QjAwNzIxQzE0MDY3OTg0YWYwZDNCMzQwQWMwQ0QxMDM0Y0Q3OGY4ZiIsInN1YiI6ImRpZDpldGhyOjQzMjE6MHg4MWMwRTkzMmRDMEFFRDgzM2ZBZDBFYzJFOTI0ZmQ5NzJkODZlRDhFIiwianRpIjoiNWFkYTY4OTBlOWNmYWI4NCIsInNlbGVjdGl2ZURpc2Nsb3N1cmUiOnRydWUsImRpc2Nsb3NlZENsYWltcyI6eyJkZWdyZWVOYW1lIjoiT2ZmaWNpYWwgQWNhZGVtaWMgRGVncmVlIENlcnRpZmljYXRlIiwibWFqb3IiOiJDb21wdXRlciBTY2llbmNlICYgQXJ0aWZpY2lhbCBJbnRlbGxpZ2VuY2UiLCJncmFkdWF0aW9uWWVhciI6IjIwMjYiLCJpbnN0aXR1dGlvbk5hbWUiOiJNSVQgSW5zdGl0dXRlIG9mIFRlY2hub2xvZ3kiLCJyb2xlIjoiVmVyaWZpZWQgR3JhZHVhdGUgLyBBbHVtbmkiLCJkb2N1bWVudEhhc2giOiI3Mjg1ZTc0OTUxYWNjNGNmYWYyZWRlMjQyMGNiZTgxOWFlOTgzZDIyNjcwNDFjOTU1NTQyMTE4MjM1M2M0ZGVlIiwiaGFzaEFsZ29yaXRobSI6IlNIQS0yNTYifSwicmVkYWN0ZWRDbGFpbXMiOlt7ImZpZWxkIjoiZ3BhIiwic3RhdHVzIjoiUkVEQUNURURfQllfSE9MREVSIiwiZGlnZXN0IjoiMHg1NjljYmNmMDhhZjNhYjZiNDA4OGQzZmY2OWFmNmJlMjY5ZDcxODkxZDc1NmUwYWVjNThjNGU1ZjU1NmYyNGZjIn0seyJmaWVsZCI6InN0dWRlbnRJZCIsInN0YXR1cyI6IlJFREFDVEVEX0JZX0hPTERFUiIsImRpZ2VzdCI6IjB4NGU0Y2YwY2Y5NzhhYTE0OGQ0MWI2OWZlMjIxZDVmNWYyYWM5MDFhMWI4MDdlOTYwMDA2YjcwY2Y2NDcwNzhmMSJ9XSwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIlNlbGVjdGl2ZURpc2Nsb3N1cmVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZU5hbWUiOiJPZmZpY2lhbCBBY2FkZW1pYyBEZWdyZWUgQ2VydGlmaWNhdGUiLCJtYWpvciI6IkNvbXB1dGVyIFNjaWVuY2UgJiBBcnRpZmljaWFsIEludGVsbGlnZW5jZSIsImdwYSI6IltSRURBQ1RFRF9CWV9IT0xERVIgLSBEaWdlc3Q6IDU2OWNiY2YwLi4uXSIsImdyYWR1YXRpb25ZZWFyIjoiMjAyNiIsImluc3RpdHV0aW9uTmFtZSI6Ik1JVCBJbnN0aXR1dGUgb2YgVGVjaG5vbG9neSIsInJvbGUiOiJWZXJpZmllZCBHcmFkdWF0ZSAvIEFsdW1uaSIsInN0dWRlbnRJZCI6IltSRURBQ1RFRF9CWV9IT0xERVIgLSBEaWdlc3Q6IDRlNGNmMGNmLi4uXSIsImRvY3VtZW50SGFzaCI6IjcyODVlNzQ5NTFhY2M0Y2ZhZjJlZGUyNDIwY2JlODE5YWU5ODNkMjI2NzA0MWM5NTU1NDIxMTgyMzUzYzRkZWUiLCJoYXNoQWxnb3JpdGhtIjoiU0hBLTI1NiIsInZjSWQiOiI1YWRhNjg5MGU5Y2ZhYjg0In0sInNlbGVjdGl2ZURpc2Nsb3N1cmUiOnRydWV9fQ.sd_issuer_proof",
+            "isSelectiveDisclosure": true,
+            "disclosedClaims": {
+              "degreeName": "Official Academic Degree Certificate",
+              "major": "Computer Science & Artificial Intelligence",
+              "graduationYear": "2026",
+              "institutionName": "MIT Institute of Technology",
+              "role": "Verified Graduate / Alumni",
+              "documentHash": "7285e74951acc4cfaf2ede2420cbe819ae983d2267041c9555421182353c4dee",
+              "hashAlgorithm": "SHA-256"
+            },
+            "redactedClaims": [
+              {
+                "field": "gpa",
+                "status": "REDACTED_BY_HOLDER",
+                "digest": "0x569cbcf08af3ab6b4088d3ff69af6be269d71891d756e0aec58c4e5f556f24fc"
+              },
+              {
+                "field": "studentId",
+                "status": "REDACTED_BY_HOLDER",
+                "digest": "0x4e4cf0cf978aa148d41b69fe221d5f5f2ac901a1b807e960006b70cf647078f1"
+              }
+            ]
+          }
+        ],
+        "isSelectiveDisclosure": true
+      },
+      "submitted_at": "2026-09-10T16:33:48.252Z",
+      "verified_at": "2026-09-10T16:33:56.495Z"
+    },
+    {
+      "id": "sub_69e2abffcb6b",
+      "campaign_id": "camp_2e45b96240e6",
+      "candidate_name": "Alex Rivera",
+      "candidate_email": "alex@mit.edu",
+      "vp_jwt": "eyJhbGciOiJFUzI1NksifQ.eyJpc3MiOiJkaWQ6ZXRocjo0MzIxOjB4ODFjMEU5MzJkQzBBRUQ4MzNmQWQwRWMyRTkyNGZkOTcyZDg2ZUQ4RSIsImF1ZCI6ImRpZDpldGhyOjQzMjE6MHhDYW1wYWlnbkVtcGxveWVyIiwicHJlc2VudGF0aW9uTW9kZSI6InNlbGVjdGl2ZSIsInNlbGVjdGl2ZURpc2Nsb3N1cmUiOnRydWUsInZwIjp7IkBjb250ZXh0IjpbImh0dHBzOi8vd3d3LnczLm9yZy8yMDE4L2NyZWRlbnRpYWxzL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZVByZXNlbnRhdGlvbiIsIlNlbGVjdGl2ZURpc2Nsb3N1cmVQcmVzZW50YXRpb24iXSwidmVyaWZpYWJsZUNyZWRlbnRpYWwiOlsiZXlKaGJHY2lPaUpGVXpJMU5rc2lmUS5leUpwYzNNaU9pSmthV1E2WlhSb2NqbzBNekl4T2pCNFFqQXdOekl4UXpFME1EWTNPVGcwWVdZd1pETkNNelF3UVdNd1EwUXhNRE0wWTBRM09HWTRaaUlzSW5OMVlpSTZJbVJwWkRwbGRHaHlPalF6TWpFNk1IZzRNV013UlRrek1tUkRNRUZGUkRnek0yWkJaREJGWXpKRk9USTBabVE1TnpKa09EWmxSRGhGSWl3aWFuUnBJam9pTldGa1lUWTRPVEJsT1dObVlXSTROQ0lzSW5ObGJHVmpkR2wyWlVScGMyTnNiM04xY21VaU9uUnlkV1VzSW1ScGMyTnNiM05sWkVOc1lXbHRjeUk2ZXlKa1pXZHlaV1ZPWVcxbElqb2lUMlptYVdOcFlXd2dRV05oWkdWdGFXTWdSR1ZuY21WbElFTmxjblJwWm1sallYUmxJaXdpYldGcWIzSWlPaUpEYjIxd2RYUmxjaUJUWTJsbGJtTmxJQ1lnUVhKMGFXWnBZMmxoYkNCSmJuUmxiR3hwWjJWdVkyVWlMQ0puY21Ga2RXRjBhVzl1V1dWaGNpSTZJakl3TWpZaUxDSnBibk4wYVhSMWRHbHZiazVoYldVaU9pSk5TVlFnU1c1emRHbDBkWFJsSUc5bUlGUmxZMmh1YjJ4dloza2lMQ0p5YjJ4bElqb2lWbVZ5YVdacFpXUWdSM0poWkhWaGRHVWdMeUJCYkhWdGJta2lMQ0prYjJOMWJXVnVkRWhoYzJnaU9pSTNNamcxWlRjME9UVXhZV05qTkdObVlXWXlaV1JsTWpReU1HTmlaVGd4T1dGbE9UZ3paREl5Tmpjd05ERmpPVFUxTlRReU1URTRNak0xTTJNMFpHVmxJaXdpYUdGemFFRnNaMjl5YVhSb2JTSTZJbE5JUVMweU5UWWlmU3dpY21Wa1lXTjBaV1JEYkdGcGJYTWlPbHQ3SW1acFpXeGtJam9pWjNCaElpd2ljM1JoZEhWeklqb2lVa1ZFUVVOVVJVUmZRbGxmU0U5TVJFVlNJaXdpWkdsblpYTjBJam9pTUhnMU5qbGpZbU5tTURoaFpqTmhZalppTkRBNE9HUXpabVkyT1dGbU5tSmxNalk1WkRjeE9Ea3haRGMxTm1Vd1lXVmpOVGhqTkdVMVpqVTFObVl5TkdaakluMHNleUptYVdWc1pDSTZJbk4wZFdSbGJuUkpaQ0lzSW5OMFlYUjFjeUk2SWxKRlJFRkRWRVZFWDBKWlgwaFBURVJGVWlJc0ltUnBaMlZ6ZENJNklqQjROR1UwWTJZd1kyWTVOemhoWVRFME9HUTBNV0kyT1dabE1qSXhaRFZtTldZeVlXTTVNREZoTVdJNE1EZGxPVFl3TURBMllqY3dZMlkyTkRjd056aG1NU0o5WFN3aWRtTWlPbnNpUUdOdmJuUmxlSFFpT2xzaWFIUjBjSE02THk5M2QzY3Vkek11YjNKbkx6SXdNVGd2WTNKbFpHVnVkR2xoYkhNdmRqRWlYU3dpZEhsd1pTSTZXeUpXWlhKcFptbGhZbXhsUTNKbFpHVnVkR2xoYkNJc0lsTmxiR1ZqZEdsMlpVUnBjMk5zYjNOMWNtVkRjbVZrWlc1MGFXRnNJaXdpUVdOaFpHVnRhV05FWldkeVpXVkRjbVZrWlc1MGFXRnNJbDBzSW1OeVpXUmxiblJwWVd4VGRXSnFaV04wSWpwN0ltUmxaM0psWlU1aGJXVWlPaUpQWm1acFkybGhiQ0JCWTJGa1pXMXBZeUJFWldkeVpXVWdRMlZ5ZEdsbWFXTmhkR1VpTENKdFlXcHZjaUk2SWtOdmJYQjFkR1Z5SUZOamFXVnVZMlVnSmlCQmNuUnBabWxqYVdGc0lFbHVkR1ZzYkdsblpXNWpaU0lzSW1kd1lTSTZJbHRTUlVSQlExUkZSRjlDV1Y5SVQweEVSVklnTFNCRWFXZGxjM1E2SURVMk9XTmlZMll3TGk0dVhTSXNJbWR5WVdSMVlYUnBiMjVaWldGeUlqb2lNakF5TmlJc0ltbHVjM1JwZEhWMGFXOXVUbUZ0WlNJNklrMUpWQ0JKYm5OMGFYUjFkR1VnYjJZZ1ZHVmphRzV2Ykc5bmVTSXNJbkp2YkdVaU9pSldaWEpwWm1sbFpDQkhjbUZrZFdGMFpTQXZJRUZzZFcxdWFTSXNJbk4wZFdSbGJuUkpaQ0k2SWx0U1JVUkJRMVJGUkY5Q1dWOUlUMHhFUlZJZ0xTQkVhV2RsYzNRNklEUmxOR05tTUdObUxpNHVYU0lzSW1SdlkzVnRaVzUwU0dGemFDSTZJamN5T0RWbE56UTVOVEZoWTJNMFkyWmhaakpsWkdVeU5ESXdZMkpsT0RFNVlXVTVPRE5rTWpJMk56QTBNV001TlRVMU5ESXhNVGd5TXpVell6UmtaV1VpTENKb1lYTm9RV3huYjNKcGRHaHRJam9pVTBoQkxUSTFOaUlzSW5aalNXUWlPaUkxWVdSaE5qZzVNR1U1WTJaaFlqZzBJbjBzSW5ObGJHVmpkR2wyWlVScGMyTnNiM04xY21VaU9uUnlkV1Y5ZlEuc2RfaXNzdWVyX3Byb29mIl19fQ.holder_sd_vp_signature",
+      "status": "VERIFIED_VALID",
+      "verification_details": {
+        "vp": {
+          "isValid": true,
+          "payload": {
+            "iss": "did:ethr:4321:0x81c0E932dC0AED833fAd0Ec2E924fd972d86eD8E",
+            "aud": "did:ethr:4321:0xCampaignEmployer",
+            "presentationMode": "selective",
+            "selectiveDisclosure": true,
+            "vp": {
+              "@context": [
+                "https://www.w3.org/2018/credentials/v1"
+              ],
+              "type": [
+                "VerifiablePresentation",
+                "SelectiveDisclosurePresentation"
+              ],
+              "verifiableCredential": [
+                "eyJhbGciOiJFUzI1NksifQ.eyJpc3MiOiJkaWQ6ZXRocjo0MzIxOjB4QjAwNzIxQzE0MDY3OTg0YWYwZDNCMzQwQWMwQ0QxMDM0Y0Q3OGY4ZiIsInN1YiI6ImRpZDpldGhyOjQzMjE6MHg4MWMwRTkzMmRDMEFFRDgzM2ZBZDBFYzJFOTI0ZmQ5NzJkODZlRDhFIiwianRpIjoiNWFkYTY4OTBlOWNmYWI4NCIsInNlbGVjdGl2ZURpc2Nsb3N1cmUiOnRydWUsImRpc2Nsb3NlZENsYWltcyI6eyJkZWdyZWVOYW1lIjoiT2ZmaWNpYWwgQWNhZGVtaWMgRGVncmVlIENlcnRpZmljYXRlIiwibWFqb3IiOiJDb21wdXRlciBTY2llbmNlICYgQXJ0aWZpY2lhbCBJbnRlbGxpZ2VuY2UiLCJncmFkdWF0aW9uWWVhciI6IjIwMjYiLCJpbnN0aXR1dGlvbk5hbWUiOiJNSVQgSW5zdGl0dXRlIG9mIFRlY2hub2xvZ3kiLCJyb2xlIjoiVmVyaWZpZWQgR3JhZHVhdGUgLyBBbHVtbmkiLCJkb2N1bWVudEhhc2giOiI3Mjg1ZTc0OTUxYWNjNGNmYWYyZWRlMjQyMGNiZTgxOWFlOTgzZDIyNjcwNDFjOTU1NTQyMTE4MjM1M2M0ZGVlIiwiaGFzaEFsZ29yaXRobSI6IlNIQS0yNTYifSwicmVkYWN0ZWRDbGFpbXMiOlt7ImZpZWxkIjoiZ3BhIiwic3RhdHVzIjoiUkVEQUNURURfQllfSE9MREVSIiwiZGlnZXN0IjoiMHg1NjljYmNmMDhhZjNhYjZiNDA4OGQzZmY2OWFmNmJlMjY5ZDcxODkxZDc1NmUwYWVjNThjNGU1ZjU1NmYyNGZjIn0seyJmaWVsZCI6InN0dWRlbnRJZCIsInN0YXR1cyI6IlJFREFDVEVEX0JZX0hPTERFUiIsImRpZ2VzdCI6IjB4NGU0Y2YwY2Y5NzhhYTE0OGQ0MWI2OWZlMjIxZDVmNWYyYWM5MDFhMWI4MDdlOTYwMDA2YjcwY2Y2NDcwNzhmMSJ9XSwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIlNlbGVjdGl2ZURpc2Nsb3N1cmVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZU5hbWUiOiJPZmZpY2lhbCBBY2FkZW1pYyBEZWdyZWUgQ2VydGlmaWNhdGUiLCJtYWpvciI6IkNvbXB1dGVyIFNjaWVuY2UgJiBBcnRpZmljaWFsIEludGVsbGlnZW5jZSIsImdwYSI6IltSRURBQ1RFRF9CWV9IT0xERVIgLSBEaWdlc3Q6IDU2OWNiY2YwLi4uXSIsImdyYWR1YXRpb25ZZWFyIjoiMjAyNiIsImluc3RpdHV0aW9uTmFtZSI6Ik1JVCBJbnN0aXR1dGUgb2YgVGVjaG5vbG9neSIsInJvbGUiOiJWZXJpZmllZCBHcmFkdWF0ZSAvIEFsdW1uaSIsInN0dWRlbnRJZCI6IltSRURBQ1RFRF9CWV9IT0xERVIgLSBEaWdlc3Q6IDRlNGNmMGNmLi4uXSIsImRvY3VtZW50SGFzaCI6IjcyODVlNzQ5NTFhY2M0Y2ZhZjJlZGUyNDIwY2JlODE5YWU5ODNkMjI2NzA0MWM5NTU1NDIxMTgyMzUzYzRkZWUiLCJoYXNoQWxnb3JpdGhtIjoiU0hBLTI1NiIsInZjSWQiOiI1YWRhNjg5MGU5Y2ZhYjg0In0sInNlbGVjdGl2ZURpc2Nsb3N1cmUiOnRydWV9fQ.sd_issuer_proof"
+              ]
+            }
+          },
+          "error": "Unexpected end of data",
+          "isSelectiveDisclosure": true
+        },
+        "vcs": [
+          {
+            "isValid": true,
+            "onChainValid": true,
+            "error": null,
+            "payload": {
+              "iss": "did:ethr:4321:0xB00721C14067984af0d3B340Ac0CD1034cD78f8f",
+              "sub": "did:ethr:4321:0x81c0E932dC0AED833fAd0Ec2E924fd972d86eD8E",
+              "jti": "5ada6890e9cfab84",
+              "selectiveDisclosure": true,
+              "disclosedClaims": {
+                "degreeName": "Official Academic Degree Certificate",
+                "major": "Computer Science & Artificial Intelligence",
+                "graduationYear": "2026",
+                "institutionName": "MIT Institute of Technology",
+                "role": "Verified Graduate / Alumni",
+                "documentHash": "7285e74951acc4cfaf2ede2420cbe819ae983d2267041c9555421182353c4dee",
+                "hashAlgorithm": "SHA-256"
+              },
+              "redactedClaims": [
+                {
+                  "field": "gpa",
+                  "status": "REDACTED_BY_HOLDER",
+                  "digest": "0x569cbcf08af3ab6b4088d3ff69af6be269d71891d756e0aec58c4e5f556f24fc"
+                },
+                {
+                  "field": "studentId",
+                  "status": "REDACTED_BY_HOLDER",
+                  "digest": "0x4e4cf0cf978aa148d41b69fe221d5f5f2ac901a1b807e960006b70cf647078f1"
+                }
+              ],
+              "vc": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1"
+                ],
+                "type": [
+                  "VerifiableCredential",
+                  "SelectiveDisclosureCredential",
+                  "AcademicDegreeCredential"
+                ],
+                "credentialSubject": {
+                  "degreeName": "Official Academic Degree Certificate",
+                  "major": "Computer Science & Artificial Intelligence",
+                  "gpa": "[REDACTED_BY_HOLDER - Digest: 569cbcf0...]",
+                  "graduationYear": "2026",
+                  "institutionName": "MIT Institute of Technology",
+                  "role": "Verified Graduate / Alumni",
+                  "studentId": "[REDACTED_BY_HOLDER - Digest: 4e4cf0cf...]",
+                  "documentHash": "7285e74951acc4cfaf2ede2420cbe819ae983d2267041c9555421182353c4dee",
+                  "hashAlgorithm": "SHA-256",
+                  "vcId": "5ada6890e9cfab84"
+                },
+                "selectiveDisclosure": true
+              }
+            },
+            "jwt": "eyJhbGciOiJFUzI1NksifQ.eyJpc3MiOiJkaWQ6ZXRocjo0MzIxOjB4QjAwNzIxQzE0MDY3OTg0YWYwZDNCMzQwQWMwQ0QxMDM0Y0Q3OGY4ZiIsInN1YiI6ImRpZDpldGhyOjQzMjE6MHg4MWMwRTkzMmRDMEFFRDgzM2ZBZDBFYzJFOTI0ZmQ5NzJkODZlRDhFIiwianRpIjoiNWFkYTY4OTBlOWNmYWI4NCIsInNlbGVjdGl2ZURpc2Nsb3N1cmUiOnRydWUsImRpc2Nsb3NlZENsYWltcyI6eyJkZWdyZWVOYW1lIjoiT2ZmaWNpYWwgQWNhZGVtaWMgRGVncmVlIENlcnRpZmljYXRlIiwibWFqb3IiOiJDb21wdXRlciBTY2llbmNlICYgQXJ0aWZpY2lhbCBJbnRlbGxpZ2VuY2UiLCJncmFkdWF0aW9uWWVhciI6IjIwMjYiLCJpbnN0aXR1dGlvbk5hbWUiOiJNSVQgSW5zdGl0dXRlIG9mIFRlY2hub2xvZ3kiLCJyb2xlIjoiVmVyaWZpZWQgR3JhZHVhdGUgLyBBbHVtbmkiLCJkb2N1bWVudEhhc2giOiI3Mjg1ZTc0OTUxYWNjNGNmYWYyZWRlMjQyMGNiZTgxOWFlOTgzZDIyNjcwNDFjOTU1NTQyMTE4MjM1M2M0ZGVlIiwiaGFzaEFsZ29yaXRobSI6IlNIQS0yNTYifSwicmVkYWN0ZWRDbGFpbXMiOlt7ImZpZWxkIjoiZ3BhIiwic3RhdHVzIjoiUkVEQUNURURfQllfSE9MREVSIiwiZGlnZXN0IjoiMHg1NjljYmNmMDhhZjNhYjZiNDA4OGQzZmY2OWFmNmJlMjY5ZDcxODkxZDc1NmUwYWVjNThjNGU1ZjU1NmYyNGZjIn0seyJmaWVsZCI6InN0dWRlbnRJZCIsInN0YXR1cyI6IlJFREFDVEVEX0JZX0hPTERFUiIsImRpZ2VzdCI6IjB4NGU0Y2YwY2Y5NzhhYTE0OGQ0MWI2OWZlMjIxZDVmNWYyYWM5MDFhMWI4MDdlOTYwMDA2YjcwY2Y2NDcwNzhmMSJ9XSwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIlNlbGVjdGl2ZURpc2Nsb3N1cmVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZU5hbWUiOiJPZmZpY2lhbCBBY2FkZW1pYyBEZWdyZWUgQ2VydGlmaWNhdGUiLCJtYWpvciI6IkNvbXB1dGVyIFNjaWVuY2UgJiBBcnRpZmljaWFsIEludGVsbGlnZW5jZSIsImdwYSI6IltSRURBQ1RFRF9CWV9IT0xERVIgLSBEaWdlc3Q6IDU2OWNiY2YwLi4uXSIsImdyYWR1YXRpb25ZZWFyIjoiMjAyNiIsImluc3RpdHV0aW9uTmFtZSI6Ik1JVCBJbnN0aXR1dGUgb2YgVGVjaG5vbG9neSIsInJvbGUiOiJWZXJpZmllZCBHcmFkdWF0ZSAvIEFsdW1uaSIsInN0dWRlbnRJZCI6IltSRURBQ1RFRF9CWV9IT0xERVIgLSBEaWdlc3Q6IDRlNGNmMGNmLi4uXSIsImRvY3VtZW50SGFzaCI6IjcyODVlNzQ5NTFhY2M0Y2ZhZjJlZGUyNDIwY2JlODE5YWU5ODNkMjI2NzA0MWM5NTU1NDIxMTgyMzUzYzRkZWUiLCJoYXNoQWxnb3JpdGhtIjoiU0hBLTI1NiIsInZjSWQiOiI1YWRhNjg5MGU5Y2ZhYjg0In0sInNlbGVjdGl2ZURpc2Nsb3N1cmUiOnRydWV9fQ.sd_issuer_proof",
+            "isSelectiveDisclosure": true,
+            "disclosedClaims": {
+              "degreeName": "Official Academic Degree Certificate",
+              "major": "Computer Science & Artificial Intelligence",
+              "graduationYear": "2026",
+              "institutionName": "MIT Institute of Technology",
+              "role": "Verified Graduate / Alumni",
+              "documentHash": "7285e74951acc4cfaf2ede2420cbe819ae983d2267041c9555421182353c4dee",
+              "hashAlgorithm": "SHA-256"
+            },
+            "redactedClaims": [
+              {
+                "field": "gpa",
+                "status": "REDACTED_BY_HOLDER",
+                "digest": "0x569cbcf08af3ab6b4088d3ff69af6be269d71891d756e0aec58c4e5f556f24fc"
+              },
+              {
+                "field": "studentId",
+                "status": "REDACTED_BY_HOLDER",
+                "digest": "0x4e4cf0cf978aa148d41b69fe221d5f5f2ac901a1b807e960006b70cf647078f1"
+              }
+            ]
+          }
+        ],
+        "isSelectiveDisclosure": true
+      },
+      "submitted_at": "2026-09-10T16:32:59.513Z",
+      "verified_at": "2026-09-10T16:33:56.593Z"
+    },
+    {
+      "id": "sub_b068ba5d50c8",
+      "campaign_id": "camp_2e45b96240e6",
+      "candidate_name": "Alex Rivera",
+      "candidate_email": "alex@mit.edu",
+      "vp_jwt": "eyJhbGciOiJFUzI1NksifQ.eyJpc3MiOiJkaWQ6ZXRocjo0MzIxOjB4ODFjMEU5MzJkQzBBRUQ4MzNmQWQwRWMyRTkyNGZkOTcyZDg2ZUQ4RSIsImF1ZCI6ImRpZDpldGhyOjQzMjE6MHhDYW1wYWlnbkVtcGxveWVyIiwicHJlc2VudGF0aW9uTW9kZSI6InNlbGVjdGl2ZSIsInNlbGVjdGl2ZURpc2Nsb3N1cmUiOnRydWUsInZwIjp7IkBjb250ZXh0IjpbImh0dHBzOi8vd3d3LnczLm9yZy8yMDE4L2NyZWRlbnRpYWxzL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZVByZXNlbnRhdGlvbiIsIlNlbGVjdGl2ZURpc2Nsb3N1cmVQcmVzZW50YXRpb24iXSwidmVyaWZpYWJsZUNyZWRlbnRpYWwiOlsiZXlKaGJHY2lPaUpGVXpJMU5rc2lmUS5leUpwYzNNaU9pSmthV1E2WlhSb2NqbzBNekl4T2pCNFFqQXdOekl4UXpFME1EWTNPVGcwWVdZd1pETkNNelF3UVdNd1EwUXhNRE0wWTBRM09HWTRaaUlzSW5OMVlpSTZJbVJwWkRwbGRHaHlPalF6TWpFNk1IZzRNV013UlRrek1tUkRNRUZGUkRnek0yWkJaREJGWXpKRk9USTBabVE1TnpKa09EWmxSRGhGSWl3aWFuUnBJam9pTldGa1lUWTRPVEJsT1dObVlXSTROQ0lzSW5ObGJHVmpkR2wyWlVScGMyTnNiM04xY21VaU9uUnlkV1VzSW1ScGMyTnNiM05sWkVOc1lXbHRjeUk2ZXlKa1pXZHlaV1ZPWVcxbElqb2lUMlptYVdOcFlXd2dRV05oWkdWdGFXTWdSR1ZuY21WbElFTmxjblJwWm1sallYUmxJaXdpYldGcWIzSWlPaUpEYjIxd2RYUmxjaUJUWTJsbGJtTmxJQ1lnUVhKMGFXWnBZMmxoYkNCSmJuUmxiR3hwWjJWdVkyVWlMQ0puY21Ga2RXRjBhVzl1V1dWaGNpSTZJakl3TWpZaUxDSnBibk4wYVhSMWRHbHZiazVoYldVaU9pSk5TVlFnU1c1emRHbDBkWFJsSUc5bUlGUmxZMmh1YjJ4dloza2lMQ0p5YjJ4bElqb2lWbVZ5YVdacFpXUWdSM0poWkhWaGRHVWdMeUJCYkhWdGJta2lMQ0prYjJOMWJXVnVkRWhoYzJnaU9pSTNNamcxWlRjME9UVXhZV05qTkdObVlXWXlaV1JsTWpReU1HTmlaVGd4T1dGbE9UZ3paREl5Tmpjd05ERmpPVFUxTlRReU1URTRNak0xTTJNMFpHVmxJaXdpYUdGemFFRnNaMjl5YVhSb2JTSTZJbE5JUVMweU5UWWlmU3dpY21Wa1lXTjBaV1JEYkdGcGJYTWlPbHQ3SW1acFpXeGtJam9pWjNCaElpd2ljM1JoZEhWeklqb2lVa1ZFUVVOVVJVUmZRbGxmU0U5TVJFVlNJaXdpWkdsblpYTjBJam9pTUhnMU5qbGpZbU5tTURoaFpqTmhZalppTkRBNE9HUXpabVkyT1dGbU5tSmxNalk1WkRjeE9Ea3haRGMxTm1Vd1lXVmpOVGhqTkdVMVpqVTFObVl5TkdaakluMHNleUptYVdWc1pDSTZJbk4wZFdSbGJuUkpaQ0lzSW5OMFlYUjFjeUk2SWxKRlJFRkRWRVZFWDBKWlgwaFBURVJGVWlJc0ltUnBaMlZ6ZENJNklqQjROR1UwWTJZd1kyWTVOemhoWVRFME9HUTBNV0kyT1dabE1qSXhaRFZtTldZeVlXTTVNREZoTVdJNE1EZGxPVFl3TURBMllqY3dZMlkyTkRjd056aG1NU0o5WFN3aWRtTWlPbnNpUUdOdmJuUmxlSFFpT2xzaWFIUjBjSE02THk5M2QzY3Vkek11YjNKbkx6SXdNVGd2WTNKbFpHVnVkR2xoYkhNdmRqRWlYU3dpZEhsd1pTSTZXeUpXWlhKcFptbGhZbXhsUTNKbFpHVnVkR2xoYkNJc0lsTmxiR1ZqZEdsMlpVUnBjMk5zYjNOMWNtVkRjbVZrWlc1MGFXRnNJaXdpUVdOaFpHVnRhV05FWldkeVpXVkRjbVZrWlc1MGFXRnNJbDBzSW1OeVpXUmxiblJwWVd4VGRXSnFaV04wSWpwN0ltUmxaM0psWlU1aGJXVWlPaUpQWm1acFkybGhiQ0JCWTJGa1pXMXBZeUJFWldkeVpXVWdRMlZ5ZEdsbWFXTmhkR1VpTENKdFlXcHZjaUk2SWtOdmJYQjFkR1Z5SUZOamFXVnVZMlVnSmlCQmNuUnBabWxqYVdGc0lFbHVkR1ZzYkdsblpXNWpaU0lzSW1kd1lTSTZJbHRTUlVSQlExUkZSRjlDV1Y5SVQweEVSVklnTFNCRWFXZGxjM1E2SURVMk9XTmlZMll3TGk0dVhTSXNJbWR5WVdSMVlYUnBiMjVaWldGeUlqb2lNakF5TmlJc0ltbHVjM1JwZEhWMGFXOXVUbUZ0WlNJNklrMUpWQ0JKYm5OMGFYUjFkR1VnYjJZZ1ZHVmphRzV2Ykc5bmVTSXNJbkp2YkdVaU9pSldaWEpwWm1sbFpDQkhjbUZrZFdGMFpTQXZJRUZzZFcxdWFTSXNJbk4wZFdSbGJuUkpaQ0k2SWx0U1JVUkJRMVJGUkY5Q1dWOUlUMHhFUlZJZ0xTQkVhV2RsYzNRNklEUmxOR05tTUdObUxpNHVYU0lzSW1SdlkzVnRaVzUwU0dGemFDSTZJamN5T0RWbE56UTVOVEZoWTJNMFkyWmhaakpsWkdVeU5ESXdZMkpsT0RFNVlXVTVPRE5rTWpJMk56QTBNV001TlRVMU5ESXhNVGd5TXpVell6UmtaV1VpTENKb1lYTm9RV3huYjNKcGRHaHRJam9pVTBoQkxUSTFOaUlzSW5aalNXUWlPaUkxWVdSaE5qZzVNR1U1WTJaaFlqZzBJbjBzSW5ObGJHVmpkR2wyWlVScGMyTnNiM04xY21VaU9uUnlkV1Y5ZlEuc2RfaXNzdWVyX3Byb29mIl19fQ.holder_sd_vp_signature",
+      "status": "VERIFIED_VALID",
+      "verification_details": {
+        "vp": {
+          "isValid": true,
+          "payload": {
+            "iss": "did:ethr:4321:0x81c0E932dC0AED833fAd0Ec2E924fd972d86eD8E",
+            "aud": "did:ethr:4321:0xCampaignEmployer",
+            "presentationMode": "selective",
+            "selectiveDisclosure": true,
+            "vp": {
+              "@context": [
+                "https://www.w3.org/2018/credentials/v1"
+              ],
+              "type": [
+                "VerifiablePresentation",
+                "SelectiveDisclosurePresentation"
+              ],
+              "verifiableCredential": [
+                "eyJhbGciOiJFUzI1NksifQ.eyJpc3MiOiJkaWQ6ZXRocjo0MzIxOjB4QjAwNzIxQzE0MDY3OTg0YWYwZDNCMzQwQWMwQ0QxMDM0Y0Q3OGY4ZiIsInN1YiI6ImRpZDpldGhyOjQzMjE6MHg4MWMwRTkzMmRDMEFFRDgzM2ZBZDBFYzJFOTI0ZmQ5NzJkODZlRDhFIiwianRpIjoiNWFkYTY4OTBlOWNmYWI4NCIsInNlbGVjdGl2ZURpc2Nsb3N1cmUiOnRydWUsImRpc2Nsb3NlZENsYWltcyI6eyJkZWdyZWVOYW1lIjoiT2ZmaWNpYWwgQWNhZGVtaWMgRGVncmVlIENlcnRpZmljYXRlIiwibWFqb3IiOiJDb21wdXRlciBTY2llbmNlICYgQXJ0aWZpY2lhbCBJbnRlbGxpZ2VuY2UiLCJncmFkdWF0aW9uWWVhciI6IjIwMjYiLCJpbnN0aXR1dGlvbk5hbWUiOiJNSVQgSW5zdGl0dXRlIG9mIFRlY2hub2xvZ3kiLCJyb2xlIjoiVmVyaWZpZWQgR3JhZHVhdGUgLyBBbHVtbmkiLCJkb2N1bWVudEhhc2giOiI3Mjg1ZTc0OTUxYWNjNGNmYWYyZWRlMjQyMGNiZTgxOWFlOTgzZDIyNjcwNDFjOTU1NTQyMTE4MjM1M2M0ZGVlIiwiaGFzaEFsZ29yaXRobSI6IlNIQS0yNTYifSwicmVkYWN0ZWRDbGFpbXMiOlt7ImZpZWxkIjoiZ3BhIiwic3RhdHVzIjoiUkVEQUNURURfQllfSE9MREVSIiwiZGlnZXN0IjoiMHg1NjljYmNmMDhhZjNhYjZiNDA4OGQzZmY2OWFmNmJlMjY5ZDcxODkxZDc1NmUwYWVjNThjNGU1ZjU1NmYyNGZjIn0seyJmaWVsZCI6InN0dWRlbnRJZCIsInN0YXR1cyI6IlJFREFDVEVEX0JZX0hPTERFUiIsImRpZ2VzdCI6IjB4NGU0Y2YwY2Y5NzhhYTE0OGQ0MWI2OWZlMjIxZDVmNWYyYWM5MDFhMWI4MDdlOTYwMDA2YjcwY2Y2NDcwNzhmMSJ9XSwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIlNlbGVjdGl2ZURpc2Nsb3N1cmVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZU5hbWUiOiJPZmZpY2lhbCBBY2FkZW1pYyBEZWdyZWUgQ2VydGlmaWNhdGUiLCJtYWpvciI6IkNvbXB1dGVyIFNjaWVuY2UgJiBBcnRpZmljaWFsIEludGVsbGlnZW5jZSIsImdwYSI6IltSRURBQ1RFRF9CWV9IT0xERVIgLSBEaWdlc3Q6IDU2OWNiY2YwLi4uXSIsImdyYWR1YXRpb25ZZWFyIjoiMjAyNiIsImluc3RpdHV0aW9uTmFtZSI6Ik1JVCBJbnN0aXR1dGUgb2YgVGVjaG5vbG9neSIsInJvbGUiOiJWZXJpZmllZCBHcmFkdWF0ZSAvIEFsdW1uaSIsInN0dWRlbnRJZCI6IltSRURBQ1RFRF9CWV9IT0xERVIgLSBEaWdlc3Q6IDRlNGNmMGNmLi4uXSIsImRvY3VtZW50SGFzaCI6IjcyODVlNzQ5NTFhY2M0Y2ZhZjJlZGUyNDIwY2JlODE5YWU5ODNkMjI2NzA0MWM5NTU1NDIxMTgyMzUzYzRkZWUiLCJoYXNoQWxnb3JpdGhtIjoiU0hBLTI1NiIsInZjSWQiOiI1YWRhNjg5MGU5Y2ZhYjg0In0sInNlbGVjdGl2ZURpc2Nsb3N1cmUiOnRydWV9fQ.sd_issuer_proof"
+              ]
+            }
+          },
+          "error": "Unexpected end of data",
+          "isSelectiveDisclosure": true
+        },
+        "vcs": [
+          {
+            "isValid": true,
+            "onChainValid": true,
+            "error": null,
+            "payload": {
+              "iss": "did:ethr:4321:0xB00721C14067984af0d3B340Ac0CD1034cD78f8f",
+              "sub": "did:ethr:4321:0x81c0E932dC0AED833fAd0Ec2E924fd972d86eD8E",
+              "jti": "5ada6890e9cfab84",
+              "selectiveDisclosure": true,
+              "disclosedClaims": {
+                "degreeName": "Official Academic Degree Certificate",
+                "major": "Computer Science & Artificial Intelligence",
+                "graduationYear": "2026",
+                "institutionName": "MIT Institute of Technology",
+                "role": "Verified Graduate / Alumni",
+                "documentHash": "7285e74951acc4cfaf2ede2420cbe819ae983d2267041c9555421182353c4dee",
+                "hashAlgorithm": "SHA-256"
+              },
+              "redactedClaims": [
+                {
+                  "field": "gpa",
+                  "status": "REDACTED_BY_HOLDER",
+                  "digest": "0x569cbcf08af3ab6b4088d3ff69af6be269d71891d756e0aec58c4e5f556f24fc"
+                },
+                {
+                  "field": "studentId",
+                  "status": "REDACTED_BY_HOLDER",
+                  "digest": "0x4e4cf0cf978aa148d41b69fe221d5f5f2ac901a1b807e960006b70cf647078f1"
+                }
+              ],
+              "vc": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1"
+                ],
+                "type": [
+                  "VerifiableCredential",
+                  "SelectiveDisclosureCredential",
+                  "AcademicDegreeCredential"
+                ],
+                "credentialSubject": {
+                  "degreeName": "Official Academic Degree Certificate",
+                  "major": "Computer Science & Artificial Intelligence",
+                  "gpa": "[REDACTED_BY_HOLDER - Digest: 569cbcf0...]",
+                  "graduationYear": "2026",
+                  "institutionName": "MIT Institute of Technology",
+                  "role": "Verified Graduate / Alumni",
+                  "studentId": "[REDACTED_BY_HOLDER - Digest: 4e4cf0cf...]",
+                  "documentHash": "7285e74951acc4cfaf2ede2420cbe819ae983d2267041c9555421182353c4dee",
+                  "hashAlgorithm": "SHA-256",
+                  "vcId": "5ada6890e9cfab84"
+                },
+                "selectiveDisclosure": true
+              }
+            },
+            "jwt": "eyJhbGciOiJFUzI1NksifQ.eyJpc3MiOiJkaWQ6ZXRocjo0MzIxOjB4QjAwNzIxQzE0MDY3OTg0YWYwZDNCMzQwQWMwQ0QxMDM0Y0Q3OGY4ZiIsInN1YiI6ImRpZDpldGhyOjQzMjE6MHg4MWMwRTkzMmRDMEFFRDgzM2ZBZDBFYzJFOTI0ZmQ5NzJkODZlRDhFIiwianRpIjoiNWFkYTY4OTBlOWNmYWI4NCIsInNlbGVjdGl2ZURpc2Nsb3N1cmUiOnRydWUsImRpc2Nsb3NlZENsYWltcyI6eyJkZWdyZWVOYW1lIjoiT2ZmaWNpYWwgQWNhZGVtaWMgRGVncmVlIENlcnRpZmljYXRlIiwibWFqb3IiOiJDb21wdXRlciBTY2llbmNlICYgQXJ0aWZpY2lhbCBJbnRlbGxpZ2VuY2UiLCJncmFkdWF0aW9uWWVhciI6IjIwMjYiLCJpbnN0aXR1dGlvbk5hbWUiOiJNSVQgSW5zdGl0dXRlIG9mIFRlY2hub2xvZ3kiLCJyb2xlIjoiVmVyaWZpZWQgR3JhZHVhdGUgLyBBbHVtbmkiLCJkb2N1bWVudEhhc2giOiI3Mjg1ZTc0OTUxYWNjNGNmYWYyZWRlMjQyMGNiZTgxOWFlOTgzZDIyNjcwNDFjOTU1NTQyMTE4MjM1M2M0ZGVlIiwiaGFzaEFsZ29yaXRobSI6IlNIQS0yNTYifSwicmVkYWN0ZWRDbGFpbXMiOlt7ImZpZWxkIjoiZ3BhIiwic3RhdHVzIjoiUkVEQUNURURfQllfSE9MREVSIiwiZGlnZXN0IjoiMHg1NjljYmNmMDhhZjNhYjZiNDA4OGQzZmY2OWFmNmJlMjY5ZDcxODkxZDc1NmUwYWVjNThjNGU1ZjU1NmYyNGZjIn0seyJmaWVsZCI6InN0dWRlbnRJZCIsInN0YXR1cyI6IlJFREFDVEVEX0JZX0hPTERFUiIsImRpZ2VzdCI6IjB4NGU0Y2YwY2Y5NzhhYTE0OGQ0MWI2OWZlMjIxZDVmNWYyYWM5MDFhMWI4MDdlOTYwMDA2YjcwY2Y2NDcwNzhmMSJ9XSwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIlNlbGVjdGl2ZURpc2Nsb3N1cmVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZU5hbWUiOiJPZmZpY2lhbCBBY2FkZW1pYyBEZWdyZWUgQ2VydGlmaWNhdGUiLCJtYWpvciI6IkNvbXB1dGVyIFNjaWVuY2UgJiBBcnRpZmljaWFsIEludGVsbGlnZW5jZSIsImdwYSI6IltSRURBQ1RFRF9CWV9IT0xERVIgLSBEaWdlc3Q6IDU2OWNiY2YwLi4uXSIsImdyYWR1YXRpb25ZZWFyIjoiMjAyNiIsImluc3RpdHV0aW9uTmFtZSI6Ik1JVCBJbnN0aXR1dGUgb2YgVGVjaG5vbG9neSIsInJvbGUiOiJWZXJpZmllZCBHcmFkdWF0ZSAvIEFsdW1uaSIsInN0dWRlbnRJZCI6IltSRURBQ1RFRF9CWV9IT0xERVIgLSBEaWdlc3Q6IDRlNGNmMGNmLi4uXSIsImRvY3VtZW50SGFzaCI6IjcyODVlNzQ5NTFhY2M0Y2ZhZjJlZGUyNDIwY2JlODE5YWU5ODNkMjI2NzA0MWM5NTU1NDIxMTgyMzUzYzRkZWUiLCJoYXNoQWxnb3JpdGhtIjoiU0hBLTI1NiIsInZjSWQiOiI1YWRhNjg5MGU5Y2ZhYjg0In0sInNlbGVjdGl2ZURpc2Nsb3N1cmUiOnRydWV9fQ.sd_issuer_proof",
+            "isSelectiveDisclosure": true,
+            "disclosedClaims": {
+              "degreeName": "Official Academic Degree Certificate",
+              "major": "Computer Science & Artificial Intelligence",
+              "graduationYear": "2026",
+              "institutionName": "MIT Institute of Technology",
+              "role": "Verified Graduate / Alumni",
+              "documentHash": "7285e74951acc4cfaf2ede2420cbe819ae983d2267041c9555421182353c4dee",
+              "hashAlgorithm": "SHA-256"
+            },
+            "redactedClaims": [
+              {
+                "field": "gpa",
+                "status": "REDACTED_BY_HOLDER",
+                "digest": "0x569cbcf08af3ab6b4088d3ff69af6be269d71891d756e0aec58c4e5f556f24fc"
+              },
+              {
+                "field": "studentId",
+                "status": "REDACTED_BY_HOLDER",
+                "digest": "0x4e4cf0cf978aa148d41b69fe221d5f5f2ac901a1b807e960006b70cf647078f1"
+              }
+            ]
+          }
+        ],
+        "isSelectiveDisclosure": true
+      },
+      "submitted_at": "2026-09-10T16:31:12.749Z",
+      "verified_at": "2026-09-10T16:33:56.684Z"
+    },
+    {
+      "id": "sub_4b473c40b623",
+      "campaign_id": "camp_2e45b96240e6",
+      "candidate_name": "Alex Rivera",
+      "candidate_email": "alex@mit.edu",
+      "vp_jwt": "eyJhbGciOiJFUzI1NksifQ.eyJpc3MiOiJkaWQ6ZXRocjo0MzIxOjB4ODFjMEU5MzJkQzBBRUQ4MzNmQWQwRWMyRTkyNGZkOTcyZDg2ZUQ4RSIsImF1ZCI6ImRpZDpldGhyOjQzMjE6MHhDYW1wYWlnbkVtcGxveWVyIiwicHJlc2VudGF0aW9uTW9kZSI6InNlbGVjdGl2ZSIsInNlbGVjdGl2ZURpc2Nsb3N1cmUiOnRydWUsInZwIjp7IkBjb250ZXh0IjpbImh0dHBzOi8vd3d3LnczLm9yZy8yMDE4L2NyZWRlbnRpYWxzL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZVByZXNlbnRhdGlvbiIsIlNlbGVjdGl2ZURpc2Nsb3N1cmVQcmVzZW50YXRpb24iXSwidmVyaWZpYWJsZUNyZWRlbnRpYWwiOlsiZXlKaGJHY2lPaUpGVXpJMU5rc2lmUS5leUpwYzNNaU9pSmthV1E2WlhSb2NqbzBNekl4T2pCNFFqQXdOekl4UXpFME1EWTNPVGcwWVdZd1pETkNNelF3UVdNd1EwUXhNRE0wWTBRM09HWTRaaUlzSW5OMVlpSTZJbVJwWkRwbGRHaHlPalF6TWpFNk1IZzRNV013UlRrek1tUkRNRUZGUkRnek0yWkJaREJGWXpKRk9USTBabVE1TnpKa09EWmxSRGhGSWl3aWFuUnBJam9pTldGa1lUWTRPVEJsT1dObVlXSTROQ0lzSW5ObGJHVmpkR2wyWlVScGMyTnNiM04xY21VaU9uUnlkV1VzSW1ScGMyTnNiM05sWkVOc1lXbHRjeUk2ZXlKa1pXZHlaV1ZPWVcxbElqb2lUMlptYVdOcFlXd2dRV05oWkdWdGFXTWdSR1ZuY21WbElFTmxjblJwWm1sallYUmxJaXdpYldGcWIzSWlPaUpEYjIxd2RYUmxjaUJUWTJsbGJtTmxJQ1lnUVhKMGFXWnBZMmxoYkNCSmJuUmxiR3hwWjJWdVkyVWlMQ0puY21Ga2RXRjBhVzl1V1dWaGNpSTZJakl3TWpZaUxDSnBibk4wYVhSMWRHbHZiazVoYldVaU9pSk5TVlFnU1c1emRHbDBkWFJsSUc5bUlGUmxZMmh1YjJ4dloza2lMQ0p5YjJ4bElqb2lWbVZ5YVdacFpXUWdSM0poWkhWaGRHVWdMeUJCYkhWdGJta2lMQ0prYjJOMWJXVnVkRWhoYzJnaU9pSTNNamcxWlRjME9UVXhZV05qTkdObVlXWXlaV1JsTWpReU1HTmlaVGd4T1dGbE9UZ3paREl5Tmpjd05ERmpPVFUxTlRReU1URTRNak0xTTJNMFpHVmxJaXdpYUdGemFFRnNaMjl5YVhSb2JTSTZJbE5JUVMweU5UWWlmU3dpY21Wa1lXTjBaV1JEYkdGcGJYTWlPbHQ3SW1acFpXeGtJam9pWjNCaElpd2ljM1JoZEhWeklqb2lVa1ZFUVVOVVJVUmZRbGxmU0U5TVJFVlNJaXdpWkdsblpYTjBJam9pTUhnMU5qbGpZbU5tTURoaFpqTmhZalppTkRBNE9HUXpabVkyT1dGbU5tSmxNalk1WkRjeE9Ea3haRGMxTm1Vd1lXVmpOVGhqTkdVMVpqVTFObVl5TkdaakluMHNleUptYVdWc1pDSTZJbk4wZFdSbGJuUkpaQ0lzSW5OMFlYUjFjeUk2SWxKRlJFRkRWRVZFWDBKWlgwaFBURVJGVWlJc0ltUnBaMlZ6ZENJNklqQjROR1UwWTJZd1kyWTVOemhoWVRFME9HUTBNV0kyT1dabE1qSXhaRFZtTldZeVlXTTVNREZoTVdJNE1EZGxPVFl3TURBMllqY3dZMlkyTkRjd056aG1NU0o5WFN3aWRtTWlPbnNpUUdOdmJuUmxlSFFpT2xzaWFIUjBjSE02THk5M2QzY3Vkek11YjNKbkx6SXdNVGd2WTNKbFpHVnVkR2xoYkhNdmRqRWlYU3dpZEhsd1pTSTZXeUpXWlhKcFptbGhZbXhsUTNKbFpHVnVkR2xoYkNJc0lsTmxiR1ZqZEdsMlpVUnBjMk5zYjNOMWNtVkRjbVZrWlc1MGFXRnNJaXdpUVdOaFpHVnRhV05FWldkeVpXVkRjbVZrWlc1MGFXRnNJbDBzSW1OeVpXUmxiblJwWVd4VGRXSnFaV04wSWpwN0ltUmxaM0psWlU1aGJXVWlPaUpQWm1acFkybGhiQ0JCWTJGa1pXMXBZeUJFWldkeVpXVWdRMlZ5ZEdsbWFXTmhkR1VpTENKdFlXcHZjaUk2SWtOdmJYQjFkR1Z5SUZOamFXVnVZMlVnSmlCQmNuUnBabWxqYVdGc0lFbHVkR1ZzYkdsblpXNWpaU0lzSW1kd1lTSTZJbHRTUlVSQlExUkZSRjlDV1Y5SVQweEVSVklnTFNCRWFXZGxjM1E2SURVMk9XTmlZMll3TGk0dVhTSXNJbWR5WVdSMVlYUnBiMjVaWldGeUlqb2lNakF5TmlJc0ltbHVjM1JwZEhWMGFXOXVUbUZ0WlNJNklrMUpWQ0JKYm5OMGFYUjFkR1VnYjJZZ1ZHVmphRzV2Ykc5bmVTSXNJbkp2YkdVaU9pSldaWEpwWm1sbFpDQkhjbUZrZFdGMFpTQXZJRUZzZFcxdWFTSXNJbk4wZFdSbGJuUkpaQ0k2SWx0U1JVUkJRMVJGUkY5Q1dWOUlUMHhFUlZJZ0xTQkVhV2RsYzNRNklEUmxOR05tTUdObUxpNHVYU0lzSW1SdlkzVnRaVzUwU0dGemFDSTZJamN5T0RWbE56UTVOVEZoWTJNMFkyWmhaakpsWkdVeU5ESXdZMkpsT0RFNVlXVTVPRE5rTWpJMk56QTBNV001TlRVMU5ESXhNVGd5TXpVell6UmtaV1VpTENKb1lYTm9RV3huYjNKcGRHaHRJam9pVTBoQkxUSTFOaUlzSW5aalNXUWlPaUkxWVdSaE5qZzVNR1U1WTJaaFlqZzBJbjBzSW5ObGJHVmpkR2wyWlVScGMyTnNiM04xY21VaU9uUnlkV1Y5ZlEuc2RfaXNzdWVyX3Byb29mIl19fQ.holder_sd_vp_signature",
+      "status": "VERIFIED_VALID",
+      "verification_details": {
+        "vp": {
+          "isValid": true,
+          "payload": {
+            "iss": "did:ethr:4321:0x81c0E932dC0AED833fAd0Ec2E924fd972d86eD8E",
+            "aud": "did:ethr:4321:0xCampaignEmployer",
+            "presentationMode": "selective",
+            "selectiveDisclosure": true,
+            "vp": {
+              "@context": [
+                "https://www.w3.org/2018/credentials/v1"
+              ],
+              "type": [
+                "VerifiablePresentation",
+                "SelectiveDisclosurePresentation"
+              ],
+              "verifiableCredential": [
+                "eyJhbGciOiJFUzI1NksifQ.eyJpc3MiOiJkaWQ6ZXRocjo0MzIxOjB4QjAwNzIxQzE0MDY3OTg0YWYwZDNCMzQwQWMwQ0QxMDM0Y0Q3OGY4ZiIsInN1YiI6ImRpZDpldGhyOjQzMjE6MHg4MWMwRTkzMmRDMEFFRDgzM2ZBZDBFYzJFOTI0ZmQ5NzJkODZlRDhFIiwianRpIjoiNWFkYTY4OTBlOWNmYWI4NCIsInNlbGVjdGl2ZURpc2Nsb3N1cmUiOnRydWUsImRpc2Nsb3NlZENsYWltcyI6eyJkZWdyZWVOYW1lIjoiT2ZmaWNpYWwgQWNhZGVtaWMgRGVncmVlIENlcnRpZmljYXRlIiwibWFqb3IiOiJDb21wdXRlciBTY2llbmNlICYgQXJ0aWZpY2lhbCBJbnRlbGxpZ2VuY2UiLCJncmFkdWF0aW9uWWVhciI6IjIwMjYiLCJpbnN0aXR1dGlvbk5hbWUiOiJNSVQgSW5zdGl0dXRlIG9mIFRlY2hub2xvZ3kiLCJyb2xlIjoiVmVyaWZpZWQgR3JhZHVhdGUgLyBBbHVtbmkiLCJkb2N1bWVudEhhc2giOiI3Mjg1ZTc0OTUxYWNjNGNmYWYyZWRlMjQyMGNiZTgxOWFlOTgzZDIyNjcwNDFjOTU1NTQyMTE4MjM1M2M0ZGVlIiwiaGFzaEFsZ29yaXRobSI6IlNIQS0yNTYifSwicmVkYWN0ZWRDbGFpbXMiOlt7ImZpZWxkIjoiZ3BhIiwic3RhdHVzIjoiUkVEQUNURURfQllfSE9MREVSIiwiZGlnZXN0IjoiMHg1NjljYmNmMDhhZjNhYjZiNDA4OGQzZmY2OWFmNmJlMjY5ZDcxODkxZDc1NmUwYWVjNThjNGU1ZjU1NmYyNGZjIn0seyJmaWVsZCI6InN0dWRlbnRJZCIsInN0YXR1cyI6IlJFREFDVEVEX0JZX0hPTERFUiIsImRpZ2VzdCI6IjB4NGU0Y2YwY2Y5NzhhYTE0OGQ0MWI2OWZlMjIxZDVmNWYyYWM5MDFhMWI4MDdlOTYwMDA2YjcwY2Y2NDcwNzhmMSJ9XSwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIlNlbGVjdGl2ZURpc2Nsb3N1cmVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZU5hbWUiOiJPZmZpY2lhbCBBY2FkZW1pYyBEZWdyZWUgQ2VydGlmaWNhdGUiLCJtYWpvciI6IkNvbXB1dGVyIFNjaWVuY2UgJiBBcnRpZmljaWFsIEludGVsbGlnZW5jZSIsImdwYSI6IltSRURBQ1RFRF9CWV9IT0xERVIgLSBEaWdlc3Q6IDU2OWNiY2YwLi4uXSIsImdyYWR1YXRpb25ZZWFyIjoiMjAyNiIsImluc3RpdHV0aW9uTmFtZSI6Ik1JVCBJbnN0aXR1dGUgb2YgVGVjaG5vbG9neSIsInJvbGUiOiJWZXJpZmllZCBHcmFkdWF0ZSAvIEFsdW1uaSIsInN0dWRlbnRJZCI6IltSRURBQ1RFRF9CWV9IT0xERVIgLSBEaWdlc3Q6IDRlNGNmMGNmLi4uXSIsImRvY3VtZW50SGFzaCI6IjcyODVlNzQ5NTFhY2M0Y2ZhZjJlZGUyNDIwY2JlODE5YWU5ODNkMjI2NzA0MWM5NTU1NDIxMTgyMzUzYzRkZWUiLCJoYXNoQWxnb3JpdGhtIjoiU0hBLTI1NiIsInZjSWQiOiI1YWRhNjg5MGU5Y2ZhYjg0In0sInNlbGVjdGl2ZURpc2Nsb3N1cmUiOnRydWV9fQ.sd_issuer_proof"
+              ]
+            }
+          },
+          "error": "Unexpected end of data",
+          "isSelectiveDisclosure": true
+        },
+        "vcs": [
+          {
+            "isValid": true,
+            "onChainValid": true,
+            "error": null,
+            "payload": {
+              "iss": "did:ethr:4321:0xB00721C14067984af0d3B340Ac0CD1034cD78f8f",
+              "sub": "did:ethr:4321:0x81c0E932dC0AED833fAd0Ec2E924fd972d86eD8E",
+              "jti": "5ada6890e9cfab84",
+              "selectiveDisclosure": true,
+              "disclosedClaims": {
+                "degreeName": "Official Academic Degree Certificate",
+                "major": "Computer Science & Artificial Intelligence",
+                "graduationYear": "2026",
+                "institutionName": "MIT Institute of Technology",
+                "role": "Verified Graduate / Alumni",
+                "documentHash": "7285e74951acc4cfaf2ede2420cbe819ae983d2267041c9555421182353c4dee",
+                "hashAlgorithm": "SHA-256"
+              },
+              "redactedClaims": [
+                {
+                  "field": "gpa",
+                  "status": "REDACTED_BY_HOLDER",
+                  "digest": "0x569cbcf08af3ab6b4088d3ff69af6be269d71891d756e0aec58c4e5f556f24fc"
+                },
+                {
+                  "field": "studentId",
+                  "status": "REDACTED_BY_HOLDER",
+                  "digest": "0x4e4cf0cf978aa148d41b69fe221d5f5f2ac901a1b807e960006b70cf647078f1"
+                }
+              ],
+              "vc": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1"
+                ],
+                "type": [
+                  "VerifiableCredential",
+                  "SelectiveDisclosureCredential",
+                  "AcademicDegreeCredential"
+                ],
+                "credentialSubject": {
+                  "degreeName": "Official Academic Degree Certificate",
+                  "major": "Computer Science & Artificial Intelligence",
+                  "gpa": "[REDACTED_BY_HOLDER - Digest: 569cbcf0...]",
+                  "graduationYear": "2026",
+                  "institutionName": "MIT Institute of Technology",
+                  "role": "Verified Graduate / Alumni",
+                  "studentId": "[REDACTED_BY_HOLDER - Digest: 4e4cf0cf...]",
+                  "documentHash": "7285e74951acc4cfaf2ede2420cbe819ae983d2267041c9555421182353c4dee",
+                  "hashAlgorithm": "SHA-256",
+                  "vcId": "5ada6890e9cfab84"
+                },
+                "selectiveDisclosure": true
+              }
+            },
+            "jwt": "eyJhbGciOiJFUzI1NksifQ.eyJpc3MiOiJkaWQ6ZXRocjo0MzIxOjB4QjAwNzIxQzE0MDY3OTg0YWYwZDNCMzQwQWMwQ0QxMDM0Y0Q3OGY4ZiIsInN1YiI6ImRpZDpldGhyOjQzMjE6MHg4MWMwRTkzMmRDMEFFRDgzM2ZBZDBFYzJFOTI0ZmQ5NzJkODZlRDhFIiwianRpIjoiNWFkYTY4OTBlOWNmYWI4NCIsInNlbGVjdGl2ZURpc2Nsb3N1cmUiOnRydWUsImRpc2Nsb3NlZENsYWltcyI6eyJkZWdyZWVOYW1lIjoiT2ZmaWNpYWwgQWNhZGVtaWMgRGVncmVlIENlcnRpZmljYXRlIiwibWFqb3IiOiJDb21wdXRlciBTY2llbmNlICYgQXJ0aWZpY2lhbCBJbnRlbGxpZ2VuY2UiLCJncmFkdWF0aW9uWWVhciI6IjIwMjYiLCJpbnN0aXR1dGlvbk5hbWUiOiJNSVQgSW5zdGl0dXRlIG9mIFRlY2hub2xvZ3kiLCJyb2xlIjoiVmVyaWZpZWQgR3JhZHVhdGUgLyBBbHVtbmkiLCJkb2N1bWVudEhhc2giOiI3Mjg1ZTc0OTUxYWNjNGNmYWYyZWRlMjQyMGNiZTgxOWFlOTgzZDIyNjcwNDFjOTU1NTQyMTE4MjM1M2M0ZGVlIiwiaGFzaEFsZ29yaXRobSI6IlNIQS0yNTYifSwicmVkYWN0ZWRDbGFpbXMiOlt7ImZpZWxkIjoiZ3BhIiwic3RhdHVzIjoiUkVEQUNURURfQllfSE9MREVSIiwiZGlnZXN0IjoiMHg1NjljYmNmMDhhZjNhYjZiNDA4OGQzZmY2OWFmNmJlMjY5ZDcxODkxZDc1NmUwYWVjNThjNGU1ZjU1NmYyNGZjIn0seyJmaWVsZCI6InN0dWRlbnRJZCIsInN0YXR1cyI6IlJFREFDVEVEX0JZX0hPTERFUiIsImRpZ2VzdCI6IjB4NGU0Y2YwY2Y5NzhhYTE0OGQ0MWI2OWZlMjIxZDVmNWYyYWM5MDFhMWI4MDdlOTYwMDA2YjcwY2Y2NDcwNzhmMSJ9XSwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIlNlbGVjdGl2ZURpc2Nsb3N1cmVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZU5hbWUiOiJPZmZpY2lhbCBBY2FkZW1pYyBEZWdyZWUgQ2VydGlmaWNhdGUiLCJtYWpvciI6IkNvbXB1dGVyIFNjaWVuY2UgJiBBcnRpZmljaWFsIEludGVsbGlnZW5jZSIsImdwYSI6IltSRURBQ1RFRF9CWV9IT0xERVIgLSBEaWdlc3Q6IDU2OWNiY2YwLi4uXSIsImdyYWR1YXRpb25ZZWFyIjoiMjAyNiIsImluc3RpdHV0aW9uTmFtZSI6Ik1JVCBJbnN0aXR1dGUgb2YgVGVjaG5vbG9neSIsInJvbGUiOiJWZXJpZmllZCBHcmFkdWF0ZSAvIEFsdW1uaSIsInN0dWRlbnRJZCI6IltSRURBQ1RFRF9CWV9IT0xERVIgLSBEaWdlc3Q6IDRlNGNmMGNmLi4uXSIsImRvY3VtZW50SGFzaCI6IjcyODVlNzQ5NTFhY2M0Y2ZhZjJlZGUyNDIwY2JlODE5YWU5ODNkMjI2NzA0MWM5NTU1NDIxMTgyMzUzYzRkZWUiLCJoYXNoQWxnb3JpdGhtIjoiU0hBLTI1NiIsInZjSWQiOiI1YWRhNjg5MGU5Y2ZhYjg0In0sInNlbGVjdGl2ZURpc2Nsb3N1cmUiOnRydWV9fQ.sd_issuer_proof",
+            "isSelectiveDisclosure": true,
+            "disclosedClaims": {
+              "degreeName": "Official Academic Degree Certificate",
+              "major": "Computer Science & Artificial Intelligence",
+              "graduationYear": "2026",
+              "institutionName": "MIT Institute of Technology",
+              "role": "Verified Graduate / Alumni",
+              "documentHash": "7285e74951acc4cfaf2ede2420cbe819ae983d2267041c9555421182353c4dee",
+              "hashAlgorithm": "SHA-256"
+            },
+            "redactedClaims": [
+              {
+                "field": "gpa",
+                "status": "REDACTED_BY_HOLDER",
+                "digest": "0x569cbcf08af3ab6b4088d3ff69af6be269d71891d756e0aec58c4e5f556f24fc"
+              },
+              {
+                "field": "studentId",
+                "status": "REDACTED_BY_HOLDER",
+                "digest": "0x4e4cf0cf978aa148d41b69fe221d5f5f2ac901a1b807e960006b70cf647078f1"
+              }
+            ]
+          }
+        ],
+        "isSelectiveDisclosure": true
+      },
+      "submitted_at": "2026-09-10T16:23:54.451Z",
+      "verified_at": "2026-09-10T16:33:56.778Z"
+    },
+    {
+      "id": "sub_e45a5fe5e426",
+      "campaign_id": "camp_2e45b96240e6",
+      "candidate_name": "Alex Rivera",
+      "candidate_email": "alex@mit.edu",
+      "vp_jwt": "eyJhbGciOiJFUzI1NksifQ.eyJpc3MiOiJkaWQ6ZXRocjo0MzIxOjB4ODFjMEU5MzJkQzBBRUQ4MzNmQWQwRWMyRTkyNGZkOTcyZDg2ZUQ4RSIsImF1ZCI6ImRpZDpldGhyOjQzMjE6MHhDYW1wYWlnbkVtcGxveWVyIiwicHJlc2VudGF0aW9uTW9kZSI6InNlbGVjdGl2ZSIsInNlbGVjdGl2ZURpc2Nsb3N1cmUiOnRydWUsInZwIjp7IkBjb250ZXh0IjpbImh0dHBzOi8vd3d3LnczLm9yZy8yMDE4L2NyZWRlbnRpYWxzL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZVByZXNlbnRhdGlvbiIsIlNlbGVjdGl2ZURpc2Nsb3N1cmVQcmVzZW50YXRpb24iXSwidmVyaWZpYWJsZUNyZWRlbnRpYWwiOlsiZXlKaGJHY2lPaUpGVXpJMU5rc2lmUS5leUpwYzNNaU9pSmthV1E2WlhSb2NqbzBNekl4T2pCNFFqQXdOekl4UXpFME1EWTNPVGcwWVdZd1pETkNNelF3UVdNd1EwUXhNRE0wWTBRM09HWTRaaUlzSW5OMVlpSTZJbVJwWkRwbGRHaHlPalF6TWpFNk1IZzRNV013UlRrek1tUkRNRUZGUkRnek0yWkJaREJGWXpKRk9USTBabVE1TnpKa09EWmxSRGhGSWl3aWFuUnBJam9pTldGa1lUWTRPVEJsT1dObVlXSTROQ0lzSW5ObGJHVmpkR2wyWlVScGMyTnNiM04xY21VaU9uUnlkV1VzSW1ScGMyTnNiM05sWkVOc1lXbHRjeUk2ZXlKa1pXZHlaV1ZPWVcxbElqb2lUMlptYVdOcFlXd2dRV05oWkdWdGFXTWdSR1ZuY21WbElFTmxjblJwWm1sallYUmxJaXdpYldGcWIzSWlPaUpEYjIxd2RYUmxjaUJUWTJsbGJtTmxJQ1lnUVhKMGFXWnBZMmxoYkNCSmJuUmxiR3hwWjJWdVkyVWlMQ0puY21Ga2RXRjBhVzl1V1dWaGNpSTZJakl3TWpZaUxDSnBibk4wYVhSMWRHbHZiazVoYldVaU9pSk5TVlFnU1c1emRHbDBkWFJsSUc5bUlGUmxZMmh1YjJ4dloza2lMQ0p5YjJ4bElqb2lWbVZ5YVdacFpXUWdSM0poWkhWaGRHVWdMeUJCYkhWdGJta2lMQ0prYjJOMWJXVnVkRWhoYzJnaU9pSTNNamcxWlRjME9UVXhZV05qTkdObVlXWXlaV1JsTWpReU1HTmlaVGd4T1dGbE9UZ3paREl5Tmpjd05ERmpPVFUxTlRReU1URTRNak0xTTJNMFpHVmxJaXdpYUdGemFFRnNaMjl5YVhSb2JTSTZJbE5JUVMweU5UWWlmU3dpY21Wa1lXTjBaV1JEYkdGcGJYTWlPbHQ3SW1acFpXeGtJam9pWjNCaElpd2ljM1JoZEhWeklqb2lVa1ZFUVVOVVJVUmZRbGxmU0U5TVJFVlNJaXdpWkdsblpYTjBJam9pTUhnMU5qbGpZbU5tTURoaFpqTmhZalppTkRBNE9HUXpabVkyT1dGbU5tSmxNalk1WkRjeE9Ea3haRGMxTm1Vd1lXVmpOVGhqTkdVMVpqVTFObVl5TkdaakluMHNleUptYVdWc1pDSTZJbk4wZFdSbGJuUkpaQ0lzSW5OMFlYUjFjeUk2SWxKRlJFRkRWRVZFWDBKWlgwaFBURVJGVWlJc0ltUnBaMlZ6ZENJNklqQjROR1UwWTJZd1kyWTVOemhoWVRFME9HUTBNV0kyT1dabE1qSXhaRFZtTldZeVlXTTVNREZoTVdJNE1EZGxPVFl3TURBMllqY3dZMlkyTkRjd056aG1NU0o5WFN3aWRtTWlPbnNpUUdOdmJuUmxlSFFpT2xzaWFIUjBjSE02THk5M2QzY3Vkek11YjNKbkx6SXdNVGd2WTNKbFpHVnVkR2xoYkhNdmRqRWlYU3dpZEhsd1pTSTZXeUpXWlhKcFptbGhZbXhsUTNKbFpHVnVkR2xoYkNJc0lsTmxiR1ZqZEdsMlpVUnBjMk5zYjNOMWNtVkRjbVZrWlc1MGFXRnNJaXdpUVdOaFpHVnRhV05FWldkeVpXVkRjbVZrWlc1MGFXRnNJbDBzSW1OeVpXUmxiblJwWVd4VGRXSnFaV04wSWpwN0ltUmxaM0psWlU1aGJXVWlPaUpQWm1acFkybGhiQ0JCWTJGa1pXMXBZeUJFWldkeVpXVWdRMlZ5ZEdsbWFXTmhkR1VpTENKdFlXcHZjaUk2SWtOdmJYQjFkR1Z5SUZOamFXVnVZMlVnSmlCQmNuUnBabWxqYVdGc0lFbHVkR1ZzYkdsblpXNWpaU0lzSW1kd1lTSTZJbHRTUlVSQlExUkZSRjlDV1Y5SVQweEVSVklnTFNCRWFXZGxjM1E2SURVMk9XTmlZMll3TGk0dVhTSXNJbWR5WVdSMVlYUnBiMjVaWldGeUlqb2lNakF5TmlJc0ltbHVjM1JwZEhWMGFXOXVUbUZ0WlNJNklrMUpWQ0JKYm5OMGFYUjFkR1VnYjJZZ1ZHVmphRzV2Ykc5bmVTSXNJbkp2YkdVaU9pSldaWEpwWm1sbFpDQkhjbUZrZFdGMFpTQXZJRUZzZFcxdWFTSXNJbk4wZFdSbGJuUkpaQ0k2SWx0U1JVUkJRMVJGUkY5Q1dWOUlUMHhFUlZJZ0xTQkVhV2RsYzNRNklEUmxOR05tTUdObUxpNHVYU0lzSW1SdlkzVnRaVzUwU0dGemFDSTZJamN5T0RWbE56UTVOVEZoWTJNMFkyWmhaakpsWkdVeU5ESXdZMkpsT0RFNVlXVTVPRE5rTWpJMk56QTBNV001TlRVMU5ESXhNVGd5TXpVell6UmtaV1VpTENKb1lYTm9RV3huYjNKcGRHaHRJam9pVTBoQkxUSTFOaUlzSW5aalNXUWlPaUkxWVdSaE5qZzVNR1U1WTJaaFlqZzBJbjBzSW5ObGJHVmpkR2wyWlVScGMyTnNiM04xY21VaU9uUnlkV1Y5ZlEuc2RfaXNzdWVyX3Byb29mIl19fQ.holder_sd_vp_signature",
+      "status": "VERIFIED_VALID",
+      "verification_details": {
+        "vp": {
+          "isValid": true,
+          "payload": {
+            "iss": "did:ethr:4321:0x81c0E932dC0AED833fAd0Ec2E924fd972d86eD8E",
+            "aud": "did:ethr:4321:0xCampaignEmployer",
+            "presentationMode": "selective",
+            "selectiveDisclosure": true,
+            "vp": {
+              "@context": [
+                "https://www.w3.org/2018/credentials/v1"
+              ],
+              "type": [
+                "VerifiablePresentation",
+                "SelectiveDisclosurePresentation"
+              ],
+              "verifiableCredential": [
+                "eyJhbGciOiJFUzI1NksifQ.eyJpc3MiOiJkaWQ6ZXRocjo0MzIxOjB4QjAwNzIxQzE0MDY3OTg0YWYwZDNCMzQwQWMwQ0QxMDM0Y0Q3OGY4ZiIsInN1YiI6ImRpZDpldGhyOjQzMjE6MHg4MWMwRTkzMmRDMEFFRDgzM2ZBZDBFYzJFOTI0ZmQ5NzJkODZlRDhFIiwianRpIjoiNWFkYTY4OTBlOWNmYWI4NCIsInNlbGVjdGl2ZURpc2Nsb3N1cmUiOnRydWUsImRpc2Nsb3NlZENsYWltcyI6eyJkZWdyZWVOYW1lIjoiT2ZmaWNpYWwgQWNhZGVtaWMgRGVncmVlIENlcnRpZmljYXRlIiwibWFqb3IiOiJDb21wdXRlciBTY2llbmNlICYgQXJ0aWZpY2lhbCBJbnRlbGxpZ2VuY2UiLCJncmFkdWF0aW9uWWVhciI6IjIwMjYiLCJpbnN0aXR1dGlvbk5hbWUiOiJNSVQgSW5zdGl0dXRlIG9mIFRlY2hub2xvZ3kiLCJyb2xlIjoiVmVyaWZpZWQgR3JhZHVhdGUgLyBBbHVtbmkiLCJkb2N1bWVudEhhc2giOiI3Mjg1ZTc0OTUxYWNjNGNmYWYyZWRlMjQyMGNiZTgxOWFlOTgzZDIyNjcwNDFjOTU1NTQyMTE4MjM1M2M0ZGVlIiwiaGFzaEFsZ29yaXRobSI6IlNIQS0yNTYifSwicmVkYWN0ZWRDbGFpbXMiOlt7ImZpZWxkIjoiZ3BhIiwic3RhdHVzIjoiUkVEQUNURURfQllfSE9MREVSIiwiZGlnZXN0IjoiMHg1NjljYmNmMDhhZjNhYjZiNDA4OGQzZmY2OWFmNmJlMjY5ZDcxODkxZDc1NmUwYWVjNThjNGU1ZjU1NmYyNGZjIn0seyJmaWVsZCI6InN0dWRlbnRJZCIsInN0YXR1cyI6IlJFREFDVEVEX0JZX0hPTERFUiIsImRpZ2VzdCI6IjB4NGU0Y2YwY2Y5NzhhYTE0OGQ0MWI2OWZlMjIxZDVmNWYyYWM5MDFhMWI4MDdlOTYwMDA2YjcwY2Y2NDcwNzhmMSJ9XSwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIlNlbGVjdGl2ZURpc2Nsb3N1cmVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZU5hbWUiOiJPZmZpY2lhbCBBY2FkZW1pYyBEZWdyZWUgQ2VydGlmaWNhdGUiLCJtYWpvciI6IkNvbXB1dGVyIFNjaWVuY2UgJiBBcnRpZmljaWFsIEludGVsbGlnZW5jZSIsImdwYSI6IltSRURBQ1RFRF9CWV9IT0xERVIgLSBEaWdlc3Q6IDU2OWNiY2YwLi4uXSIsImdyYWR1YXRpb25ZZWFyIjoiMjAyNiIsImluc3RpdHV0aW9uTmFtZSI6Ik1JVCBJbnN0aXR1dGUgb2YgVGVjaG5vbG9neSIsInJvbGUiOiJWZXJpZmllZCBHcmFkdWF0ZSAvIEFsdW1uaSIsInN0dWRlbnRJZCI6IltSRURBQ1RFRF9CWV9IT0xERVIgLSBEaWdlc3Q6IDRlNGNmMGNmLi4uXSIsImRvY3VtZW50SGFzaCI6IjcyODVlNzQ5NTFhY2M0Y2ZhZjJlZGUyNDIwY2JlODE5YWU5ODNkMjI2NzA0MWM5NTU1NDIxMTgyMzUzYzRkZWUiLCJoYXNoQWxnb3JpdGhtIjoiU0hBLTI1NiIsInZjSWQiOiI1YWRhNjg5MGU5Y2ZhYjg0In0sInNlbGVjdGl2ZURpc2Nsb3N1cmUiOnRydWV9fQ.sd_issuer_proof"
+              ]
+            }
+          },
+          "error": "Unexpected end of data",
+          "isSelectiveDisclosure": true
+        },
+        "vcs": [
+          {
+            "isValid": true,
+            "onChainValid": true,
+            "error": null,
+            "payload": {
+              "iss": "did:ethr:4321:0xB00721C14067984af0d3B340Ac0CD1034cD78f8f",
+              "sub": "did:ethr:4321:0x81c0E932dC0AED833fAd0Ec2E924fd972d86eD8E",
+              "jti": "5ada6890e9cfab84",
+              "selectiveDisclosure": true,
+              "disclosedClaims": {
+                "degreeName": "Official Academic Degree Certificate",
+                "major": "Computer Science & Artificial Intelligence",
+                "graduationYear": "2026",
+                "institutionName": "MIT Institute of Technology",
+                "role": "Verified Graduate / Alumni",
+                "documentHash": "7285e74951acc4cfaf2ede2420cbe819ae983d2267041c9555421182353c4dee",
+                "hashAlgorithm": "SHA-256"
+              },
+              "redactedClaims": [
+                {
+                  "field": "gpa",
+                  "status": "REDACTED_BY_HOLDER",
+                  "digest": "0x569cbcf08af3ab6b4088d3ff69af6be269d71891d756e0aec58c4e5f556f24fc"
+                },
+                {
+                  "field": "studentId",
+                  "status": "REDACTED_BY_HOLDER",
+                  "digest": "0x4e4cf0cf978aa148d41b69fe221d5f5f2ac901a1b807e960006b70cf647078f1"
+                }
+              ],
+              "vc": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1"
+                ],
+                "type": [
+                  "VerifiableCredential",
+                  "SelectiveDisclosureCredential",
+                  "AcademicDegreeCredential"
+                ],
+                "credentialSubject": {
+                  "degreeName": "Official Academic Degree Certificate",
+                  "major": "Computer Science & Artificial Intelligence",
+                  "gpa": "[REDACTED_BY_HOLDER - Digest: 569cbcf0...]",
+                  "graduationYear": "2026",
+                  "institutionName": "MIT Institute of Technology",
+                  "role": "Verified Graduate / Alumni",
+                  "studentId": "[REDACTED_BY_HOLDER - Digest: 4e4cf0cf...]",
+                  "documentHash": "7285e74951acc4cfaf2ede2420cbe819ae983d2267041c9555421182353c4dee",
+                  "hashAlgorithm": "SHA-256",
+                  "vcId": "5ada6890e9cfab84"
+                },
+                "selectiveDisclosure": true
+              }
+            },
+            "jwt": "eyJhbGciOiJFUzI1NksifQ.eyJpc3MiOiJkaWQ6ZXRocjo0MzIxOjB4QjAwNzIxQzE0MDY3OTg0YWYwZDNCMzQwQWMwQ0QxMDM0Y0Q3OGY4ZiIsInN1YiI6ImRpZDpldGhyOjQzMjE6MHg4MWMwRTkzMmRDMEFFRDgzM2ZBZDBFYzJFOTI0ZmQ5NzJkODZlRDhFIiwianRpIjoiNWFkYTY4OTBlOWNmYWI4NCIsInNlbGVjdGl2ZURpc2Nsb3N1cmUiOnRydWUsImRpc2Nsb3NlZENsYWltcyI6eyJkZWdyZWVOYW1lIjoiT2ZmaWNpYWwgQWNhZGVtaWMgRGVncmVlIENlcnRpZmljYXRlIiwibWFqb3IiOiJDb21wdXRlciBTY2llbmNlICYgQXJ0aWZpY2lhbCBJbnRlbGxpZ2VuY2UiLCJncmFkdWF0aW9uWWVhciI6IjIwMjYiLCJpbnN0aXR1dGlvbk5hbWUiOiJNSVQgSW5zdGl0dXRlIG9mIFRlY2hub2xvZ3kiLCJyb2xlIjoiVmVyaWZpZWQgR3JhZHVhdGUgLyBBbHVtbmkiLCJkb2N1bWVudEhhc2giOiI3Mjg1ZTc0OTUxYWNjNGNmYWYyZWRlMjQyMGNiZTgxOWFlOTgzZDIyNjcwNDFjOTU1NTQyMTE4MjM1M2M0ZGVlIiwiaGFzaEFsZ29yaXRobSI6IlNIQS0yNTYifSwicmVkYWN0ZWRDbGFpbXMiOlt7ImZpZWxkIjoiZ3BhIiwic3RhdHVzIjoiUkVEQUNURURfQllfSE9MREVSIiwiZGlnZXN0IjoiMHg1NjljYmNmMDhhZjNhYjZiNDA4OGQzZmY2OWFmNmJlMjY5ZDcxODkxZDc1NmUwYWVjNThjNGU1ZjU1NmYyNGZjIn0seyJmaWVsZCI6InN0dWRlbnRJZCIsInN0YXR1cyI6IlJFREFDVEVEX0JZX0hPTERFUiIsImRpZ2VzdCI6IjB4NGU0Y2YwY2Y5NzhhYTE0OGQ0MWI2OWZlMjIxZDVmNWYyYWM5MDFhMWI4MDdlOTYwMDA2YjcwY2Y2NDcwNzhmMSJ9XSwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIlNlbGVjdGl2ZURpc2Nsb3N1cmVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZU5hbWUiOiJPZmZpY2lhbCBBY2FkZW1pYyBEZWdyZWUgQ2VydGlmaWNhdGUiLCJtYWpvciI6IkNvbXB1dGVyIFNjaWVuY2UgJiBBcnRpZmljaWFsIEludGVsbGlnZW5jZSIsImdwYSI6IltSRURBQ1RFRF9CWV9IT0xERVIgLSBEaWdlc3Q6IDU2OWNiY2YwLi4uXSIsImdyYWR1YXRpb25ZZWFyIjoiMjAyNiIsImluc3RpdHV0aW9uTmFtZSI6Ik1JVCBJbnN0aXR1dGUgb2YgVGVjaG5vbG9neSIsInJvbGUiOiJWZXJpZmllZCBHcmFkdWF0ZSAvIEFsdW1uaSIsInN0dWRlbnRJZCI6IltSRURBQ1RFRF9CWV9IT0xERVIgLSBEaWdlc3Q6IDRlNGNmMGNmLi4uXSIsImRvY3VtZW50SGFzaCI6IjcyODVlNzQ5NTFhY2M0Y2ZhZjJlZGUyNDIwY2JlODE5YWU5ODNkMjI2NzA0MWM5NTU1NDIxMTgyMzUzYzRkZWUiLCJoYXNoQWxnb3JpdGhtIjoiU0hBLTI1NiIsInZjSWQiOiI1YWRhNjg5MGU5Y2ZhYjg0In0sInNlbGVjdGl2ZURpc2Nsb3N1cmUiOnRydWV9fQ.sd_issuer_proof",
+            "isSelectiveDisclosure": true,
+            "disclosedClaims": {
+              "degreeName": "Official Academic Degree Certificate",
+              "major": "Computer Science & Artificial Intelligence",
+              "graduationYear": "2026",
+              "institutionName": "MIT Institute of Technology",
+              "role": "Verified Graduate / Alumni",
+              "documentHash": "7285e74951acc4cfaf2ede2420cbe819ae983d2267041c9555421182353c4dee",
+              "hashAlgorithm": "SHA-256"
+            },
+            "redactedClaims": [
+              {
+                "field": "gpa",
+                "status": "REDACTED_BY_HOLDER",
+                "digest": "0x569cbcf08af3ab6b4088d3ff69af6be269d71891d756e0aec58c4e5f556f24fc"
+              },
+              {
+                "field": "studentId",
+                "status": "REDACTED_BY_HOLDER",
+                "digest": "0x4e4cf0cf978aa148d41b69fe221d5f5f2ac901a1b807e960006b70cf647078f1"
+              }
+            ]
+          }
+        ],
+        "isSelectiveDisclosure": true
+      },
+      "submitted_at": "2026-09-10T16:21:55.411Z",
+      "verified_at": "2026-09-10T16:33:56.885Z"
+    },
+    {
+      "id": "sub_f763383c2980",
+      "campaign_id": "camp_e6d684b962dc",
+      "candidate_name": "Alex Rivera",
+      "candidate_email": "alex.rivera@university.edu",
+      "vp_jwt": "eyJhbGciOiJFUzI1NksifQ.eyJpc3MiOiJkaWQ6ZXRocjo0MzIxOjB4ODFjMEU5MzJkQzBBRUQ4MzNmQWQwRWMyRTkyNGZkOTcyZDg2ZUQ4RSIsImF1ZCI6ImRpZDpldGhyOjQzMjE6MHhWZXJpZmllcjU5ZGYzMjg0IiwicHJlc2VudGF0aW9uTW9kZSI6InNlbGVjdGl2ZSIsInNlbGVjdGl2ZURpc2Nsb3N1cmUiOnRydWUsInZwIjp7IkBjb250ZXh0IjpbImh0dHBzOi8vd3d3LnczLm9yZy8yMDE4L2NyZWRlbnRpYWxzL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZVByZXNlbnRhdGlvbiIsIlNlbGVjdGl2ZURpc2Nsb3N1cmVQcmVzZW50YXRpb24iXSwidmVyaWZpYWJsZUNyZWRlbnRpYWwiOlsiZXlKaGJHY2lPaUpGVXpJMU5rc2lmUS5leUpwYzNNaU9pSmthV1E2WlhSb2NqbzBNekl4T2pCNFFqQXdOekl4UXpFME1EWTNPVGcwWVdZd1pETkNNelF3UVdNd1EwUXhNRE0wWTBRM09HWTRaaUlzSW5OMVlpSTZJbVJwWkRwbGRHaHlPalF6TWpFNk1IZzRNV013UlRrek1tUkRNRUZGUkRnek0yWkJaREJGWXpKRk9USTBabVE1TnpKa09EWmxSRGhGSWl3aWFuUnBJam9pZG1OZllXTmhaR1Z0YVdOZlpHVm5jbVZsWHpJd01qWWlMQ0p6Wld4bFkzUnBkbVZFYVhOamJHOXpkWEpsSWpwMGNuVmxMQ0prYVhOamJHOXpaV1JEYkdGcGJYTWlPbnNpWkdWbmNtVmxUbUZ0WlNJNklrSmhZMmhsYkc5eUlHOW1JRk5qYVdWdVkyVWdhVzRnUTI5dGNIVjBaWElnVTJOcFpXNWpaU0FtSUVGSklpd2liV0ZxYjNJaU9pSkRiMjF3ZFhSbGNpQlRZMmxsYm1ObElDWWdRVWtpTENKcGJuTjBhWFIxZEdsdmJrNWhiV1VpT2lKTlNWUWdTVzV6ZEdsMGRYUmxJRzltSUZSbFkyaHViMnh2WjNraUxDSm5jbUZrZFdGMGFXOXVXV1ZoY2lJNklqSXdNallpZlN3aWNtVmtZV04wWldSRGJHRnBiWE1pT2x0N0ltWnBaV3hrSWpvaVozQmhJaXdpYzNSaGRIVnpJam9pVWtWRVFVTlVSVVJmUWxsZlNFOU1SRVZTSWl3aVpHbG5aWE4wSWpvaU1IZzFOamxqWW1ObU1EaGhaak5oWWpaaU5EQTRPR1F6Wm1ZMk9XRm1ObUpsTWpZNVpEY3hPRGt4WkRjMU5tVXdZV1ZqTlRoak5HVTFaalUxTm1ZeU5HWmpJbjBzZXlKbWFXVnNaQ0k2SW5OMGRXUmxiblJKWkNJc0luTjBZWFIxY3lJNklsSkZSRUZEVkVWRVgwSlpYMGhQVEVSRlVpSXNJbVJwWjJWemRDSTZJakI0TkdVMFkyWXdZMlk1TnpoaFlURTBPR1EwTVdJMk9XWmxNakl4WkRWbU5XWXlZV001TURGaE1XSTRNRGRsT1RZd01EQTJZamN3WTJZMk5EY3dOemhtTVNKOVhTd2lkbU1pT25zaVFHTnZiblJsZUhRaU9sc2lhSFIwY0hNNkx5OTNkM2N1ZHpNdWIzSm5Mekl3TVRndlkzSmxaR1Z1ZEdsaGJITXZkakVpWFN3aWRIbHdaU0k2V3lKV1pYSnBabWxoWW14bFEzSmxaR1Z1ZEdsaGJDSXNJbE5sYkdWamRHbDJaVVJwYzJOc2IzTjFjbVZEY21Wa1pXNTBhV0ZzSWl3aVFXTmhaR1Z0YVdORVpXZHlaV1ZEY21Wa1pXNTBhV0ZzSWwwc0ltTnlaV1JsYm5ScFlXeFRkV0pxWldOMElqcDdJbVJsWjNKbFpVNWhiV1VpT2lKQ1lXTm9aV3h2Y2lCdlppQlRZMmxsYm1ObElHbHVJRU52YlhCMWRHVnlJRk5qYVdWdVkyVWdKaUJCU1NJc0ltMWhhbTl5SWpvaVEyOXRjSFYwWlhJZ1UyTnBaVzVqWlNBbUlFRkpJaXdpYVc1emRHbDBkWFJwYjI1T1lXMWxJam9pVFVsVUlFbHVjM1JwZEhWMFpTQnZaaUJVWldOb2JtOXNiMmQ1SWl3aVozSmhaSFZoZEdsdmJsbGxZWElpT2lJeU1ESTJJaXdpWjNCaElqb2lXMUpGUkVGRFZFVkVYMEpaWDBoUFRFUkZVaUF0SUVScFoyVnpkRG9nTlRZNVkySmpaakF1TGk1ZElpd2ljM1IxWkdWdWRFbGtJam9pVzFKRlJFRkRWRVZFWDBKWlgwaFBURVJGVWlBdElFUnBaMlZ6ZERvZ05HVTBZMll3WTJZdUxpNWRJaXdpZG1OSlpDSTZJblpqWDJGallXUmxiV2xqWDJSbFozSmxaVjh5TURJMkluMHNJbk5sYkdWamRHbDJaVVJwYzJOc2IzTjFjbVVpT25SeWRXVjlmUS5zZF9pc3N1ZXJfcHJvb2YiXX19.holder_sd_vp_signature",
+      "status": "VERIFIED_VALID",
+      "verification_details": {
+        "vp": {
+          "isValid": true,
+          "payload": {
+            "iss": "did:ethr:4321:0x81c0E932dC0AED833fAd0Ec2E924fd972d86eD8E",
+            "aud": "did:ethr:4321:0xVerifier59df3284",
+            "presentationMode": "selective",
+            "selectiveDisclosure": true,
+            "vp": {
+              "@context": [
+                "https://www.w3.org/2018/credentials/v1"
+              ],
+              "type": [
+                "VerifiablePresentation",
+                "SelectiveDisclosurePresentation"
+              ],
+              "verifiableCredential": [
+                "eyJhbGciOiJFUzI1NksifQ.eyJpc3MiOiJkaWQ6ZXRocjo0MzIxOjB4QjAwNzIxQzE0MDY3OTg0YWYwZDNCMzQwQWMwQ0QxMDM0Y0Q3OGY4ZiIsInN1YiI6ImRpZDpldGhyOjQzMjE6MHg4MWMwRTkzMmRDMEFFRDgzM2ZBZDBFYzJFOTI0ZmQ5NzJkODZlRDhFIiwianRpIjoidmNfYWNhZGVtaWNfZGVncmVlXzIwMjYiLCJzZWxlY3RpdmVEaXNjbG9zdXJlIjp0cnVlLCJkaXNjbG9zZWRDbGFpbXMiOnsiZGVncmVlTmFtZSI6IkJhY2hlbG9yIG9mIFNjaWVuY2UgaW4gQ29tcHV0ZXIgU2NpZW5jZSAmIEFJIiwibWFqb3IiOiJDb21wdXRlciBTY2llbmNlICYgQUkiLCJpbnN0aXR1dGlvbk5hbWUiOiJNSVQgSW5zdGl0dXRlIG9mIFRlY2hub2xvZ3kiLCJncmFkdWF0aW9uWWVhciI6IjIwMjYifSwicmVkYWN0ZWRDbGFpbXMiOlt7ImZpZWxkIjoiZ3BhIiwic3RhdHVzIjoiUkVEQUNURURfQllfSE9MREVSIiwiZGlnZXN0IjoiMHg1NjljYmNmMDhhZjNhYjZiNDA4OGQzZmY2OWFmNmJlMjY5ZDcxODkxZDc1NmUwYWVjNThjNGU1ZjU1NmYyNGZjIn0seyJmaWVsZCI6InN0dWRlbnRJZCIsInN0YXR1cyI6IlJFREFDVEVEX0JZX0hPTERFUiIsImRpZ2VzdCI6IjB4NGU0Y2YwY2Y5NzhhYTE0OGQ0MWI2OWZlMjIxZDVmNWYyYWM5MDFhMWI4MDdlOTYwMDA2YjcwY2Y2NDcwNzhmMSJ9XSwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIlNlbGVjdGl2ZURpc2Nsb3N1cmVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZU5hbWUiOiJCYWNoZWxvciBvZiBTY2llbmNlIGluIENvbXB1dGVyIFNjaWVuY2UgJiBBSSIsIm1ham9yIjoiQ29tcHV0ZXIgU2NpZW5jZSAmIEFJIiwiaW5zdGl0dXRpb25OYW1lIjoiTUlUIEluc3RpdHV0ZSBvZiBUZWNobm9sb2d5IiwiZ3JhZHVhdGlvblllYXIiOiIyMDI2IiwiZ3BhIjoiW1JFREFDVEVEX0JZX0hPTERFUiAtIERpZ2VzdDogNTY5Y2JjZjAuLi5dIiwic3R1ZGVudElkIjoiW1JFREFDVEVEX0JZX0hPTERFUiAtIERpZ2VzdDogNGU0Y2YwY2YuLi5dIiwidmNJZCI6InZjX2FjYWRlbWljX2RlZ3JlZV8yMDI2In0sInNlbGVjdGl2ZURpc2Nsb3N1cmUiOnRydWV9fQ.sd_issuer_proof"
+              ]
+            }
+          },
+          "error": "Unexpected end of data",
+          "isSelectiveDisclosure": true
+        },
+        "vcs": [
+          {
+            "isValid": true,
+            "onChainValid": true,
+            "error": null,
+            "payload": {
+              "iss": "did:ethr:4321:0xB00721C14067984af0d3B340Ac0CD1034cD78f8f",
+              "sub": "did:ethr:4321:0x81c0E932dC0AED833fAd0Ec2E924fd972d86eD8E",
+              "jti": "vc_academic_degree_2026",
+              "selectiveDisclosure": true,
+              "disclosedClaims": {
+                "degreeName": "Bachelor of Science in Computer Science & AI",
+                "major": "Computer Science & AI",
+                "institutionName": "MIT Institute of Technology",
+                "graduationYear": "2026"
+              },
+              "redactedClaims": [
+                {
+                  "field": "gpa",
+                  "status": "REDACTED_BY_HOLDER",
+                  "digest": "0x569cbcf08af3ab6b4088d3ff69af6be269d71891d756e0aec58c4e5f556f24fc"
+                },
+                {
+                  "field": "studentId",
+                  "status": "REDACTED_BY_HOLDER",
+                  "digest": "0x4e4cf0cf978aa148d41b69fe221d5f5f2ac901a1b807e960006b70cf647078f1"
+                }
+              ],
+              "vc": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1"
+                ],
+                "type": [
+                  "VerifiableCredential",
+                  "SelectiveDisclosureCredential",
+                  "AcademicDegreeCredential"
+                ],
+                "credentialSubject": {
+                  "degreeName": "Bachelor of Science in Computer Science & AI",
+                  "major": "Computer Science & AI",
+                  "institutionName": "MIT Institute of Technology",
+                  "graduationYear": "2026",
+                  "gpa": "[REDACTED_BY_HOLDER - Digest: 569cbcf0...]",
+                  "studentId": "[REDACTED_BY_HOLDER - Digest: 4e4cf0cf...]",
+                  "vcId": "vc_academic_degree_2026"
+                },
+                "selectiveDisclosure": true
+              }
+            },
+            "jwt": "eyJhbGciOiJFUzI1NksifQ.eyJpc3MiOiJkaWQ6ZXRocjo0MzIxOjB4QjAwNzIxQzE0MDY3OTg0YWYwZDNCMzQwQWMwQ0QxMDM0Y0Q3OGY4ZiIsInN1YiI6ImRpZDpldGhyOjQzMjE6MHg4MWMwRTkzMmRDMEFFRDgzM2ZBZDBFYzJFOTI0ZmQ5NzJkODZlRDhFIiwianRpIjoidmNfYWNhZGVtaWNfZGVncmVlXzIwMjYiLCJzZWxlY3RpdmVEaXNjbG9zdXJlIjp0cnVlLCJkaXNjbG9zZWRDbGFpbXMiOnsiZGVncmVlTmFtZSI6IkJhY2hlbG9yIG9mIFNjaWVuY2UgaW4gQ29tcHV0ZXIgU2NpZW5jZSAmIEFJIiwibWFqb3IiOiJDb21wdXRlciBTY2llbmNlICYgQUkiLCJpbnN0aXR1dGlvbk5hbWUiOiJNSVQgSW5zdGl0dXRlIG9mIFRlY2hub2xvZ3kiLCJncmFkdWF0aW9uWWVhciI6IjIwMjYifSwicmVkYWN0ZWRDbGFpbXMiOlt7ImZpZWxkIjoiZ3BhIiwic3RhdHVzIjoiUkVEQUNURURfQllfSE9MREVSIiwiZGlnZXN0IjoiMHg1NjljYmNmMDhhZjNhYjZiNDA4OGQzZmY2OWFmNmJlMjY5ZDcxODkxZDc1NmUwYWVjNThjNGU1ZjU1NmYyNGZjIn0seyJmaWVsZCI6InN0dWRlbnRJZCIsInN0YXR1cyI6IlJFREFDVEVEX0JZX0hPTERFUiIsImRpZ2VzdCI6IjB4NGU0Y2YwY2Y5NzhhYTE0OGQ0MWI2OWZlMjIxZDVmNWYyYWM5MDFhMWI4MDdlOTYwMDA2YjcwY2Y2NDcwNzhmMSJ9XSwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIlNlbGVjdGl2ZURpc2Nsb3N1cmVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZU5hbWUiOiJCYWNoZWxvciBvZiBTY2llbmNlIGluIENvbXB1dGVyIFNjaWVuY2UgJiBBSSIsIm1ham9yIjoiQ29tcHV0ZXIgU2NpZW5jZSAmIEFJIiwiaW5zdGl0dXRpb25OYW1lIjoiTUlUIEluc3RpdHV0ZSBvZiBUZWNobm9sb2d5IiwiZ3JhZHVhdGlvblllYXIiOiIyMDI2IiwiZ3BhIjoiW1JFREFDVEVEX0JZX0hPTERFUiAtIERpZ2VzdDogNTY5Y2JjZjAuLi5dIiwic3R1ZGVudElkIjoiW1JFREFDVEVEX0JZX0hPTERFUiAtIERpZ2VzdDogNGU0Y2YwY2YuLi5dIiwidmNJZCI6InZjX2FjYWRlbWljX2RlZ3JlZV8yMDI2In0sInNlbGVjdGl2ZURpc2Nsb3N1cmUiOnRydWV9fQ.sd_issuer_proof",
+            "isSelectiveDisclosure": true,
+            "disclosedClaims": {
+              "degreeName": "Bachelor of Science in Computer Science & AI",
+              "major": "Computer Science & AI",
+              "institutionName": "MIT Institute of Technology",
+              "graduationYear": "2026"
+            },
+            "redactedClaims": [
+              {
+                "field": "gpa",
+                "status": "REDACTED_BY_HOLDER",
+                "digest": "0x569cbcf08af3ab6b4088d3ff69af6be269d71891d756e0aec58c4e5f556f24fc"
+              },
+              {
+                "field": "studentId",
+                "status": "REDACTED_BY_HOLDER",
+                "digest": "0x4e4cf0cf978aa148d41b69fe221d5f5f2ac901a1b807e960006b70cf647078f1"
+              }
+            ]
+          }
+        ],
+        "isSelectiveDisclosure": true
+      },
+      "submitted_at": "2026-09-10T16:14:48.634Z",
+      "verified_at": "2026-09-10T16:52:12.798Z"
+    },
+    {
+      "id": "sub_8f551b73b146",
+      "campaign_id": "camp_e6d684b962dc",
+      "candidate_name": "Alex ",
+      "candidate_email": "alex@mit.com",
+      "vp_jwt": "eyJhbGciOiJFUzI1NksifQ.eyJpc3MiOiJkaWQ6ZXRocjo0MzIxOjB4ODFjMEU5MzJkQzBBRUQ4MzNmQWQwRWMyRTkyNGZkOTcyZDg2ZUQ4RSIsInZwIjp7InZlcmlmaWFibGVDcmVkZW50aWFsIjpbImV5SmhiR2NpT2lKRlV6STFOa3N0VWlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKMll5STZleUpBWTI5dWRHVjRkQ0k2V3lKb2RIUndjem92TDNkM2R5NTNNeTV2Y21jdk1qQXhPQzlqY21Wa1pXNTBhV0ZzY3k5Mk1TSmRMQ0owZVhCbElqcGJJbFpsY21sbWFXRmliR1ZEY21Wa1pXNTBhV0ZzSWl3aVFXTmhaR1Z0YVdORVpXZHlaV1ZEY21Wa1pXNTBhV0ZzSWl3aVVtOXNaVU55WldSbGJuUnBZV3dpWFN3aVkzSmxaR1Z1ZEdsaGJGTjFZbXBsWTNRaU9uc2laR1ZuY21WbFRtRnRaU0k2SWs5bVptbGphV0ZzSUVGallXUmxiV2xqSUVSbFozSmxaU0JEWlhKMGFXWnBZMkYwWlNJc0ltMWhhbTl5SWpvaVEyOXRjSFYwWlhJZ1UyTnBaVzVqWlNBbUlFRnlkR2xtYVdOcFlXd2dTVzUwWld4c2FXZGxibU5sSWl3aVozQmhJam9pTXk0NU5TQXZJRFF1TUNJc0ltZHlZV1IxWVhScGIyNVpaV0Z5SWpvaU1qQXlOaUlzSW1sdWMzUnBkSFYwYVc5dVRtRnRaU0k2SWsxSlZDQkpibk4wYVhSMWRHVWdiMllnVkdWamFHNXZiRzluZVNJc0luSnZiR1VpT2lKV1pYSnBabWxsWkNCSGNtRmtkV0YwWlNBdklFRnNkVzF1YVNJc0luTjBkV1JsYm5SSlpDSTZJbE5VVlMweU1ESTJMVGc0TkRJaUxDSmtiMk4xYldWdWRFaGhjMmdpT2lJM01qZzFaVGMwT1RVeFlXTmpOR05tWVdZeVpXUmxNalF5TUdOaVpUZ3hPV0ZsT1RnelpESXlOamN3TkRGak9UVTFOVFF5TVRFNE1qTTFNMk0wWkdWbElpd2lhR0Z6YUVGc1oyOXlhWFJvYlNJNklsTklRUzB5TlRZaUxDSjJZMGxrSWpvaU5XRmtZVFk0T1RCbE9XTm1ZV0k0TkNKOWZTd2ljM1ZpSWpvaVpHbGtPbVYwYUhJNk5ETXlNVG93ZURneFl6QkZPVE15WkVNd1FVVkVPRE16WmtGa01FVmpNa1U1TWpSbVpEazNNbVE0Tm1WRU9FVWlMQ0p1WW1ZaU9qRTNPRGc1TmpBME5UTXNJbXAwYVNJNklqVmhaR0UyT0Rrd1pUbGpabUZpT0RRaUxDSnBjM01pT2lKa2FXUTZaWFJvY2pvME16SXhPakI0UWpBd056SXhRekUwTURZM09UZzBZV1l3WkROQ016UXdRV013UTBReE1ETTBZMFEzT0dZNFppSjkuV3JUMURUSHEwZlRzWkpRdFk0d21TYjB1cGZ4TkIteEllRzZSRHdIQURuNV8zSGpycnNpeFUxalg4SDFlZFA4MWhJbUVMN0dZMno3T3JraW1rU0dlVGdBIl19fQ==.holder_campaign_vp",
+      "status": "VERIFIED_VALID",
+      "verification_details": {
+        "vp": {
+          "isValid": true,
+          "payload": {
+            "iss": "did:ethr:4321:0x81c0E932dC0AED833fAd0Ec2E924fd972d86eD8E",
+            "vp": {
+              "verifiableCredential": [
+                "eyJhbGciOiJFUzI1NkstUiIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIiwiUm9sZUNyZWRlbnRpYWwiXSwiY3JlZGVudGlhbFN1YmplY3QiOnsiZGVncmVlTmFtZSI6Ik9mZmljaWFsIEFjYWRlbWljIERlZ3JlZSBDZXJ0aWZpY2F0ZSIsIm1ham9yIjoiQ29tcHV0ZXIgU2NpZW5jZSAmIEFydGlmaWNpYWwgSW50ZWxsaWdlbmNlIiwiZ3BhIjoiMy45NSAvIDQuMCIsImdyYWR1YXRpb25ZZWFyIjoiMjAyNiIsImluc3RpdHV0aW9uTmFtZSI6Ik1JVCBJbnN0aXR1dGUgb2YgVGVjaG5vbG9neSIsInJvbGUiOiJWZXJpZmllZCBHcmFkdWF0ZSAvIEFsdW1uaSIsInN0dWRlbnRJZCI6IlNUVS0yMDI2LTg4NDIiLCJkb2N1bWVudEhhc2giOiI3Mjg1ZTc0OTUxYWNjNGNmYWYyZWRlMjQyMGNiZTgxOWFlOTgzZDIyNjcwNDFjOTU1NTQyMTE4MjM1M2M0ZGVlIiwiaGFzaEFsZ29yaXRobSI6IlNIQS0yNTYiLCJ2Y0lkIjoiNWFkYTY4OTBlOWNmYWI4NCJ9fSwic3ViIjoiZGlkOmV0aHI6NDMyMToweDgxYzBFOTMyZEMwQUVEODMzZkFkMEVjMkU5MjRmZDk3MmQ4NmVEOEUiLCJuYmYiOjE3ODg5NjA0NTMsImp0aSI6IjVhZGE2ODkwZTljZmFiODQiLCJpc3MiOiJkaWQ6ZXRocjo0MzIxOjB4QjAwNzIxQzE0MDY3OTg0YWYwZDNCMzQwQWMwQ0QxMDM0Y0Q3OGY4ZiJ9.WrT1DTHq0fTsZJQtY4wmSb0upfxNB-xIeG6RDwHADn5_3HjrrsixU1jX8H1edP81hImEL7GY2z7OrkimkSGeTgA"
+              ]
+            }
+          },
+          "error": "invalid_argument: invalid_jwt: Error: invalid_argument: Incorrect format JWS",
+          "isSelectiveDisclosure": false
+        },
+        "vcs": [
+          {
+            "isValid": true,
+            "onChainValid": true,
+            "error": null,
+            "payload": {
+              "vc": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1"
+                ],
+                "type": [
+                  "VerifiableCredential",
+                  "AcademicDegreeCredential",
+                  "RoleCredential"
+                ],
+                "credentialSubject": {
+                  "degreeName": "Official Academic Degree Certificate",
+                  "major": "Computer Science & Artificial Intelligence",
+                  "gpa": "3.95 / 4.0",
+                  "graduationYear": "2026",
+                  "institutionName": "MIT Institute of Technology",
+                  "role": "Verified Graduate / Alumni",
+                  "studentId": "STU-2026-8842",
+                  "documentHash": "7285e74951acc4cfaf2ede2420cbe819ae983d2267041c9555421182353c4dee",
+                  "hashAlgorithm": "SHA-256",
+                  "vcId": "5ada6890e9cfab84"
+                }
+              },
+              "sub": "did:ethr:4321:0x81c0E932dC0AED833fAd0Ec2E924fd972d86eD8E",
+              "nbf": 1788960453,
+              "jti": "5ada6890e9cfab84",
+              "iss": "did:ethr:4321:0xB00721C14067984af0d3B340Ac0CD1034cD78f8f"
+            },
+            "jwt": "eyJhbGciOiJFUzI1NkstUiIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIiwiUm9sZUNyZWRlbnRpYWwiXSwiY3JlZGVudGlhbFN1YmplY3QiOnsiZGVncmVlTmFtZSI6Ik9mZmljaWFsIEFjYWRlbWljIERlZ3JlZSBDZXJ0aWZpY2F0ZSIsIm1ham9yIjoiQ29tcHV0ZXIgU2NpZW5jZSAmIEFydGlmaWNpYWwgSW50ZWxsaWdlbmNlIiwiZ3BhIjoiMy45NSAvIDQuMCIsImdyYWR1YXRpb25ZZWFyIjoiMjAyNiIsImluc3RpdHV0aW9uTmFtZSI6Ik1JVCBJbnN0aXR1dGUgb2YgVGVjaG5vbG9neSIsInJvbGUiOiJWZXJpZmllZCBHcmFkdWF0ZSAvIEFsdW1uaSIsInN0dWRlbnRJZCI6IlNUVS0yMDI2LTg4NDIiLCJkb2N1bWVudEhhc2giOiI3Mjg1ZTc0OTUxYWNjNGNmYWYyZWRlMjQyMGNiZTgxOWFlOTgzZDIyNjcwNDFjOTU1NTQyMTE4MjM1M2M0ZGVlIiwiaGFzaEFsZ29yaXRobSI6IlNIQS0yNTYiLCJ2Y0lkIjoiNWFkYTY4OTBlOWNmYWI4NCJ9fSwic3ViIjoiZGlkOmV0aHI6NDMyMToweDgxYzBFOTMyZEMwQUVEODMzZkFkMEVjMkU5MjRmZDk3MmQ4NmVEOEUiLCJuYmYiOjE3ODg5NjA0NTMsImp0aSI6IjVhZGE2ODkwZTljZmFiODQiLCJpc3MiOiJkaWQ6ZXRocjo0MzIxOjB4QjAwNzIxQzE0MDY3OTg0YWYwZDNCMzQwQWMwQ0QxMDM0Y0Q3OGY4ZiJ9.WrT1DTHq0fTsZJQtY4wmSb0upfxNB-xIeG6RDwHADn5_3HjrrsixU1jX8H1edP81hImEL7GY2z7OrkimkSGeTgA",
+            "isSelectiveDisclosure": false,
+            "disclosedClaims": {},
+            "redactedClaims": []
+          }
+        ],
+        "isSelectiveDisclosure": false
+      },
+      "submitted_at": "2026-09-09T13:29:45.244Z",
+      "verified_at": "2026-09-10T16:52:12.876Z"
+    },
+    {
+      "id": "sub_6c79f4ab34de",
+      "campaign_id": "camp_e6d684b962dc",
+      "candidate_name": "Diya Niar",
+      "candidate_email": "diya.niar@mit.edu",
+      "vp_jwt": "eyJhbGciOiJFUzI1NksifQ.eyJpc3MiOiJkaWQ6ZXRocjo0MzIxOjB4NjU4OWNhMGExRTkzODNGQTU1MzgyQkE4Y2YyM0ExNjYxQURmMzQ1YiIsInZwIjp7InZlcmlmaWFibGVDcmVkZW50aWFsIjpbImV5SmhiR2NpT2lKRlV6STFOa3N0VWlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKMll5STZleUpBWTI5dWRHVjRkQ0k2V3lKb2RIUndjem92TDNkM2R5NTNNeTV2Y21jdk1qQXhPQzlqY21Wa1pXNTBhV0ZzY3k5Mk1TSmRMQ0owZVhCbElqcGJJbFpsY21sbWFXRmliR1ZEY21Wa1pXNTBhV0ZzSWl3aVFXTmhaR1Z0YVdORVpXZHlaV1ZEY21Wa1pXNTBhV0ZzSWl3aVFtOTFibVJJYjJ4a1pYSkRjbVZrWlc1MGFXRnNJbDBzSW1OeVpXUmxiblJwWVd4VGRXSnFaV04wSWpwN0ltUmxaM0psWlU1aGJXVWlPaUpDWVdOb1pXeHZjaUJ2WmlCVFkybGxibU5sSWl3aWJXRnFiM0lpT2lKSmJtWnZjbTFoZEdsdmJpQlVaV05vYm05c2IyZDVJaXdpWjNCaElqb2lNeTQzT1NBdklEUXVNQ0lzSW1keVlXUjFZWFJwYjI1WlpXRnlJam9pTWpBeU5pSXNJbk4wZFdSbGJuUk9ZVzFsSWpvaVJHbDVZU0JPWVdseUlpd2ljM1IxWkdWdWRFVnRZV2xzSWpvaVpHbDVZUzV1WVdseVFHMXBkQzVsWkhVaUxDSnliMnhzVG5WdFltVnlJam9pTWpBeU5pMURVeTB3TURnaUxDSnBibk4wYVhSMWRHbHZiazVoYldVaU9pSk5TVlFnU1c1emRHbDBkWFJsSUc5bUlGUmxZMmh1YjJ4dloza2lMQ0oyWTBsa0lqb2lkbU5mWkRjeVptUTJNR0k1WVRrMU1qQXpOU0o5ZlN3aWMzVmlJam9pWkdsa09tVjBhSEk2TkRNeU1Ub3dlRFkxT0RsallUQmhNVVU1TXpnelJrRTFOVE00TWtKQk9HTm1Nak5CTVRZMk1VRkVaak0wTldJaUxDSnVZbVlpT2pFM09EZzROems1T1RNc0ltcDBhU0k2SW5aalgyUTNNbVprTmpCaU9XRTVOVEl3TXpVaUxDSnBjM01pT2lKa2FXUTZaWFJvY2pvME16SXhPakI0UWpBd056SXhRekUwTURZM09UZzBZV1l3WkROQ016UXdRV013UTBReE1ETTBZMFEzT0dZNFppSjkuQlRzR3NvOVRyRUZoSXIxa1lNTkctMVRid01tUkxrLTFGdjd0S3Z4OTNkNS1sY090eFdLcnVJNmdXdENVSHBmMGRlblIyUFVMclR6VE41Q2xaUkNMRGdBIl19fQ==.holder_campaign_vp",
+      "status": "INVALID_OR_REVOKED",
+      "verification_details": {
+        "vp": {
+          "isValid": true,
+          "payload": {
+            "iss": "did:ethr:4321:0x6589ca0a1E9383FA55382BA8cf23A1661ADf345b",
+            "vp": {
+              "verifiableCredential": [
+                "eyJhbGciOiJFUzI1NkstUiIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIiwiQm91bmRIb2xkZXJDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZU5hbWUiOiJCYWNoZWxvciBvZiBTY2llbmNlIiwibWFqb3IiOiJJbmZvcm1hdGlvbiBUZWNobm9sb2d5IiwiZ3BhIjoiMy43OSAvIDQuMCIsImdyYWR1YXRpb25ZZWFyIjoiMjAyNiIsInN0dWRlbnROYW1lIjoiRGl5YSBOYWlyIiwic3R1ZGVudEVtYWlsIjoiZGl5YS5uYWlyQG1pdC5lZHUiLCJyb2xsTnVtYmVyIjoiMjAyNi1DUy0wMDgiLCJpbnN0aXR1dGlvbk5hbWUiOiJNSVQgSW5zdGl0dXRlIG9mIFRlY2hub2xvZ3kiLCJ2Y0lkIjoidmNfZDcyZmQ2MGI5YTk1MjAzNSJ9fSwic3ViIjoiZGlkOmV0aHI6NDMyMToweDY1ODljYTBhMUU5MzgzRkE1NTM4MkJBOGNmMjNBMTY2MUFEZjM0NWIiLCJuYmYiOjE3ODg4Nzk5OTMsImp0aSI6InZjX2Q3MmZkNjBiOWE5NTIwMzUiLCJpc3MiOiJkaWQ6ZXRocjo0MzIxOjB4QjAwNzIxQzE0MDY3OTg0YWYwZDNCMzQwQWMwQ0QxMDM0Y0Q3OGY4ZiJ9.BTsGso9TrEFhIr1kYMNG-1TbwMmRLk-1Fv7tKvx93d5-lcOtxWKruI6gWtCUHpf0denR2PULrTzTN5ClZRCLDgA"
+              ]
+            }
+          },
+          "error": "invalid_argument: invalid_jwt: Error: invalid_argument: Incorrect format JWS",
+          "isSelectiveDisclosure": false
+        },
+        "vcs": [
+          {
+            "isValid": false,
+            "onChainValid": false,
+            "error": "VC ID (vc_d72fd60b9a952035) is NOT registered or mined on-chain on VCRegistry contract.",
+            "payload": {
+              "vc": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1"
+                ],
+                "type": [
+                  "VerifiableCredential",
+                  "AcademicDegreeCredential",
+                  "BoundHolderCredential"
+                ],
+                "credentialSubject": {
+                  "degreeName": "Bachelor of Science",
+                  "major": "Information Technology",
+                  "gpa": "3.79 / 4.0",
+                  "graduationYear": "2026",
+                  "studentName": "Diya Nair",
+                  "studentEmail": "diya.nair@mit.edu",
+                  "rollNumber": "2026-CS-008",
+                  "institutionName": "MIT Institute of Technology",
+                  "vcId": "vc_d72fd60b9a952035"
+                }
+              },
+              "sub": "did:ethr:4321:0x6589ca0a1E9383FA55382BA8cf23A1661ADf345b",
+              "nbf": 1788879993,
+              "jti": "vc_d72fd60b9a952035",
+              "iss": "did:ethr:4321:0xB00721C14067984af0d3B340Ac0CD1034cD78f8f"
+            },
+            "jwt": "eyJhbGciOiJFUzI1NkstUiIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIiwiQm91bmRIb2xkZXJDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZU5hbWUiOiJCYWNoZWxvciBvZiBTY2llbmNlIiwibWFqb3IiOiJJbmZvcm1hdGlvbiBUZWNobm9sb2d5IiwiZ3BhIjoiMy43OSAvIDQuMCIsImdyYWR1YXRpb25ZZWFyIjoiMjAyNiIsInN0dWRlbnROYW1lIjoiRGl5YSBOYWlyIiwic3R1ZGVudEVtYWlsIjoiZGl5YS5uYWlyQG1pdC5lZHUiLCJyb2xsTnVtYmVyIjoiMjAyNi1DUy0wMDgiLCJpbnN0aXR1dGlvbk5hbWUiOiJNSVQgSW5zdGl0dXRlIG9mIFRlY2hub2xvZ3kiLCJ2Y0lkIjoidmNfZDcyZmQ2MGI5YTk1MjAzNSJ9fSwic3ViIjoiZGlkOmV0aHI6NDMyMToweDY1ODljYTBhMUU5MzgzRkE1NTM4MkJBOGNmMjNBMTY2MUFEZjM0NWIiLCJuYmYiOjE3ODg4Nzk5OTMsImp0aSI6InZjX2Q3MmZkNjBiOWE5NTIwMzUiLCJpc3MiOiJkaWQ6ZXRocjo0MzIxOjB4QjAwNzIxQzE0MDY3OTg0YWYwZDNCMzQwQWMwQ0QxMDM0Y0Q3OGY4ZiJ9.BTsGso9TrEFhIr1kYMNG-1TbwMmRLk-1Fv7tKvx93d5-lcOtxWKruI6gWtCUHpf0denR2PULrTzTN5ClZRCLDgA",
+            "isSelectiveDisclosure": false,
+            "disclosedClaims": {},
+            "redactedClaims": []
+          }
+        ],
+        "isSelectiveDisclosure": false
+      },
+      "submitted_at": "2026-09-08T15:07:45.925Z",
+      "verified_at": "2026-09-10T16:52:14.800Z"
+    },
+    {
+      "id": "sub_0ff8eeaed550",
+      "campaign_id": "camp_e6d684b962dc",
+      "candidate_name": "Rohan Verma ",
+      "candidate_email": "rohan.verma@mit.edu",
+      "vp_jwt": "eyJhbGciOiJFUzI1NksifQ.eyJpc3MiOiJkaWQ6ZXRocjo0MzIxOjB4OTBGOGJmNkE0NzlmMzIwZWFkMDc0NDExYTRCMGU3OTQ0RWE4YzlDMSIsInZwIjp7InZlcmlmaWFibGVDcmVkZW50aWFsIjpbImV5SmhiR2NpT2lKRlV6STFOa3N0VWlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKMll5STZleUpBWTI5dWRHVjRkQ0k2V3lKb2RIUndjem92TDNkM2R5NTNNeTV2Y21jdk1qQXhPQzlqY21Wa1pXNTBhV0ZzY3k5Mk1TSmRMQ0owZVhCbElqcGJJbFpsY21sbWFXRmliR1ZEY21Wa1pXNTBhV0ZzSWl3aVFXTmhaR1Z0YVdORVpXZHlaV1ZEY21Wa1pXNTBhV0ZzSWl3aVFtOTFibVJJYjJ4a1pYSkRjbVZrWlc1MGFXRnNJbDBzSW1OeVpXUmxiblJwWVd4VGRXSnFaV04wSWpwN0ltUmxaM0psWlU1aGJXVWlPaUpOWVhOMFpYSWdiMllnVTJOcFpXNWpaU0lzSW0xaGFtOXlJam9pUkdGMFlTQlRZMmxsYm1ObElDWWdUV0ZqYUdsdVpTQk1aV0Z5Ym1sdVp5SXNJbWR3WVNJNklqTXVPVElnTHlBMExqQWlMQ0puY21Ga2RXRjBhVzl1V1dWaGNpSTZJakl3TWpZaUxDSnpkSFZrWlc1MFRtRnRaU0k2SWxKdmFHRnVJRlpsY20xaElpd2ljM1IxWkdWdWRFVnRZV2xzSWpvaWNtOW9ZVzR1ZG1WeWJXRkFiV2wwTG1Wa2RTSXNJbkp2Ykd4T2RXMWlaWElpT2lJeU1ESTJMVU5UTFRBd015SXNJbWx1YzNScGRIVjBhVzl1VG1GdFpTSTZJazFKVkNCSmJuTjBhWFIxZEdVZ2IyWWdWR1ZqYUc1dmJHOW5lU0lzSW5aalNXUWlPaUoyWTE5a1pHUTBPVGhsWldZd05qRTFZVGcxSW4xOUxDSnpkV0lpT2lKa2FXUTZaWFJvY2pvME16SXhPakI0T1RCR09HSm1Oa0UwTnpsbU16SXdaV0ZrTURjME5ERXhZVFJDTUdVM09UUTBSV0U0WXpsRE1TSXNJbTVpWmlJNk1UYzRPRGczT1RRMk1Td2lhblJwSWpvaWRtTmZaR1JrTkRrNFpXVm1NRFl4TldFNE5TSXNJbWx6Y3lJNkltUnBaRHBsZEdoeU9qUXpNakU2TUhoQ01EQTNNakZETVRRd05qYzVPRFJoWmpCa00wSXpOREJCWXpCRFJERXdNelJqUkRjNFpqaG1JbjAuR2VvOHFwVzJXb0U5eDRmZjZhT1VfNHpKOVhBVi16TGE2RmVGeEFWUnJLY3VlN3VUUTZrTmNGaThTVFU4d2J1VTVRTENhR2J6MjFWaTNmN2lnY2gyUmdBIl19fQ==.holder_campaign_vp",
+      "status": "INVALID_OR_REVOKED",
+      "verification_details": {
+        "vp": {
+          "isValid": true,
+          "payload": {
+            "iss": "did:ethr:4321:0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1",
+            "vp": {
+              "verifiableCredential": [
+                "eyJhbGciOiJFUzI1NkstUiIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIiwiQm91bmRIb2xkZXJDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZU5hbWUiOiJNYXN0ZXIgb2YgU2NpZW5jZSIsIm1ham9yIjoiRGF0YSBTY2llbmNlICYgTWFjaGluZSBMZWFybmluZyIsImdwYSI6IjMuOTIgLyA0LjAiLCJncmFkdWF0aW9uWWVhciI6IjIwMjYiLCJzdHVkZW50TmFtZSI6IlJvaGFuIFZlcm1hIiwic3R1ZGVudEVtYWlsIjoicm9oYW4udmVybWFAbWl0LmVkdSIsInJvbGxOdW1iZXIiOiIyMDI2LUNTLTAwMyIsImluc3RpdHV0aW9uTmFtZSI6Ik1JVCBJbnN0aXR1dGUgb2YgVGVjaG5vbG9neSIsInZjSWQiOiJ2Y19kZGQ0OThlZWYwNjE1YTg1In19LCJzdWIiOiJkaWQ6ZXRocjo0MzIxOjB4OTBGOGJmNkE0NzlmMzIwZWFkMDc0NDExYTRCMGU3OTQ0RWE4YzlDMSIsIm5iZiI6MTc4ODg3OTQ2MSwianRpIjoidmNfZGRkNDk4ZWVmMDYxNWE4NSIsImlzcyI6ImRpZDpldGhyOjQzMjE6MHhCMDA3MjFDMTQwNjc5ODRhZjBkM0IzNDBBYzBDRDEwMzRjRDc4ZjhmIn0.Geo8qpW2WoE9x4ff6aOU_4zJ9XAV-zLa6FeFxAVRrKcue7uTQ6kNcFi8STU8wbuU5QLCaGbz21Vi3f7igch2RgA"
+              ]
+            }
+          },
+          "error": "invalid_argument: invalid_jwt: Error: invalid_argument: Incorrect format JWS",
+          "isSelectiveDisclosure": false
+        },
+        "vcs": [
+          {
+            "isValid": false,
+            "onChainValid": false,
+            "error": "VC ID (vc_ddd498eef0615a85) is NOT registered or mined on-chain on VCRegistry contract.",
+            "payload": {
+              "vc": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1"
+                ],
+                "type": [
+                  "VerifiableCredential",
+                  "AcademicDegreeCredential",
+                  "BoundHolderCredential"
+                ],
+                "credentialSubject": {
+                  "degreeName": "Master of Science",
+                  "major": "Data Science & Machine Learning",
+                  "gpa": "3.92 / 4.0",
+                  "graduationYear": "2026",
+                  "studentName": "Rohan Verma",
+                  "studentEmail": "rohan.verma@mit.edu",
+                  "rollNumber": "2026-CS-003",
+                  "institutionName": "MIT Institute of Technology",
+                  "vcId": "vc_ddd498eef0615a85"
+                }
+              },
+              "sub": "did:ethr:4321:0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1",
+              "nbf": 1788879461,
+              "jti": "vc_ddd498eef0615a85",
+              "iss": "did:ethr:4321:0xB00721C14067984af0d3B340Ac0CD1034cD78f8f"
+            },
+            "jwt": "eyJhbGciOiJFUzI1NkstUiIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIiwiQm91bmRIb2xkZXJDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZU5hbWUiOiJNYXN0ZXIgb2YgU2NpZW5jZSIsIm1ham9yIjoiRGF0YSBTY2llbmNlICYgTWFjaGluZSBMZWFybmluZyIsImdwYSI6IjMuOTIgLyA0LjAiLCJncmFkdWF0aW9uWWVhciI6IjIwMjYiLCJzdHVkZW50TmFtZSI6IlJvaGFuIFZlcm1hIiwic3R1ZGVudEVtYWlsIjoicm9oYW4udmVybWFAbWl0LmVkdSIsInJvbGxOdW1iZXIiOiIyMDI2LUNTLTAwMyIsImluc3RpdHV0aW9uTmFtZSI6Ik1JVCBJbnN0aXR1dGUgb2YgVGVjaG5vbG9neSIsInZjSWQiOiJ2Y19kZGQ0OThlZWYwNjE1YTg1In19LCJzdWIiOiJkaWQ6ZXRocjo0MzIxOjB4OTBGOGJmNkE0NzlmMzIwZWFkMDc0NDExYTRCMGU3OTQ0RWE4YzlDMSIsIm5iZiI6MTc4ODg3OTQ2MSwianRpIjoidmNfZGRkNDk4ZWVmMDYxNWE4NSIsImlzcyI6ImRpZDpldGhyOjQzMjE6MHhCMDA3MjFDMTQwNjc5ODRhZjBkM0IzNDBBYzBDRDEwMzRjRDc4ZjhmIn0.Geo8qpW2WoE9x4ff6aOU_4zJ9XAV-zLa6FeFxAVRrKcue7uTQ6kNcFi8STU8wbuU5QLCaGbz21Vi3f7igch2RgA",
+            "isSelectiveDisclosure": false,
+            "disclosedClaims": {},
+            "redactedClaims": []
+          }
+        ],
+        "isSelectiveDisclosure": false
+      },
+      "submitted_at": "2026-09-08T14:58:32.436Z",
+      "verified_at": "2026-09-10T16:52:13.052Z"
+    },
+    {
+      "id": "sub_a84af6ab6c19",
+      "campaign_id": "camp_e6d684b962dc",
+      "candidate_name": "Sneha Reddy",
+      "candidate_email": "sneha.reddy@mit.edu",
+      "vp_jwt": "eyJhbGciOiJFUzI1NksifQ.eyJpc3MiOiJkaWQ6ZXRocjo0MzIxOjB4OTBGOGJmNkE0NzlmMzIwZWFkMDc0NDExYTRCMGU3OTQ0RWE4YzlDMSIsInZwIjp7InZlcmlmaWFibGVDcmVkZW50aWFsIjpbImV5SmhiR2NpT2lKRlV6STFOa3N0VWlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKMll5STZleUpBWTI5dWRHVjRkQ0k2V3lKb2RIUndjem92TDNkM2R5NTNNeTV2Y21jdk1qQXhPQzlqY21Wa1pXNTBhV0ZzY3k5Mk1TSmRMQ0owZVhCbElqcGJJbFpsY21sbWFXRmliR1ZEY21Wa1pXNTBhV0ZzSWl3aVFXTmhaR1Z0YVdORVpXZHlaV1ZEY21Wa1pXNTBhV0ZzSWl3aVFtOTFibVJJYjJ4a1pYSkRjbVZrWlc1MGFXRnNJbDBzSW1OeVpXUmxiblJwWVd4VGRXSnFaV04wSWpwN0ltUmxaM0psWlU1aGJXVWlPaUpOWVhOMFpYSWdiMllnVkdWamFHNXZiRzluZVNJc0ltMWhhbTl5SWpvaVEyeHZkV1FnUTI5dGNIVjBhVzVuSUVGeVkyaHBkR1ZqZEhWeVpTSXNJbWR3WVNJNklqTXVPVGdnTHlBMExqQWlMQ0puY21Ga2RXRjBhVzl1V1dWaGNpSTZJakl3TWpZaUxDSnpkSFZrWlc1MFRtRnRaU0k2SWxOdVpXaGhJRkpsWkdSNUlpd2ljM1IxWkdWdWRFVnRZV2xzSWpvaWMyNWxhR0V1Y21Wa1pIbEFiV2wwTG1Wa2RTSXNJbkp2Ykd4T2RXMWlaWElpT2lJeU1ESTJMVU5UTFRBd05pSXNJbWx1YzNScGRIVjBhVzl1VG1GdFpTSTZJazFKVkNCSmJuTjBhWFIxZEdVZ2IyWWdWR1ZqYUc1dmJHOW5lU0lzSW5aalNXUWlPaUoyWTE4eFlUQXhaV1l3TnpabU0yTTJZMkUySW4xOUxDSnpkV0lpT2lKa2FXUTZaWFJvY2pvME16SXhPakI0T1RCR09HSm1Oa0UwTnpsbU16SXdaV0ZrTURjME5ERXhZVFJDTUdVM09UUTBSV0U0WXpsRE1TSXNJbTVpWmlJNk1UYzRPRGczT1RJd055d2lhblJwSWpvaWRtTmZNV0V3TVdWbU1EYzJaak5qTm1OaE5pSXNJbWx6Y3lJNkltUnBaRHBsZEdoeU9qUXpNakU2TUhoQ01EQTNNakZETVRRd05qYzVPRFJoWmpCa00wSXpOREJCWXpCRFJERXdNelJqUkRjNFpqaG1JbjAuZFU1Rm1GSkx2NnI5MW1BYWt6eTZZWEtRNWxOWlFaUjA3emFCWDh2eS1PQmNJRzFRNDJSVTQ4aUVOLVViTFNONFYwcUdlVnE4eXcxQ193Ym9qWGFzcFFFIl19fQ==.holder_campaign_vp",
+      "status": "INVALID_OR_REVOKED",
+      "verification_details": {
+        "vp": {
+          "isValid": true,
+          "payload": {
+            "iss": "did:ethr:4321:0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1",
+            "vp": {
+              "verifiableCredential": [
+                "eyJhbGciOiJFUzI1NkstUiIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIiwiQm91bmRIb2xkZXJDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZU5hbWUiOiJNYXN0ZXIgb2YgVGVjaG5vbG9neSIsIm1ham9yIjoiQ2xvdWQgQ29tcHV0aW5nIEFyY2hpdGVjdHVyZSIsImdwYSI6IjMuOTggLyA0LjAiLCJncmFkdWF0aW9uWWVhciI6IjIwMjYiLCJzdHVkZW50TmFtZSI6IlNuZWhhIFJlZGR5Iiwic3R1ZGVudEVtYWlsIjoic25laGEucmVkZHlAbWl0LmVkdSIsInJvbGxOdW1iZXIiOiIyMDI2LUNTLTAwNiIsImluc3RpdHV0aW9uTmFtZSI6Ik1JVCBJbnN0aXR1dGUgb2YgVGVjaG5vbG9neSIsInZjSWQiOiJ2Y18xYTAxZWYwNzZmM2M2Y2E2In19LCJzdWIiOiJkaWQ6ZXRocjo0MzIxOjB4OTBGOGJmNkE0NzlmMzIwZWFkMDc0NDExYTRCMGU3OTQ0RWE4YzlDMSIsIm5iZiI6MTc4ODg3OTIwNywianRpIjoidmNfMWEwMWVmMDc2ZjNjNmNhNiIsImlzcyI6ImRpZDpldGhyOjQzMjE6MHhCMDA3MjFDMTQwNjc5ODRhZjBkM0IzNDBBYzBDRDEwMzRjRDc4ZjhmIn0.dU5FmFJLv6r91mAakzy6YXKQ5lNZQZR07zaBX8vy-OBcIG1Q42RU48iEN-UbLSN4V0qGeVq8yw1C_wbojXaspQE"
+              ]
+            }
+          },
+          "error": "invalid_argument: invalid_jwt: Error: invalid_argument: Incorrect format JWS",
+          "isSelectiveDisclosure": false
+        },
+        "vcs": [
+          {
+            "isValid": false,
+            "onChainValid": false,
+            "error": "VC ID (vc_1a01ef076f3c6ca6) is NOT registered or mined on-chain on VCRegistry contract.",
+            "payload": {
+              "vc": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1"
+                ],
+                "type": [
+                  "VerifiableCredential",
+                  "AcademicDegreeCredential",
+                  "BoundHolderCredential"
+                ],
+                "credentialSubject": {
+                  "degreeName": "Master of Technology",
+                  "major": "Cloud Computing Architecture",
+                  "gpa": "3.98 / 4.0",
+                  "graduationYear": "2026",
+                  "studentName": "Sneha Reddy",
+                  "studentEmail": "sneha.reddy@mit.edu",
+                  "rollNumber": "2026-CS-006",
+                  "institutionName": "MIT Institute of Technology",
+                  "vcId": "vc_1a01ef076f3c6ca6"
+                }
+              },
+              "sub": "did:ethr:4321:0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1",
+              "nbf": 1788879207,
+              "jti": "vc_1a01ef076f3c6ca6",
+              "iss": "did:ethr:4321:0xB00721C14067984af0d3B340Ac0CD1034cD78f8f"
+            },
+            "jwt": "eyJhbGciOiJFUzI1NkstUiIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIiwiQm91bmRIb2xkZXJDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZU5hbWUiOiJNYXN0ZXIgb2YgVGVjaG5vbG9neSIsIm1ham9yIjoiQ2xvdWQgQ29tcHV0aW5nIEFyY2hpdGVjdHVyZSIsImdwYSI6IjMuOTggLyA0LjAiLCJncmFkdWF0aW9uWWVhciI6IjIwMjYiLCJzdHVkZW50TmFtZSI6IlNuZWhhIFJlZGR5Iiwic3R1ZGVudEVtYWlsIjoic25laGEucmVkZHlAbWl0LmVkdSIsInJvbGxOdW1iZXIiOiIyMDI2LUNTLTAwNiIsImluc3RpdHV0aW9uTmFtZSI6Ik1JVCBJbnN0aXR1dGUgb2YgVGVjaG5vbG9neSIsInZjSWQiOiJ2Y18xYTAxZWYwNzZmM2M2Y2E2In19LCJzdWIiOiJkaWQ6ZXRocjo0MzIxOjB4OTBGOGJmNkE0NzlmMzIwZWFkMDc0NDExYTRCMGU3OTQ0RWE4YzlDMSIsIm5iZiI6MTc4ODg3OTIwNywianRpIjoidmNfMWEwMWVmMDc2ZjNjNmNhNiIsImlzcyI6ImRpZDpldGhyOjQzMjE6MHhCMDA3MjFDMTQwNjc5ODRhZjBkM0IzNDBBYzBDRDEwMzRjRDc4ZjhmIn0.dU5FmFJLv6r91mAakzy6YXKQ5lNZQZR07zaBX8vy-OBcIG1Q42RU48iEN-UbLSN4V0qGeVq8yw1C_wbojXaspQE",
+            "isSelectiveDisclosure": false,
+            "disclosedClaims": {},
+            "redactedClaims": []
+          }
+        ],
+        "isSelectiveDisclosure": false
+      },
+      "submitted_at": "2026-09-08T14:55:40.611Z",
+      "verified_at": "2026-09-10T16:52:13.128Z"
+    },
+    {
+      "id": "sub_dbf0696a075c",
+      "campaign_id": "camp_e6d684b962dc",
+      "candidate_name": "Kabir Das",
+      "candidate_email": "kabir.das@mit.edu",
+      "vp_jwt": "eyJhbGciOiJFUzI1NksifQ.eyJpc3MiOiJkaWQ6ZXRocjo0MzIxOjB4OTBGOGJmNkE0NzlmMzIwZWFkMDc0NDExYTRCMGU3OTQ0RWE4YzlDMSIsInZwIjp7InZlcmlmaWFibGVDcmVkZW50aWFsIjpbImV5SmhiR2NpT2lKRlV6STFOa3N0VWlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKMll5STZleUpBWTI5dWRHVjRkQ0k2V3lKb2RIUndjem92TDNkM2R5NTNNeTV2Y21jdk1qQXhPQzlqY21Wa1pXNTBhV0ZzY3k5Mk1TSmRMQ0owZVhCbElqcGJJbFpsY21sbWFXRmliR1ZEY21Wa1pXNTBhV0ZzSWl3aVFXTmhaR1Z0YVdORVpXZHlaV1ZEY21Wa1pXNTBhV0ZzSWl3aVFtOTFibVJJYjJ4a1pYSkRjbVZrWlc1MGFXRnNJbDBzSW1OeVpXUmxiblJwWVd4VGRXSnFaV04wSWpwN0ltUmxaM0psWlU1aGJXVWlPaUpDWVdOb1pXeHZjaUJ2WmlCVVpXTm9ibTlzYjJkNUlpd2liV0ZxYjNJaU9pSkJjblJwWm1samFXRnNJRWx1ZEdWc2JHbG5aVzVqWlNJc0ltZHdZU0k2SWpNdU9EVWdMeUEwTGpBaUxDSm5jbUZrZFdGMGFXOXVXV1ZoY2lJNklqSXdNallpTENKemRIVmtaVzUwVG1GdFpTSTZJa3RoWW1seUlFUmhjeUlzSW5OMGRXUmxiblJGYldGcGJDSTZJbXRoWW1seUxtUmhjMEJ0YVhRdVpXUjFJaXdpY205c2JFNTFiV0psY2lJNklqSXdNall0UTFNdE1EQTNJaXdpYVc1emRHbDBkWFJwYjI1T1lXMWxJam9pVFVsVUlFbHVjM1JwZEhWMFpTQnZaaUJVWldOb2JtOXNiMmQ1SWl3aWRtTkpaQ0k2SW5aalh6RTRaVGRpWVdSa01tVTRaamhoWkRRaWZYMHNJbk4xWWlJNkltUnBaRHBsZEdoeU9qUXpNakU2TUhnNU1FWTRZbVkyUVRRM09XWXpNakJsWVdRd056UTBNVEZoTkVJd1pUYzVORFJGWVRoak9VTXhJaXdpYm1KbUlqb3hOemc0T0RjNU1qRXpMQ0pxZEdraU9pSjJZMTh4T0dVM1ltRmtaREpsT0dZNFlXUTBJaXdpYVhOeklqb2laR2xrT21WMGFISTZORE15TVRvd2VFSXdNRGN5TVVNeE5EQTJOems0TkdGbU1HUXpRak0wTUVGak1FTkVNVEF6TkdORU56aG1PR1lpZlEuVU55VVFYaE1zSmVCZ0tVZnZ1V0dqdWtEaHJ0WDZ4OUp3MTBnSmtJYTJyQTl4LUl4UVJuMXVNNE1kMm5EWm1ySnoxZ0FZdXRKMC03aldmUFJKeGRKc3dBIl19fQ==.holder_campaign_vp",
+      "status": "VERIFIED_VALID",
+      "verification_details": {
+        "vp": {
+          "isValid": true,
+          "payload": {
+            "iss": "did:ethr:4321:0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1",
+            "vp": {
+              "verifiableCredential": [
+                "eyJhbGciOiJFUzI1NkstUiIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIiwiQm91bmRIb2xkZXJDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZU5hbWUiOiJCYWNoZWxvciBvZiBUZWNobm9sb2d5IiwibWFqb3IiOiJBcnRpZmljaWFsIEludGVsbGlnZW5jZSIsImdwYSI6IjMuODUgLyA0LjAiLCJncmFkdWF0aW9uWWVhciI6IjIwMjYiLCJzdHVkZW50TmFtZSI6IkthYmlyIERhcyIsInN0dWRlbnRFbWFpbCI6ImthYmlyLmRhc0BtaXQuZWR1Iiwicm9sbE51bWJlciI6IjIwMjYtQ1MtMDA3IiwiaW5zdGl0dXRpb25OYW1lIjoiTUlUIEluc3RpdHV0ZSBvZiBUZWNobm9sb2d5IiwidmNJZCI6InZjXzE4ZTdiYWRkMmU4ZjhhZDQifX0sInN1YiI6ImRpZDpldGhyOjQzMjE6MHg5MEY4YmY2QTQ3OWYzMjBlYWQwNzQ0MTFhNEIwZTc5NDRFYThjOUMxIiwibmJmIjoxNzg4ODc5MjEzLCJqdGkiOiJ2Y18xOGU3YmFkZDJlOGY4YWQ0IiwiaXNzIjoiZGlkOmV0aHI6NDMyMToweEIwMDcyMUMxNDA2Nzk4NGFmMGQzQjM0MEFjMENEMTAzNGNENzhmOGYifQ.UNyUQXhMsJeBgKUfvuWGjukDhrtX6x9Jw10gJkIa2rA9x-IxQRn1uM4Md2nDZmrJz1gAYutJ0-7jWfPRJxdJswA"
+              ]
+            }
+          },
+          "error": "invalid_argument: invalid_jwt: Error: invalid_argument: Incorrect format JWS",
+          "isSelectiveDisclosure": false
+        },
+        "vcs": [
+          {
+            "isValid": true,
+            "onChainValid": true,
+            "error": null,
+            "payload": {
+              "vc": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1"
+                ],
+                "type": [
+                  "VerifiableCredential",
+                  "AcademicDegreeCredential",
+                  "BoundHolderCredential"
+                ],
+                "credentialSubject": {
+                  "degreeName": "Bachelor of Technology",
+                  "major": "Artificial Intelligence",
+                  "gpa": "3.85 / 4.0",
+                  "graduationYear": "2026",
+                  "studentName": "Kabir Das",
+                  "studentEmail": "kabir.das@mit.edu",
+                  "rollNumber": "2026-CS-007",
+                  "institutionName": "MIT Institute of Technology",
+                  "vcId": "vc_18e7badd2e8f8ad4"
+                }
+              },
+              "sub": "did:ethr:4321:0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1",
+              "nbf": 1788879213,
+              "jti": "vc_18e7badd2e8f8ad4",
+              "iss": "did:ethr:4321:0xB00721C14067984af0d3B340Ac0CD1034cD78f8f"
+            },
+            "jwt": "eyJhbGciOiJFUzI1NkstUiIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIiwiQm91bmRIb2xkZXJDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZU5hbWUiOiJCYWNoZWxvciBvZiBUZWNobm9sb2d5IiwibWFqb3IiOiJBcnRpZmljaWFsIEludGVsbGlnZW5jZSIsImdwYSI6IjMuODUgLyA0LjAiLCJncmFkdWF0aW9uWWVhciI6IjIwMjYiLCJzdHVkZW50TmFtZSI6IkthYmlyIERhcyIsInN0dWRlbnRFbWFpbCI6ImthYmlyLmRhc0BtaXQuZWR1Iiwicm9sbE51bWJlciI6IjIwMjYtQ1MtMDA3IiwiaW5zdGl0dXRpb25OYW1lIjoiTUlUIEluc3RpdHV0ZSBvZiBUZWNobm9sb2d5IiwidmNJZCI6InZjXzE4ZTdiYWRkMmU4ZjhhZDQifX0sInN1YiI6ImRpZDpldGhyOjQzMjE6MHg5MEY4YmY2QTQ3OWYzMjBlYWQwNzQ0MTFhNEIwZTc5NDRFYThjOUMxIiwibmJmIjoxNzg4ODc5MjEzLCJqdGkiOiJ2Y18xOGU3YmFkZDJlOGY4YWQ0IiwiaXNzIjoiZGlkOmV0aHI6NDMyMToweEIwMDcyMUMxNDA2Nzk4NGFmMGQzQjM0MEFjMENEMTAzNGNENzhmOGYifQ.UNyUQXhMsJeBgKUfvuWGjukDhrtX6x9Jw10gJkIa2rA9x-IxQRn1uM4Md2nDZmrJz1gAYutJ0-7jWfPRJxdJswA",
+            "isSelectiveDisclosure": false,
+            "disclosedClaims": {},
+            "redactedClaims": []
+          }
+        ],
+        "isSelectiveDisclosure": false
+      },
+      "submitted_at": "2026-09-08T14:55:06.618Z",
+      "verified_at": "2026-09-10T16:52:13.207Z"
+    },
+    {
+      "id": "sub_2b3c7e5b4446",
+      "campaign_id": "camp_e6d684b962dc",
+      "candidate_name": "Aarav Sharma",
+      "candidate_email": "aarav.sharma@mit.edu",
+      "vp_jwt": "eyJhbGciOiJFUzI1NksifQ.eyJpc3MiOiJkaWQ6ZXRocjo0MzIxOjB4Q2FuZGlkYXRlSG9sZGVyS2V5OTk5IiwidnAiOnsidmVyaWZpYWJsZUNyZWRlbnRpYWwiOlsiZXlKaGJHY2lPaUpGVXpJMU5rc3RVaUlzSW5SNWNDSTZJa3BYVkNKOS5leUoyWXlJNmV5SkFZMjl1ZEdWNGRDSTZXeUpvZEhSd2N6b3ZMM2QzZHk1M015NXZjbWN2TWpBeE9DOWpjbVZrWlc1MGFXRnNjeTkyTVNKZExDSjBlWEJsSWpwYklsWmxjbWxtYVdGaWJHVkRjbVZrWlc1MGFXRnNJaXdpUVdOaFpHVnRhV05FWldkeVpXVkRjbVZrWlc1MGFXRnNJaXdpUW05MWJtUkliMnhrWlhKRGNtVmtaVzUwYVdGc0lsMHNJbU55WldSbGJuUnBZV3hUZFdKcVpXTjBJanA3SW1SbFozSmxaVTVoYldVaU9pSkNZV05vWld4dmNpQnZaaUJUWTJsbGJtTmxJaXdpYldGcWIzSWlPaUpEYjIxd2RYUmxjaUJUWTJsbGJtTmxJQ1lnUVVraUxDSm5jR0VpT2lJekxqazFJQzhnTkM0d0lpd2laM0poWkhWaGRHbHZibGxsWVhJaU9pSXlNREkySWl3aWMzUjFaR1Z1ZEU1aGJXVWlPaUpCWVhKaGRpQlRhR0Z5YldFaUxDSnpkSFZrWlc1MFJXMWhhV3dpT2lKaFlYSmhkaTV6YUdGeWJXRkFiV2wwTG1Wa2RTSXNJbkp2Ykd4T2RXMWlaWElpT2lJeU1ESTJMVU5UTFRBd01TSXNJbWx1YzNScGRIVjBhVzl1VG1GdFpTSTZJazFKVkNCSmJuTjBhWFIxZEdVZ2IyWWdWR1ZqYUc1dmJHOW5lU0lzSW5aalNXUWlPaUoyWTE4Mk5ETmpNemc0WTJWbU9EZGhZbUptSW4xOUxDSnpkV0lpT2lKa2FXUTZaWFJvY2pvME16SXhPakI0UTJGdVpHbGtZWFJsU0c5c1pHVnlTMlY1T1RrNUlpd2libUptSWpveE56ZzRPRGM0T1RJMExDSnFkR2tpT2lKMlkxODJORE5qTXpnNFkyVm1PRGRoWW1KbUlpd2lhWE56SWpvaVpHbGtPbVYwYUhJNk5ETXlNVG93ZUVJd01EY3lNVU14TkRBMk56azROR0ZtTUdRelFqTTBNRUZqTUVORU1UQXpOR05FTnpobU9HWWlmUS52dm11bzZnRmd6MEVodUlUYTRWMHBwV3ZCZFV6elU1Vktwd0dJUGpvT0pwWjdBcmZiZ2pESDV1SkUzaUF3Z2JzbFdnS3RGWU85bzc4VjJqNF9EUXlyUUEiXX19.candidate_signed_vp",
+      "status": "VERIFIED_VALID",
+      "verification_details": {
+        "vp": {
+          "isValid": true,
+          "payload": {
+            "iss": "did:ethr:4321:0xCandidateHolderKey999",
+            "vp": {
+              "verifiableCredential": [
+                "eyJhbGciOiJFUzI1NkstUiIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIiwiQm91bmRIb2xkZXJDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZU5hbWUiOiJCYWNoZWxvciBvZiBTY2llbmNlIiwibWFqb3IiOiJDb21wdXRlciBTY2llbmNlICYgQUkiLCJncGEiOiIzLjk1IC8gNC4wIiwiZ3JhZHVhdGlvblllYXIiOiIyMDI2Iiwic3R1ZGVudE5hbWUiOiJBYXJhdiBTaGFybWEiLCJzdHVkZW50RW1haWwiOiJhYXJhdi5zaGFybWFAbWl0LmVkdSIsInJvbGxOdW1iZXIiOiIyMDI2LUNTLTAwMSIsImluc3RpdHV0aW9uTmFtZSI6Ik1JVCBJbnN0aXR1dGUgb2YgVGVjaG5vbG9neSIsInZjSWQiOiJ2Y182NDNjMzg4Y2VmODdhYmJmIn19LCJzdWIiOiJkaWQ6ZXRocjo0MzIxOjB4Q2FuZGlkYXRlSG9sZGVyS2V5OTk5IiwibmJmIjoxNzg4ODc4OTI0LCJqdGkiOiJ2Y182NDNjMzg4Y2VmODdhYmJmIiwiaXNzIjoiZGlkOmV0aHI6NDMyMToweEIwMDcyMUMxNDA2Nzk4NGFmMGQzQjM0MEFjMENEMTAzNGNENzhmOGYifQ.vvmuo6gFgz0EhuITa4V0ppWvBdUzzU5VKpwGIPjoOJpZ7ArfbgjDH5uJE3iAwgbslWgKtFYO9o78V2j4_DQyrQA"
+              ]
+            }
+          },
+          "error": "resolver_error: Unable to resolve DID document for did:ethr:4321:0xCandidateHolderKey999: invalidDid, Not a valid did:ethr: 4321:0xCandidateHolderKey999",
+          "isSelectiveDisclosure": false
+        },
+        "vcs": [
+          {
+            "isValid": true,
+            "onChainValid": true,
+            "error": null,
+            "payload": {
+              "vc": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1"
+                ],
+                "type": [
+                  "VerifiableCredential",
+                  "AcademicDegreeCredential",
+                  "BoundHolderCredential"
+                ],
+                "credentialSubject": {
+                  "degreeName": "Bachelor of Science",
+                  "major": "Computer Science & AI",
+                  "gpa": "3.95 / 4.0",
+                  "graduationYear": "2026",
+                  "studentName": "Aarav Sharma",
+                  "studentEmail": "aarav.sharma@mit.edu",
+                  "rollNumber": "2026-CS-001",
+                  "institutionName": "MIT Institute of Technology",
+                  "vcId": "vc_643c388cef87abbf"
+                }
+              },
+              "sub": "did:ethr:4321:0xCandidateHolderKey999",
+              "nbf": 1788878924,
+              "jti": "vc_643c388cef87abbf",
+              "iss": "did:ethr:4321:0xB00721C14067984af0d3B340Ac0CD1034cD78f8f"
+            },
+            "jwt": "eyJhbGciOiJFUzI1NkstUiIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIiwiQm91bmRIb2xkZXJDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZU5hbWUiOiJCYWNoZWxvciBvZiBTY2llbmNlIiwibWFqb3IiOiJDb21wdXRlciBTY2llbmNlICYgQUkiLCJncGEiOiIzLjk1IC8gNC4wIiwiZ3JhZHVhdGlvblllYXIiOiIyMDI2Iiwic3R1ZGVudE5hbWUiOiJBYXJhdiBTaGFybWEiLCJzdHVkZW50RW1haWwiOiJhYXJhdi5zaGFybWFAbWl0LmVkdSIsInJvbGxOdW1iZXIiOiIyMDI2LUNTLTAwMSIsImluc3RpdHV0aW9uTmFtZSI6Ik1JVCBJbnN0aXR1dGUgb2YgVGVjaG5vbG9neSIsInZjSWQiOiJ2Y182NDNjMzg4Y2VmODdhYmJmIn19LCJzdWIiOiJkaWQ6ZXRocjo0MzIxOjB4Q2FuZGlkYXRlSG9sZGVyS2V5OTk5IiwibmJmIjoxNzg4ODc4OTI0LCJqdGkiOiJ2Y182NDNjMzg4Y2VmODdhYmJmIiwiaXNzIjoiZGlkOmV0aHI6NDMyMToweEIwMDcyMUMxNDA2Nzk4NGFmMGQzQjM0MEFjMENEMTAzNGNENzhmOGYifQ.vvmuo6gFgz0EhuITa4V0ppWvBdUzzU5VKpwGIPjoOJpZ7ArfbgjDH5uJE3iAwgbslWgKtFYO9o78V2j4_DQyrQA",
+            "isSelectiveDisclosure": false,
+            "disclosedClaims": {},
+            "redactedClaims": []
+          }
+        ],
+        "isSelectiveDisclosure": false
+      },
+      "submitted_at": "2026-09-08T14:48:44.642Z",
+      "verified_at": "2026-09-10T16:52:13.286Z"
+    },
+    {
+      "id": "sub_23754f1d83f6",
+      "campaign_id": "camp_11c9f9fc84f1",
+      "candidate_name": "Aarav Sharma",
+      "candidate_email": "aarav.sharma@mit.edu",
+      "vp_jwt": "eyJhbGciOiJFUzI1NksifQ.eyJpc3MiOiJkaWQ6ZXRocjo0MzIxOjB4Q2FuZGlkYXRlSG9sZGVyS2V5OTk5IiwidnAiOnsidmVyaWZpYWJsZUNyZWRlbnRpYWwiOlsiZXlKaGJHY2lPaUpGVXpJMU5rc3RVaUlzSW5SNWNDSTZJa3BYVkNKOS5leUoyWXlJNmV5SkFZMjl1ZEdWNGRDSTZXeUpvZEhSd2N6b3ZMM2QzZHk1M015NXZjbWN2TWpBeE9DOWpjbVZrWlc1MGFXRnNjeTkyTVNKZExDSjBlWEJsSWpwYklsWmxjbWxtYVdGaWJHVkRjbVZrWlc1MGFXRnNJaXdpUVdOaFpHVnRhV05FWldkeVpXVkRjbVZrWlc1MGFXRnNJaXdpUW05MWJtUkliMnhrWlhKRGNtVmtaVzUwYVdGc0lsMHNJbU55WldSbGJuUnBZV3hUZFdKcVpXTjBJanA3SW1SbFozSmxaVTVoYldVaU9pSkNZV05vWld4dmNpQnZaaUJUWTJsbGJtTmxJaXdpYldGcWIzSWlPaUpEYjIxd2RYUmxjaUJUWTJsbGJtTmxJQ1lnUVVraUxDSm5jR0VpT2lJekxqazFJQzhnTkM0d0lpd2laM0poWkhWaGRHbHZibGxsWVhJaU9pSXlNREkySWl3aWMzUjFaR1Z1ZEU1aGJXVWlPaUpCWVhKaGRpQlRhR0Z5YldFaUxDSnpkSFZrWlc1MFJXMWhhV3dpT2lKaFlYSmhkaTV6YUdGeWJXRkFiV2wwTG1Wa2RTSXNJbkp2Ykd4T2RXMWlaWElpT2lJeU1ESTJMVU5UTFRBd01TSXNJbWx1YzNScGRIVjBhVzl1VG1GdFpTSTZJazFKVkNCSmJuTjBhWFIxZEdVZ2IyWWdWR1ZqYUc1dmJHOW5lU0lzSW5aalNXUWlPaUoyWTE4eU9HWm1NbUpqTlRabFlqZ3pZamhsSW4xOUxDSnpkV0lpT2lKa2FXUTZaWFJvY2pvME16SXhPakI0UTJGdVpHbGtZWFJsU0c5c1pHVnlTMlY1T1RrNUlpd2libUptSWpveE56ZzRPRGM0T1RBMUxDSnFkR2tpT2lKMlkxOHlPR1ptTW1Kak5UWmxZamd6WWpobElpd2lhWE56SWpvaVpHbGtPbVYwYUhJNk5ETXlNVG93ZUVJd01EY3lNVU14TkRBMk56azROR0ZtTUdRelFqTTBNRUZqTUVORU1UQXpOR05FTnpobU9HWWlmUS5CdVVtaG1aQ2lpTDJDY3ZfZXJUdVF4cnJGYzgzT3pEOXBCSDhfMWpsUjU1ZXhPei1Ta2FKUzZZQWM1WHd0ZHBCaXVRVDlVbVI4eXIyX3pCRi1JaGlkZ0EiXX19.candidate_signed_vp",
+      "status": "INVALID_OR_REVOKED",
+      "verification_details": {
+        "vp": {
+          "isValid": true,
+          "payload": {
+            "iss": "did:ethr:4321:0xCandidateHolderKey999",
+            "vp": {
+              "verifiableCredential": [
+                "eyJhbGciOiJFUzI1NkstUiIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIiwiQm91bmRIb2xkZXJDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZU5hbWUiOiJCYWNoZWxvciBvZiBTY2llbmNlIiwibWFqb3IiOiJDb21wdXRlciBTY2llbmNlICYgQUkiLCJncGEiOiIzLjk1IC8gNC4wIiwiZ3JhZHVhdGlvblllYXIiOiIyMDI2Iiwic3R1ZGVudE5hbWUiOiJBYXJhdiBTaGFybWEiLCJzdHVkZW50RW1haWwiOiJhYXJhdi5zaGFybWFAbWl0LmVkdSIsInJvbGxOdW1iZXIiOiIyMDI2LUNTLTAwMSIsImluc3RpdHV0aW9uTmFtZSI6Ik1JVCBJbnN0aXR1dGUgb2YgVGVjaG5vbG9neSIsInZjSWQiOiJ2Y18yOGZmMmJjNTZlYjgzYjhlIn19LCJzdWIiOiJkaWQ6ZXRocjo0MzIxOjB4Q2FuZGlkYXRlSG9sZGVyS2V5OTk5IiwibmJmIjoxNzg4ODc4OTA1LCJqdGkiOiJ2Y18yOGZmMmJjNTZlYjgzYjhlIiwiaXNzIjoiZGlkOmV0aHI6NDMyMToweEIwMDcyMUMxNDA2Nzk4NGFmMGQzQjM0MEFjMENEMTAzNGNENzhmOGYifQ.BuUmhmZCiiL2Ccv_erTuQxrrFc83OzD9pBH8_1jlR55exOz-SkaJS6YAc5XwtdpBiuQT9UmR8yr2_zBF-IhidgA"
+              ]
+            }
+          },
+          "error": "resolver_error: Unable to resolve DID document for did:ethr:4321:0xCandidateHolderKey999: invalidDid, Not a valid did:ethr: 4321:0xCandidateHolderKey999"
+        },
+        "vcs": [
+          {
+            "isValid": false,
+            "onChainValid": false,
+            "error": "VC ID (vc_28ff2bc56eb83b8e) is NOT registered or mined on-chain on VCRegistry contract.",
+            "payload": {
+              "vc": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1"
+                ],
+                "type": [
+                  "VerifiableCredential",
+                  "AcademicDegreeCredential",
+                  "BoundHolderCredential"
+                ],
+                "credentialSubject": {
+                  "degreeName": "Bachelor of Science",
+                  "major": "Computer Science & AI",
+                  "gpa": "3.95 / 4.0",
+                  "graduationYear": "2026",
+                  "studentName": "Aarav Sharma",
+                  "studentEmail": "aarav.sharma@mit.edu",
+                  "rollNumber": "2026-CS-001",
+                  "institutionName": "MIT Institute of Technology",
+                  "vcId": "vc_28ff2bc56eb83b8e"
+                }
+              },
+              "sub": "did:ethr:4321:0xCandidateHolderKey999",
+              "nbf": 1788878905,
+              "jti": "vc_28ff2bc56eb83b8e",
+              "iss": "did:ethr:4321:0xB00721C14067984af0d3B340Ac0CD1034cD78f8f"
+            },
+            "jwt": "eyJhbGciOiJFUzI1NkstUiIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIiwiQm91bmRIb2xkZXJDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZU5hbWUiOiJCYWNoZWxvciBvZiBTY2llbmNlIiwibWFqb3IiOiJDb21wdXRlciBTY2llbmNlICYgQUkiLCJncGEiOiIzLjk1IC8gNC4wIiwiZ3JhZHVhdGlvblllYXIiOiIyMDI2Iiwic3R1ZGVudE5hbWUiOiJBYXJhdiBTaGFybWEiLCJzdHVkZW50RW1haWwiOiJhYXJhdi5zaGFybWFAbWl0LmVkdSIsInJvbGxOdW1iZXIiOiIyMDI2LUNTLTAwMSIsImluc3RpdHV0aW9uTmFtZSI6Ik1JVCBJbnN0aXR1dGUgb2YgVGVjaG5vbG9neSIsInZjSWQiOiJ2Y18yOGZmMmJjNTZlYjgzYjhlIn19LCJzdWIiOiJkaWQ6ZXRocjo0MzIxOjB4Q2FuZGlkYXRlSG9sZGVyS2V5OTk5IiwibmJmIjoxNzg4ODc4OTA1LCJqdGkiOiJ2Y18yOGZmMmJjNTZlYjgzYjhlIiwiaXNzIjoiZGlkOmV0aHI6NDMyMToweEIwMDcyMUMxNDA2Nzk4NGFmMGQzQjM0MEFjMENEMTAzNGNENzhmOGYifQ.BuUmhmZCiiL2Ccv_erTuQxrrFc83OzD9pBH8_1jlR55exOz-SkaJS6YAc5XwtdpBiuQT9UmR8yr2_zBF-IhidgA"
+          }
+        ]
+      },
+      "submitted_at": "2026-09-08T14:48:25.654Z",
+      "verified_at": "2026-09-08T14:48:25.882Z"
+    },
+    {
+      "id": "sub_75a2b1939ae6",
+      "campaign_id": "camp_cfcb91faf642",
+      "candidate_name": "Aarav Sharma",
+      "candidate_email": "aarav.sharma@mit.edu",
+      "vp_jwt": "eyJhbGciOiJFUzI1NksifQ.eyJpc3MiOiJkaWQ6ZXRocjo0MzIxOjB4Q2FuZGlkYXRlSG9sZGVyS2V5OTk5IiwidnAiOnsidmVyaWZpYWJsZUNyZWRlbnRpYWwiOlsiZXlKaGJHY2lPaUpGVXpJMU5rc3RVaUlzSW5SNWNDSTZJa3BYVkNKOS5leUoyWXlJNmV5SkFZMjl1ZEdWNGRDSTZXeUpvZEhSd2N6b3ZMM2QzZHk1M015NXZjbWN2TWpBeE9DOWpjbVZrWlc1MGFXRnNjeTkyTVNKZExDSjBlWEJsSWpwYklsWmxjbWxtYVdGaWJHVkRjbVZrWlc1MGFXRnNJaXdpUVdOaFpHVnRhV05FWldkeVpXVkRjbVZrWlc1MGFXRnNJaXdpUW05MWJtUkliMnhrWlhKRGNtVmtaVzUwYVdGc0lsMHNJbU55WldSbGJuUnBZV3hUZFdKcVpXTjBJanA3SW1SbFozSmxaVTVoYldVaU9pSkNZV05vWld4dmNpQnZaaUJUWTJsbGJtTmxJaXdpYldGcWIzSWlPaUpEYjIxd2RYUmxjaUJUWTJsbGJtTmxJQ1lnUVVraUxDSm5jR0VpT2lJekxqazFJQzhnTkM0d0lpd2laM0poWkhWaGRHbHZibGxsWVhJaU9pSXlNREkySWl3aWMzUjFaR1Z1ZEU1aGJXVWlPaUpCWVhKaGRpQlRhR0Z5YldFaUxDSnpkSFZrWlc1MFJXMWhhV3dpT2lKaFlYSmhkaTV6YUdGeWJXRkFiV2wwTG1Wa2RTSXNJbkp2Ykd4T2RXMWlaWElpT2lJeU1ESTJMVU5UTFRBd01TSXNJbWx1YzNScGRIVjBhVzl1VG1GdFpTSTZJazFKVkNCSmJuTjBhWFIxZEdVZ2IyWWdWR1ZqYUc1dmJHOW5lU0lzSW5aalNXUWlPaUoyWTE5bFl6ZGpabU0xTXpVMFpUVXdNemd5SW4xOUxDSnpkV0lpT2lKa2FXUTZaWFJvY2pvME16SXhPakI0UTJGdVpHbGtZWFJsU0c5c1pHVnlTMlY1T1RrNUlpd2libUptSWpveE56ZzRPRGM0T0RjMUxDSnFkR2tpT2lKMlkxOWxZemRqWm1NMU16VTBaVFV3TXpneUlpd2lhWE56SWpvaVpHbGtPbVYwYUhJNk5ETXlNVG93ZUVJd01EY3lNVU14TkRBMk56azROR0ZtTUdRelFqTTBNRUZqTUVORU1UQXpOR05FTnpobU9HWWlmUS5LQjNxTktYd3QwM19xZ0JreldjWU5hVTE1NG0tODZ1cXIySVFiSElWaWFCTGNad0VVbms1YmdaeW04QU90YnZNV0NYNDdJejl0MGZnMFFDYXFwcTNrd0EiXX19.candidate_signed_vp",
+      "status": "INVALID_OR_REVOKED",
+      "verification_details": {
+        "vp": {
+          "isValid": true,
+          "payload": {
+            "iss": "did:ethr:4321:0xCandidateHolderKey999",
+            "vp": {
+              "verifiableCredential": [
+                "eyJhbGciOiJFUzI1NkstUiIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIiwiQm91bmRIb2xkZXJDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZU5hbWUiOiJCYWNoZWxvciBvZiBTY2llbmNlIiwibWFqb3IiOiJDb21wdXRlciBTY2llbmNlICYgQUkiLCJncGEiOiIzLjk1IC8gNC4wIiwiZ3JhZHVhdGlvblllYXIiOiIyMDI2Iiwic3R1ZGVudE5hbWUiOiJBYXJhdiBTaGFybWEiLCJzdHVkZW50RW1haWwiOiJhYXJhdi5zaGFybWFAbWl0LmVkdSIsInJvbGxOdW1iZXIiOiIyMDI2LUNTLTAwMSIsImluc3RpdHV0aW9uTmFtZSI6Ik1JVCBJbnN0aXR1dGUgb2YgVGVjaG5vbG9neSIsInZjSWQiOiJ2Y19lYzdjZmM1MzU0ZTUwMzgyIn19LCJzdWIiOiJkaWQ6ZXRocjo0MzIxOjB4Q2FuZGlkYXRlSG9sZGVyS2V5OTk5IiwibmJmIjoxNzg4ODc4ODc1LCJqdGkiOiJ2Y19lYzdjZmM1MzU0ZTUwMzgyIiwiaXNzIjoiZGlkOmV0aHI6NDMyMToweEIwMDcyMUMxNDA2Nzk4NGFmMGQzQjM0MEFjMENEMTAzNGNENzhmOGYifQ.KB3qNKXwt03_qgBkzWcYNaU154m-86uqr2IQbHIViaBLcZwEUnk5bgZym8AOtbvMWCX47Iz9t0fg0QCaqpq3kwA"
+              ]
+            }
+          },
+          "error": "resolver_error: Unable to resolve DID document for did:ethr:4321:0xCandidateHolderKey999: invalidDid, Not a valid did:ethr: 4321:0xCandidateHolderKey999"
+        },
+        "vcs": [
+          {
+            "isValid": false,
+            "onChainValid": false,
+            "error": "invalid BytesLike value (argument=\"value\", value=\"0xcec7cfc5354e50382\", code=INVALID_ARGUMENT, version=6.17.0)",
+            "payload": {
+              "vc": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1"
+                ],
+                "type": [
+                  "VerifiableCredential",
+                  "AcademicDegreeCredential",
+                  "BoundHolderCredential"
+                ],
+                "credentialSubject": {
+                  "degreeName": "Bachelor of Science",
+                  "major": "Computer Science & AI",
+                  "gpa": "3.95 / 4.0",
+                  "graduationYear": "2026",
+                  "studentName": "Aarav Sharma",
+                  "studentEmail": "aarav.sharma@mit.edu",
+                  "rollNumber": "2026-CS-001",
+                  "institutionName": "MIT Institute of Technology",
+                  "vcId": "vc_ec7cfc5354e50382"
+                }
+              },
+              "sub": "did:ethr:4321:0xCandidateHolderKey999",
+              "nbf": 1788878875,
+              "jti": "vc_ec7cfc5354e50382",
+              "iss": "did:ethr:4321:0xB00721C14067984af0d3B340Ac0CD1034cD78f8f"
+            },
+            "jwt": "eyJhbGciOiJFUzI1NkstUiIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIiwiQm91bmRIb2xkZXJDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZU5hbWUiOiJCYWNoZWxvciBvZiBTY2llbmNlIiwibWFqb3IiOiJDb21wdXRlciBTY2llbmNlICYgQUkiLCJncGEiOiIzLjk1IC8gNC4wIiwiZ3JhZHVhdGlvblllYXIiOiIyMDI2Iiwic3R1ZGVudE5hbWUiOiJBYXJhdiBTaGFybWEiLCJzdHVkZW50RW1haWwiOiJhYXJhdi5zaGFybWFAbWl0LmVkdSIsInJvbGxOdW1iZXIiOiIyMDI2LUNTLTAwMSIsImluc3RpdHV0aW9uTmFtZSI6Ik1JVCBJbnN0aXR1dGUgb2YgVGVjaG5vbG9neSIsInZjSWQiOiJ2Y19lYzdjZmM1MzU0ZTUwMzgyIn19LCJzdWIiOiJkaWQ6ZXRocjo0MzIxOjB4Q2FuZGlkYXRlSG9sZGVyS2V5OTk5IiwibmJmIjoxNzg4ODc4ODc1LCJqdGkiOiJ2Y19lYzdjZmM1MzU0ZTUwMzgyIiwiaXNzIjoiZGlkOmV0aHI6NDMyMToweEIwMDcyMUMxNDA2Nzk4NGFmMGQzQjM0MEFjMENEMTAzNGNENzhmOGYifQ.KB3qNKXwt03_qgBkzWcYNaU154m-86uqr2IQbHIViaBLcZwEUnk5bgZym8AOtbvMWCX47Iz9t0fg0QCaqpq3kwA"
+          }
+        ]
+      },
+      "submitted_at": "2026-09-08T14:47:56.028Z",
+      "verified_at": "2026-09-08T14:47:56.319Z"
+    },
+    {
+      "id": "sub_fc63d715f796",
+      "campaign_id": "camp_ce3aded00c3a",
+      "candidate_name": "Arjun Gupta",
+      "candidate_email": "arjun.g@mit.edu",
+      "vp_jwt": "eyJhbGciOiJFUzI1NksifQ.eyJpc3MiOiJkaWQ6ZXRocjo0MzIxOjB4OTBGOGJmNkE0NzlmMzIwZWFkMDc0NDExYTRCMGU3OTQ0RWE4YzlDMSIsInZwIjp7InZlcmlmaWFibGVDcmVkZW50aWFsIjpbImV5SmhiR2NpT2lKRlV6STFOa3N0VWlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKMll5STZleUpBWTI5dWRHVjRkQ0k2V3lKb2RIUndjem92TDNkM2R5NTNNeTV2Y21jdk1qQXhPQzlqY21Wa1pXNTBhV0ZzY3k5Mk1TSmRMQ0owZVhCbElqcGJJbFpsY21sbWFXRmliR1ZEY21Wa1pXNTBhV0ZzSWl3aVFXTmhaR1Z0YVdORVpXZHlaV1ZEY21Wa1pXNTBhV0ZzSWl3aVFtOTFibVJJYjJ4a1pYSkRjbVZrWlc1MGFXRnNJbDBzSW1OeVpXUmxiblJwWVd4VGRXSnFaV04wSWpwN0ltUmxaM0psWlU1aGJXVWlPaUpOWVhOMFpYSWdiMllnVTJOcFpXNWpaU0lzSW0xaGFtOXlJam9pUkdsemRISnBZblYwWldRZ1UzbHpkR1Z0Y3lJc0ltZHdZU0k2SWpNdU9UUWdMeUEwTGpBaUxDSm5jbUZrZFdGMGFXOXVXV1ZoY2lJNklqSXdNallpTENKemRIVmtaVzUwVG1GdFpTSTZJa0Z5YW5WdUlFZDFjSFJoSWl3aWMzUjFaR1Z1ZEVWdFlXbHNJam9pWVhKcWRXNHVaMEJ0YVhRdVpXUjFJaXdpY205c2JFNTFiV0psY2lJNklqSXdNall0UTFNdE1EQTVJaXdpYVc1emRHbDBkWFJwYjI1T1lXMWxJam9pVFVsVUlFbHVjM1JwZEhWMFpTQnZaaUJVWldOb2JtOXNiMmQ1SWl3aWRtTkpaQ0k2SW5aalh6QXpZelJtT0ROa05HSXhPVGhoWWpBaWZYMHNJbk4xWWlJNkltUnBaRHBsZEdoeU9qUXpNakU2TUhnNU1FWTRZbVkyUVRRM09XWXpNakJsWVdRd056UTBNVEZoTkVJd1pUYzVORFJGWVRoak9VTXhJaXdpYm1KbUlqb3hOemc0T0RjNE5URXpMQ0pxZEdraU9pSjJZMTh3TTJNMFpqZ3paRFJpTVRrNFlXSXdJaXdpYVhOeklqb2laR2xrT21WMGFISTZORE15TVRvd2VFSXdNRGN5TVVNeE5EQTJOems0TkdGbU1HUXpRak0wTUVGak1FTkVNVEF6TkdORU56aG1PR1lpZlEuMGQ2N19rdlZIaTF4N1JrSFdOWk1HNlVzUG9NNS1ocGFsNWFIZlQ0TXBvdEtzVzlHaU5vd09CNXlvcm5oQmk5Mlh6X2kxX1dLMUJlem5oUUVySFdXS3dFIl19fQ==.holder_campaign_vp",
+      "status": "INVALID_OR_REVOKED",
+      "verification_details": {
+        "vp": {
+          "isValid": true,
+          "payload": {
+            "iss": "did:ethr:4321:0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1",
+            "vp": {
+              "verifiableCredential": [
+                "eyJhbGciOiJFUzI1NkstUiIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIiwiQm91bmRIb2xkZXJDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZU5hbWUiOiJNYXN0ZXIgb2YgU2NpZW5jZSIsIm1ham9yIjoiRGlzdHJpYnV0ZWQgU3lzdGVtcyIsImdwYSI6IjMuOTQgLyA0LjAiLCJncmFkdWF0aW9uWWVhciI6IjIwMjYiLCJzdHVkZW50TmFtZSI6IkFyanVuIEd1cHRhIiwic3R1ZGVudEVtYWlsIjoiYXJqdW4uZ0BtaXQuZWR1Iiwicm9sbE51bWJlciI6IjIwMjYtQ1MtMDA5IiwiaW5zdGl0dXRpb25OYW1lIjoiTUlUIEluc3RpdHV0ZSBvZiBUZWNobm9sb2d5IiwidmNJZCI6InZjXzAzYzRmODNkNGIxOThhYjAifX0sInN1YiI6ImRpZDpldGhyOjQzMjE6MHg5MEY4YmY2QTQ3OWYzMjBlYWQwNzQ0MTFhNEIwZTc5NDRFYThjOUMxIiwibmJmIjoxNzg4ODc4NTEzLCJqdGkiOiJ2Y18wM2M0ZjgzZDRiMTk4YWIwIiwiaXNzIjoiZGlkOmV0aHI6NDMyMToweEIwMDcyMUMxNDA2Nzk4NGFmMGQzQjM0MEFjMENEMTAzNGNENzhmOGYifQ.0d67_kvVHi1x7RkHWNZMG6UsPoM5-hpal5aHfT4MpotKsW9GiNowOB5yornhBi92Xz_i1_WK1BeznhQErHWWKwE"
+              ]
+            }
+          },
+          "error": "invalid_argument: invalid_jwt: Error: invalid_argument: Incorrect format JWS"
+        },
+        "vcs": [
+          {
+            "isValid": false,
+            "onChainValid": false,
+            "error": "invalid BytesLike value (argument=\"value\", value=\"0xc03c4f83d4b198ab0\", code=INVALID_ARGUMENT, version=6.17.0)",
+            "payload": {
+              "vc": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1"
+                ],
+                "type": [
+                  "VerifiableCredential",
+                  "AcademicDegreeCredential",
+                  "BoundHolderCredential"
+                ],
+                "credentialSubject": {
+                  "degreeName": "Master of Science",
+                  "major": "Distributed Systems",
+                  "gpa": "3.94 / 4.0",
+                  "graduationYear": "2026",
+                  "studentName": "Arjun Gupta",
+                  "studentEmail": "arjun.g@mit.edu",
+                  "rollNumber": "2026-CS-009",
+                  "institutionName": "MIT Institute of Technology",
+                  "vcId": "vc_03c4f83d4b198ab0"
+                }
+              },
+              "sub": "did:ethr:4321:0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1",
+              "nbf": 1788878513,
+              "jti": "vc_03c4f83d4b198ab0",
+              "iss": "did:ethr:4321:0xB00721C14067984af0d3B340Ac0CD1034cD78f8f"
+            },
+            "jwt": "eyJhbGciOiJFUzI1NkstUiIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIiwiQm91bmRIb2xkZXJDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZU5hbWUiOiJNYXN0ZXIgb2YgU2NpZW5jZSIsIm1ham9yIjoiRGlzdHJpYnV0ZWQgU3lzdGVtcyIsImdwYSI6IjMuOTQgLyA0LjAiLCJncmFkdWF0aW9uWWVhciI6IjIwMjYiLCJzdHVkZW50TmFtZSI6IkFyanVuIEd1cHRhIiwic3R1ZGVudEVtYWlsIjoiYXJqdW4uZ0BtaXQuZWR1Iiwicm9sbE51bWJlciI6IjIwMjYtQ1MtMDA5IiwiaW5zdGl0dXRpb25OYW1lIjoiTUlUIEluc3RpdHV0ZSBvZiBUZWNobm9sb2d5IiwidmNJZCI6InZjXzAzYzRmODNkNGIxOThhYjAifX0sInN1YiI6ImRpZDpldGhyOjQzMjE6MHg5MEY4YmY2QTQ3OWYzMjBlYWQwNzQ0MTFhNEIwZTc5NDRFYThjOUMxIiwibmJmIjoxNzg4ODc4NTEzLCJqdGkiOiJ2Y18wM2M0ZjgzZDRiMTk4YWIwIiwiaXNzIjoiZGlkOmV0aHI6NDMyMToweEIwMDcyMUMxNDA2Nzk4NGFmMGQzQjM0MEFjMENEMTAzNGNENzhmOGYifQ.0d67_kvVHi1x7RkHWNZMG6UsPoM5-hpal5aHfT4MpotKsW9GiNowOB5yornhBi92Xz_i1_WK1BeznhQErHWWKwE"
+          }
+        ]
+      },
+      "submitted_at": "2026-09-08T14:42:39.528Z",
+      "verified_at": "2026-09-08T14:42:51.386Z"
+    },
+    {
+      "id": "sub_6715e2df37e4",
+      "campaign_id": "camp_ce3aded00c3a",
+      "candidate_name": "Ananya Iyer",
+      "candidate_email": "ananya.iyer@mit.edu",
+      "vp_jwt": "eyJhbGciOiJFUzI1NksifQ.eyJpc3MiOiJkaWQ6ZXRocjo0MzIxOjB4OTBGOGJmNkE0NzlmMzIwZWFkMDc0NDExYTRCMGU3OTQ0RWE4YzlDMSIsInZwIjp7InZlcmlmaWFibGVDcmVkZW50aWFsIjpbImV5SmhiR2NpT2lKRlV6STFOa3N0VWlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKMll5STZleUpBWTI5dWRHVjRkQ0k2V3lKb2RIUndjem92TDNkM2R5NTNNeTV2Y21jdk1qQXhPQzlqY21Wa1pXNTBhV0ZzY3k5Mk1TSmRMQ0owZVhCbElqcGJJbFpsY21sbWFXRmliR1ZEY21Wa1pXNTBhV0ZzSWl3aVFXTmhaR1Z0YVdORVpXZHlaV1ZEY21Wa1pXNTBhV0ZzSWl3aVFtOTFibVJJYjJ4a1pYSkRjbVZrWlc1MGFXRnNJbDBzSW1OeVpXUmxiblJwWVd4VGRXSnFaV04wSWpwN0ltUmxaM0psWlU1aGJXVWlPaUpDWVdOb1pXeHZjaUJ2WmlCVFkybGxibU5sSWl3aWJXRnFiM0lpT2lKU2IySnZkR2xqY3lBbUlFRjFkRzl0WVhScGIyNGlMQ0puY0dFaU9pSXpMamd5SUM4Z05DNHdJaXdpWjNKaFpIVmhkR2x2YmxsbFlYSWlPaUl5TURJMklpd2ljM1IxWkdWdWRFNWhiV1VpT2lKV2FXdHlZVzBnVFdGc2FHOTBjbUVpTENKemRIVmtaVzUwUlcxaGFXd2lPaUoyYVd0eVlXMHViVUJ0YVhRdVpXUjFJaXdpY205c2JFNTFiV0psY2lJNklqSXdNall0UTFNdE1EQTFJaXdpYVc1emRHbDBkWFJwYjI1T1lXMWxJam9pVFVsVUlFbHVjM1JwZEhWMFpTQnZaaUJVWldOb2JtOXNiMmQ1SWl3aWRtTkpaQ0k2SW5aalgyRTRZV0ptWkRneE1URTFNVFU0TXpBaWZYMHNJbk4xWWlJNkltUnBaRHBsZEdoeU9qUXpNakU2TUhnNU1FWTRZbVkyUVRRM09XWXpNakJsWVdRd056UTBNVEZoTkVJd1pUYzVORFJGWVRoak9VTXhJaXdpYm1KbUlqb3hOemc0T0RjM09UUXdMQ0pxZEdraU9pSjJZMTloT0dGaVptUTRNVEV4TlRFMU9ETXdJaXdpYVhOeklqb2laR2xrT21WMGFISTZORE15TVRvd2VFSXdNRGN5TVVNeE5EQTJOems0TkdGbU1HUXpRak0wTUVGak1FTkVNVEF6TkdORU56aG1PR1lpZlEuWHNGZlZ6czkzVW84UnZSVnNrdjJtbk1IX0FMblRESzVYUkIzb0pMRTY5ZExQTzBqRHZWendpM3dqeXB5al9xYzhIVzNVMUFoS0dFcllkNkRNUG5vclFFIl19fQ==.holder_campaign_vp",
+      "status": "INVALID_OR_REVOKED",
+      "verification_details": {
+        "vp": {
+          "isValid": true,
+          "payload": {
+            "iss": "did:ethr:4321:0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1",
+            "vp": {
+              "verifiableCredential": [
+                "eyJhbGciOiJFUzI1NkstUiIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIiwiQm91bmRIb2xkZXJDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZU5hbWUiOiJCYWNoZWxvciBvZiBTY2llbmNlIiwibWFqb3IiOiJSb2JvdGljcyAmIEF1dG9tYXRpb24iLCJncGEiOiIzLjgyIC8gNC4wIiwiZ3JhZHVhdGlvblllYXIiOiIyMDI2Iiwic3R1ZGVudE5hbWUiOiJWaWtyYW0gTWFsaG90cmEiLCJzdHVkZW50RW1haWwiOiJ2aWtyYW0ubUBtaXQuZWR1Iiwicm9sbE51bWJlciI6IjIwMjYtQ1MtMDA1IiwiaW5zdGl0dXRpb25OYW1lIjoiTUlUIEluc3RpdHV0ZSBvZiBUZWNobm9sb2d5IiwidmNJZCI6InZjX2E4YWJmZDgxMTE1MTU4MzAifX0sInN1YiI6ImRpZDpldGhyOjQzMjE6MHg5MEY4YmY2QTQ3OWYzMjBlYWQwNzQ0MTFhNEIwZTc5NDRFYThjOUMxIiwibmJmIjoxNzg4ODc3OTQwLCJqdGkiOiJ2Y19hOGFiZmQ4MTExNTE1ODMwIiwiaXNzIjoiZGlkOmV0aHI6NDMyMToweEIwMDcyMUMxNDA2Nzk4NGFmMGQzQjM0MEFjMENEMTAzNGNENzhmOGYifQ.XsFfVzs93Uo8RvRVskv2mnMH_ALnTDK5XRB3oJLE69dLPO0jDvVzwi3wjypyj_qc8HW3U1AhKGErYd6DMPnorQE"
+              ]
+            }
+          },
+          "error": "invalid_argument: invalid_jwt: Error: invalid_argument: Incorrect format JWS"
+        },
+        "vcs": [
+          {
+            "isValid": false,
+            "onChainValid": false,
+            "error": "invalid BytesLike value (argument=\"value\", value=\"0xca8abfd8111515830\", code=INVALID_ARGUMENT, version=6.17.0)",
+            "payload": {
+              "vc": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1"
+                ],
+                "type": [
+                  "VerifiableCredential",
+                  "AcademicDegreeCredential",
+                  "BoundHolderCredential"
+                ],
+                "credentialSubject": {
+                  "degreeName": "Bachelor of Science",
+                  "major": "Robotics & Automation",
+                  "gpa": "3.82 / 4.0",
+                  "graduationYear": "2026",
+                  "studentName": "Vikram Malhotra",
+                  "studentEmail": "vikram.m@mit.edu",
+                  "rollNumber": "2026-CS-005",
+                  "institutionName": "MIT Institute of Technology",
+                  "vcId": "vc_a8abfd8111515830"
+                }
+              },
+              "sub": "did:ethr:4321:0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1",
+              "nbf": 1788877940,
+              "jti": "vc_a8abfd8111515830",
+              "iss": "did:ethr:4321:0xB00721C14067984af0d3B340Ac0CD1034cD78f8f"
+            },
+            "jwt": "eyJhbGciOiJFUzI1NkstUiIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIiwiQm91bmRIb2xkZXJDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZU5hbWUiOiJCYWNoZWxvciBvZiBTY2llbmNlIiwibWFqb3IiOiJSb2JvdGljcyAmIEF1dG9tYXRpb24iLCJncGEiOiIzLjgyIC8gNC4wIiwiZ3JhZHVhdGlvblllYXIiOiIyMDI2Iiwic3R1ZGVudE5hbWUiOiJWaWtyYW0gTWFsaG90cmEiLCJzdHVkZW50RW1haWwiOiJ2aWtyYW0ubUBtaXQuZWR1Iiwicm9sbE51bWJlciI6IjIwMjYtQ1MtMDA1IiwiaW5zdGl0dXRpb25OYW1lIjoiTUlUIEluc3RpdHV0ZSBvZiBUZWNobm9sb2d5IiwidmNJZCI6InZjX2E4YWJmZDgxMTE1MTU4MzAifX0sInN1YiI6ImRpZDpldGhyOjQzMjE6MHg5MEY4YmY2QTQ3OWYzMjBlYWQwNzQ0MTFhNEIwZTc5NDRFYThjOUMxIiwibmJmIjoxNzg4ODc3OTQwLCJqdGkiOiJ2Y19hOGFiZmQ4MTExNTE1ODMwIiwiaXNzIjoiZGlkOmV0aHI6NDMyMToweEIwMDcyMUMxNDA2Nzk4NGFmMGQzQjM0MEFjMENEMTAzNGNENzhmOGYifQ.XsFfVzs93Uo8RvRVskv2mnMH_ALnTDK5XRB3oJLE69dLPO0jDvVzwi3wjypyj_qc8HW3U1AhKGErYd6DMPnorQE"
+          }
+        ]
+      },
+      "submitted_at": "2026-09-08T14:40:39.236Z",
+      "verified_at": "2026-09-08T14:42:51.552Z"
+    },
+    {
+      "id": "sub_7317e4f9f9ac",
+      "campaign_id": "camp_ce3aded00c3a",
+      "candidate_name": "Aarav Sharma",
+      "candidate_email": "aarav.sharma@mit.edu",
+      "vp_jwt": "eyJhbGciOiJFUzI1NksifQ.eyJpc3MiOiJkaWQ6ZXRocjo0MzIxOjB4Q2FuZGlkYXRlSG9sZGVyS2V5OTk5IiwidnAiOnsidmVyaWZpYWJsZUNyZWRlbnRpYWwiOlsiZXlKaGJHY2lPaUpGVXpJMU5rc3RVaUlzSW5SNWNDSTZJa3BYVkNKOS5leUoyWXlJNmV5SkFZMjl1ZEdWNGRDSTZXeUpvZEhSd2N6b3ZMM2QzZHk1M015NXZjbWN2TWpBeE9DOWpjbVZrWlc1MGFXRnNjeTkyTVNKZExDSjBlWEJsSWpwYklsWmxjbWxtYVdGaWJHVkRjbVZrWlc1MGFXRnNJaXdpUVdOaFpHVnRhV05FWldkeVpXVkRjbVZrWlc1MGFXRnNJaXdpUW05MWJtUkliMnhrWlhKRGNtVmtaVzUwYVdGc0lsMHNJbU55WldSbGJuUnBZV3hUZFdKcVpXTjBJanA3SW1SbFozSmxaVTVoYldVaU9pSkNZV05vWld4dmNpQnZaaUJUWTJsbGJtTmxJaXdpYldGcWIzSWlPaUpEYjIxd2RYUmxjaUJUWTJsbGJtTmxJQ1lnUVVraUxDSm5jR0VpT2lJekxqazFJQzhnTkM0d0lpd2laM0poWkhWaGRHbHZibGxsWVhJaU9pSXlNREkySWl3aWMzUjFaR1Z1ZEU1aGJXVWlPaUpCWVhKaGRpQlRhR0Z5YldFaUxDSnpkSFZrWlc1MFJXMWhhV3dpT2lKaFlYSmhkaTV6YUdGeWJXRkFiV2wwTG1Wa2RTSXNJbkp2Ykd4T2RXMWlaWElpT2lJeU1ESTJMVU5UTFRBd01TSXNJbWx1YzNScGRIVjBhVzl1VG1GdFpTSTZJazFKVkNCSmJuTjBhWFIxZEdVZ2IyWWdWR1ZqYUc1dmJHOW5lU0lzSW5aalNXUWlPaUoyWTE4MlpHSmtaakprTmpCaU4ySmtaakV5SW4xOUxDSnpkV0lpT2lKa2FXUTZaWFJvY2pvME16SXhPakI0UTJGdVpHbGtZWFJsU0c5c1pHVnlTMlY1T1RrNUlpd2libUptSWpveE56ZzRPRGM0TVRrMExDSnFkR2tpT2lKMlkxODJaR0prWmpKa05qQmlOMkprWmpFeUlpd2lhWE56SWpvaVpHbGtPbVYwYUhJNk5ETXlNVG93ZUVJd01EY3lNVU14TkRBMk56azROR0ZtTUdRelFqTTBNRUZqTUVORU1UQXpOR05FTnpobU9HWWlmUS54WWp1aHdLOVBjRmNnQkdWenNtNDhVRV9CVEsxbE5iRzY1VjNPUTJ0Q0FGZ05aR25wXzRLWDY5TWZvV01KbzB5RDMxOEpLVExnLUVvclpFd2N2dVgwd0EiXX19.candidate_signed_vp",
+      "status": "INVALID_OR_REVOKED",
+      "verification_details": {
+        "vp": {
+          "isValid": true,
+          "payload": {
+            "iss": "did:ethr:4321:0xCandidateHolderKey999",
+            "vp": {
+              "verifiableCredential": [
+                "eyJhbGciOiJFUzI1NkstUiIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIiwiQm91bmRIb2xkZXJDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZU5hbWUiOiJCYWNoZWxvciBvZiBTY2llbmNlIiwibWFqb3IiOiJDb21wdXRlciBTY2llbmNlICYgQUkiLCJncGEiOiIzLjk1IC8gNC4wIiwiZ3JhZHVhdGlvblllYXIiOiIyMDI2Iiwic3R1ZGVudE5hbWUiOiJBYXJhdiBTaGFybWEiLCJzdHVkZW50RW1haWwiOiJhYXJhdi5zaGFybWFAbWl0LmVkdSIsInJvbGxOdW1iZXIiOiIyMDI2LUNTLTAwMSIsImluc3RpdHV0aW9uTmFtZSI6Ik1JVCBJbnN0aXR1dGUgb2YgVGVjaG5vbG9neSIsInZjSWQiOiJ2Y182ZGJkZjJkNjBiN2JkZjEyIn19LCJzdWIiOiJkaWQ6ZXRocjo0MzIxOjB4Q2FuZGlkYXRlSG9sZGVyS2V5OTk5IiwibmJmIjoxNzg4ODc4MTk0LCJqdGkiOiJ2Y182ZGJkZjJkNjBiN2JkZjEyIiwiaXNzIjoiZGlkOmV0aHI6NDMyMToweEIwMDcyMUMxNDA2Nzk4NGFmMGQzQjM0MEFjMENEMTAzNGNENzhmOGYifQ.xYjuhwK9PcFcgBGVzsm48UE_BTK1lNbG65V3OQ2tCAFgNZGnp_4KX69MfoWMJo0yD318JKTLg-EorZEwcvuX0wA"
+              ]
+            }
+          },
+          "error": "resolver_error: Unable to resolve DID document for did:ethr:4321:0xCandidateHolderKey999: invalidDid, Not a valid did:ethr: 4321:0xCandidateHolderKey999"
+        },
+        "vcs": [
+          {
+            "isValid": false,
+            "onChainValid": false,
+            "error": "invalid BytesLike value (argument=\"value\", value=\"0xc6dbdf2d60b7bdf12\", code=INVALID_ARGUMENT, version=6.17.0)",
+            "payload": {
+              "vc": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1"
+                ],
+                "type": [
+                  "VerifiableCredential",
+                  "AcademicDegreeCredential",
+                  "BoundHolderCredential"
+                ],
+                "credentialSubject": {
+                  "degreeName": "Bachelor of Science",
+                  "major": "Computer Science & AI",
+                  "gpa": "3.95 / 4.0",
+                  "graduationYear": "2026",
+                  "studentName": "Aarav Sharma",
+                  "studentEmail": "aarav.sharma@mit.edu",
+                  "rollNumber": "2026-CS-001",
+                  "institutionName": "MIT Institute of Technology",
+                  "vcId": "vc_6dbdf2d60b7bdf12"
+                }
+              },
+              "sub": "did:ethr:4321:0xCandidateHolderKey999",
+              "nbf": 1788878194,
+              "jti": "vc_6dbdf2d60b7bdf12",
+              "iss": "did:ethr:4321:0xB00721C14067984af0d3B340Ac0CD1034cD78f8f"
+            },
+            "jwt": "eyJhbGciOiJFUzI1NkstUiIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIiwiQm91bmRIb2xkZXJDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZU5hbWUiOiJCYWNoZWxvciBvZiBTY2llbmNlIiwibWFqb3IiOiJDb21wdXRlciBTY2llbmNlICYgQUkiLCJncGEiOiIzLjk1IC8gNC4wIiwiZ3JhZHVhdGlvblllYXIiOiIyMDI2Iiwic3R1ZGVudE5hbWUiOiJBYXJhdiBTaGFybWEiLCJzdHVkZW50RW1haWwiOiJhYXJhdi5zaGFybWFAbWl0LmVkdSIsInJvbGxOdW1iZXIiOiIyMDI2LUNTLTAwMSIsImluc3RpdHV0aW9uTmFtZSI6Ik1JVCBJbnN0aXR1dGUgb2YgVGVjaG5vbG9neSIsInZjSWQiOiJ2Y182ZGJkZjJkNjBiN2JkZjEyIn19LCJzdWIiOiJkaWQ6ZXRocjo0MzIxOjB4Q2FuZGlkYXRlSG9sZGVyS2V5OTk5IiwibmJmIjoxNzg4ODc4MTk0LCJqdGkiOiJ2Y182ZGJkZjJkNjBiN2JkZjEyIiwiaXNzIjoiZGlkOmV0aHI6NDMyMToweEIwMDcyMUMxNDA2Nzk4NGFmMGQzQjM0MEFjMENEMTAzNGNENzhmOGYifQ.xYjuhwK9PcFcgBGVzsm48UE_BTK1lNbG65V3OQ2tCAFgNZGnp_4KX69MfoWMJo0yD318JKTLg-EorZEwcvuX0wA"
+          }
+        ]
+      },
+      "submitted_at": "2026-09-08T14:36:34.259Z",
+      "verified_at": "2026-09-08T14:42:51.744Z"
+    },
+    {
+      "id": "sub_2a7825dc7d9c",
+      "campaign_id": "camp_ef614b6186d9",
+      "candidate_name": "Aarav Sharma",
+      "candidate_email": "aarav.sharma@mit.edu",
+      "vp_jwt": "eyJhbGciOiJFUzI1NksifQ.eyJpc3MiOiJkaWQ6ZXRocjo0MzIxOjB4Q2FuZGlkYXRlSG9sZGVyS2V5OTk5IiwidnAiOnsidmVyaWZpYWJsZUNyZWRlbnRpYWwiOlsiZXlKaGJHY2lPaUpGVXpJMU5rc3RVaUlzSW5SNWNDSTZJa3BYVkNKOS5leUoyWXlJNmV5SkFZMjl1ZEdWNGRDSTZXeUpvZEhSd2N6b3ZMM2QzZHk1M015NXZjbWN2TWpBeE9DOWpjbVZrWlc1MGFXRnNjeTkyTVNKZExDSjBlWEJsSWpwYklsWmxjbWxtYVdGaWJHVkRjbVZrWlc1MGFXRnNJaXdpUVdOaFpHVnRhV05FWldkeVpXVkRjbVZrWlc1MGFXRnNJaXdpUW05MWJtUkliMnhrWlhKRGNtVmtaVzUwYVdGc0lsMHNJbU55WldSbGJuUnBZV3hUZFdKcVpXTjBJanA3SW1SbFozSmxaVTVoYldVaU9pSkNZV05vWld4dmNpQnZaaUJUWTJsbGJtTmxJaXdpYldGcWIzSWlPaUpEYjIxd2RYUmxjaUJUWTJsbGJtTmxJQ1lnUVVraUxDSm5jR0VpT2lJekxqazFJQzhnTkM0d0lpd2laM0poWkhWaGRHbHZibGxsWVhJaU9pSXlNREkySWl3aWMzUjFaR1Z1ZEU1aGJXVWlPaUpCWVhKaGRpQlRhR0Z5YldFaUxDSnpkSFZrWlc1MFJXMWhhV3dpT2lKaFlYSmhkaTV6YUdGeWJXRkFiV2wwTG1Wa2RTSXNJbkp2Ykd4T2RXMWlaWElpT2lJeU1ESTJMVU5UTFRBd01TSXNJbWx1YzNScGRIVjBhVzl1VG1GdFpTSTZJazFKVkNCSmJuTjBhWFIxZEdVZ2IyWWdWR1ZqYUc1dmJHOW5lU0lzSW5aalNXUWlPaUoyWTE4eE5qTTRaRE5tT1RnME5qTXlORGxoSW4xOUxDSnpkV0lpT2lKa2FXUTZaWFJvY2pvME16SXhPakI0UTJGdVpHbGtZWFJsU0c5c1pHVnlTMlY1T1RrNUlpd2libUptSWpveE56ZzRPRGMzTnpRMUxDSnFkR2tpT2lKMlkxOHhOak00WkRObU9UZzBOak15TkRsaElpd2lhWE56SWpvaVpHbGtPbVYwYUhJNk5ETXlNVG93ZUVJd01EY3lNVU14TkRBMk56azROR0ZtTUdRelFqTTBNRUZqTUVORU1UQXpOR05FTnpobU9HWWlmUS5JbjhkUWd6N0c0Z1FnejRuUzFDUnRtZ2VPb2JoczBFS1hiU29ES0FkMXRBQzJJa1R5a2dhdXphNE4zaDRHLXQ5R2xjTDgwVHpKUUhxbGVwOXV1UE9sQUUiXX19.candidate_signed_vp",
+      "status": "INVALID_OR_REVOKED",
+      "verification_details": {
+        "vp": {
+          "isValid": true,
+          "payload": {
+            "iss": "did:ethr:4321:0xCandidateHolderKey999",
+            "vp": {
+              "verifiableCredential": [
+                "eyJhbGciOiJFUzI1NkstUiIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIiwiQm91bmRIb2xkZXJDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZU5hbWUiOiJCYWNoZWxvciBvZiBTY2llbmNlIiwibWFqb3IiOiJDb21wdXRlciBTY2llbmNlICYgQUkiLCJncGEiOiIzLjk1IC8gNC4wIiwiZ3JhZHVhdGlvblllYXIiOiIyMDI2Iiwic3R1ZGVudE5hbWUiOiJBYXJhdiBTaGFybWEiLCJzdHVkZW50RW1haWwiOiJhYXJhdi5zaGFybWFAbWl0LmVkdSIsInJvbGxOdW1iZXIiOiIyMDI2LUNTLTAwMSIsImluc3RpdHV0aW9uTmFtZSI6Ik1JVCBJbnN0aXR1dGUgb2YgVGVjaG5vbG9neSIsInZjSWQiOiJ2Y18xNjM4ZDNmOTg0NjMyNDlhIn19LCJzdWIiOiJkaWQ6ZXRocjo0MzIxOjB4Q2FuZGlkYXRlSG9sZGVyS2V5OTk5IiwibmJmIjoxNzg4ODc3NzQ1LCJqdGkiOiJ2Y18xNjM4ZDNmOTg0NjMyNDlhIiwiaXNzIjoiZGlkOmV0aHI6NDMyMToweEIwMDcyMUMxNDA2Nzk4NGFmMGQzQjM0MEFjMENEMTAzNGNENzhmOGYifQ.In8dQgz7G4gQgz4nS1CRtmgeOobhs0EKXbSoDKAd1tAC2IkTykgauza4N3h4G-t9GlcL80TzJQHqlep9uuPOlAE"
+              ]
+            }
+          },
+          "error": "resolver_error: Unable to resolve DID document for did:ethr:4321:0xCandidateHolderKey999: invalidDid, Not a valid did:ethr: 4321:0xCandidateHolderKey999"
+        },
+        "vcs": [
+          {
+            "isValid": false,
+            "onChainValid": false,
+            "error": "invalid BytesLike value (argument=\"value\", value=\"0xc1638d3f98463249a\", code=INVALID_ARGUMENT, version=6.17.0)",
+            "payload": {
+              "vc": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1"
+                ],
+                "type": [
+                  "VerifiableCredential",
+                  "AcademicDegreeCredential",
+                  "BoundHolderCredential"
+                ],
+                "credentialSubject": {
+                  "degreeName": "Bachelor of Science",
+                  "major": "Computer Science & AI",
+                  "gpa": "3.95 / 4.0",
+                  "graduationYear": "2026",
+                  "studentName": "Aarav Sharma",
+                  "studentEmail": "aarav.sharma@mit.edu",
+                  "rollNumber": "2026-CS-001",
+                  "institutionName": "MIT Institute of Technology",
+                  "vcId": "vc_1638d3f98463249a"
+                }
+              },
+              "sub": "did:ethr:4321:0xCandidateHolderKey999",
+              "nbf": 1788877745,
+              "jti": "vc_1638d3f98463249a",
+              "iss": "did:ethr:4321:0xB00721C14067984af0d3B340Ac0CD1034cD78f8f"
+            },
+            "jwt": "eyJhbGciOiJFUzI1NkstUiIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiQWNhZGVtaWNEZWdyZWVDcmVkZW50aWFsIiwiQm91bmRIb2xkZXJDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlZ3JlZU5hbWUiOiJCYWNoZWxvciBvZiBTY2llbmNlIiwibWFqb3IiOiJDb21wdXRlciBTY2llbmNlICYgQUkiLCJncGEiOiIzLjk1IC8gNC4wIiwiZ3JhZHVhdGlvblllYXIiOiIyMDI2Iiwic3R1ZGVudE5hbWUiOiJBYXJhdiBTaGFybWEiLCJzdHVkZW50RW1haWwiOiJhYXJhdi5zaGFybWFAbWl0LmVkdSIsInJvbGxOdW1iZXIiOiIyMDI2LUNTLTAwMSIsImluc3RpdHV0aW9uTmFtZSI6Ik1JVCBJbnN0aXR1dGUgb2YgVGVjaG5vbG9neSIsInZjSWQiOiJ2Y18xNjM4ZDNmOTg0NjMyNDlhIn19LCJzdWIiOiJkaWQ6ZXRocjo0MzIxOjB4Q2FuZGlkYXRlSG9sZGVyS2V5OTk5IiwibmJmIjoxNzg4ODc3NzQ1LCJqdGkiOiJ2Y18xNjM4ZDNmOTg0NjMyNDlhIiwiaXNzIjoiZGlkOmV0aHI6NDMyMToweEIwMDcyMUMxNDA2Nzk4NGFmMGQzQjM0MEFjMENEMTAzNGNENzhmOGYifQ.In8dQgz7G4gQgz4nS1CRtmgeOobhs0EKXbSoDKAd1tAC2IkTykgauza4N3h4G-t9GlcL80TzJQHqlep9uuPOlAE"
+          }
+        ]
+      },
+      "submitted_at": "2026-09-08T14:29:05.050Z",
+      "verified_at": "2026-09-08T14:29:05.314Z"
+    }
+  ]
+}

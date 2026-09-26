@@ -1,0 +1,460 @@
+=== PAGE 1 ===
+E-CO-OP · Workshop SERIES
+Does Your MVP
+Actually Work?
+Testing and Validation for Engineering Products
+Entrepreneurship Cohort Program (E-Co-Op)
+C-SHInE | KLE Technological University
+
+=== PAGE 2 ===
+SETTING THE STAGE
+"Our MVP Works!"
+What exactly does that mean?
+? It switches ON? ? It performed the intended function once?
+? It worked during the demonstration? ? It gave the expected output?
+Is that enough evidence?
+A working prototype is a claim. Testing provides the evidence.
+
+=== PAGE 3 ===
+THE TESTING FRAMEWORK
+What Does "It Works" Really Mean?
+Five questions we need to answer
+F P R U A
+Functionality Performance Reliability Usability User Acceptance
+Does it do what it How well does it Does it continue to Can the intended Does it satisfy the
+is supposed to do? do it? work consistently? user use it user's/customer's
+effectively? needs sufficiently
+for acceptance?
+03
+
+=== PAGE 4 ===
+STEP ONE
+Start With the Functions of Your MVP
+What should your product actually DO?
+Computer Science Electronics Mechanical Automation / Robotics
+• Identify a registered • Measure temperature • Lift a specified load • Detect an obstacle and
+user from an image stop
+• Detect the presence of • Dispense a specified
+• Generate a report an object quantity of material • Pick and place an
+from uploaded data object
+Testing starts by identifying the critical functions of your MVP.
+04
+
+=== PAGE 5 ===
+PILLAR 1 — FUNCTIONALITY
+Functionality Testing
+Does it do what it is supposed to do?
+Functionality testing checks whether the intended functions of the MVP actually work.
+Function Functionality Test
+Identify a registered user Present registered and unregistered users
+Measure temperature Expose sensor to known temperatures
+Lift a load Apply the intended load and operate mechanism
+Detect an obstacle and stop Place obstacle in robot's path
+FUNCTIONALITY = Does the intended function happen?
+05
+
+=== PAGE 6 ===
+REALITY CHECK
+But "It Works" Is Not Enough
+Consider an obstacle-detecting robot…
+Function: Detect an obstacle and stop.
+• It detects the obstacle.
+• It stops.
+But…
+• At what distance does it detect?
+• How accurately does it detect?
+• How quickly does it respond?
+• How far does it travel before stopping?
+• Does lighting affect detection?
+We now need PERFORMANCE TESTING.
+06
+
+=== PAGE 7 ===
+PILLAR 2 — PERFORMANCE
+Performance Testing
+How well does it work?
+Performance testing measures quantifiable characteristics of the MVP under defined operating conditions.
+Computer Science Electronics Mechanical Automation /
+Robotics
+• Accuracy • Measurement • Load capacity • Positioning accuracy
+accuracy
+• Response time • Speed • Cycle time
+• Response time
+• Processing speed • Efficiency • Detection range
+• Power consumption
+• Error rate • Dimensional accuracy • Stopping distance
+• Operating range
+The right metric depends on YOUR product.
+07
+
+=== PAGE 8 ===
+CONNECTING THE DOTS
+From Function to Performance
+Domain Function Performance Metric
+Computer Science Identify a face Recognition accuracy, response time
+Electronics Measure temperature Measurement error, response time
+Mechanical Lift a load Maximum load, lifting time
+Automation Detect obstacle and stop Detection range, stopping distance
+Functionality asks: Performance asks:
+Does it happen? How well does it happen?
+08
+
+=== PAGE 9 ===
+THE MISSING PIECE
+Measuring Something Is Not Enough
+“We will measure detection accuracy.” What accuracy is acceptable?
+“We will measure response time.” What response time is acceptable?
+“We will test the maximum load.” What load should the product handle?
+Every test needs an ACCEPTANCE CRITERION.
+Acceptance Criterion = The result that must be achieved for the test to PASS.
+09
+
+=== PAGE 10 ===
+THE TEST BLUEPRINT
+Anatomy of a Good Test
+1 2 3 4 5 6
+FUNCTION METRIC TEST TEST TRIALS ACCEPTANCE
+METHOD CONDITIONS CRITERION
+What should What will you How will you Under what How many How good is
+the MVP do? measure? measure it? conditions? times? good enough?
+PASS / F AIL
+10
+
+=== PAGE 11 ===
+WORKED EXAMPLE
+Example of a Complete Performance Test
+Function Detect an obstacle and stop the robot.
+Metric Detection success rate
+Test Method Place an obstacle at predefined distances and record successful detections.
+Test Conditions 10 cm, 20 cm and 30 cm • Normal indoor lighting
+Number of Trials 10 trials at each distance
+Acceptance Criterion ≥ 95% successful detection
+Result: PASS / FAIL
+Note: Values shown are illustrative. Your acceptance criteria must be justified for your product.
+11
+
+=== PAGE 12 ===
+GROUNDING YOUR NUMBERS
+Where Should Acceptance Criteria Come From?
+Don’t invent a number because it "looks reasonable."
+Validated user Engineering/design
+✓ ✓ ✓ Industry standards ✓ Safety requirements
+requirements requirements
+Competitor/product Engineering Manufacturer Experimental
+✓ ✓ ✓ ✓
+benchmarks calculations specifications evidence
+Every criterion must be traceable to a real source — not a guess.
+Your question should be:
+"Why is THIS level of performance acceptable?"
+12
+
+=== PAGE 13 ===
+ACTIVITY 1 20 MIN
+Prove That Your MVP Works
+• Identify 3 to 5 critical functions of your MVP.
+• For each function, determine: functionality test, performance metric(s), test method, test conditions, number of
+trials, and acceptance criterion.
+Functionality Performance Acceptance
+Function Test Method Conditions Trials
+Test Metric Criterion
+Don’t just write "Check whether it works."
+13
+
+=== PAGE 14 ===
+REFLECTION
+Can You Defend Your Test?
+Be prepared to answer:
+1 What exactly are you measuring?
+2 Why did you choose that metric?
+3 Why did you choose those test conditions?
+4 Why that number of trials?
+5 Where did your acceptance criterion come from?
+A number without justification is just a number.
+14
+
+=== PAGE 15 ===
+RAISING THE BAR
+Your MVP Passed. Are We Done?
+Imagine:
+✓ Your software correctly processed the data.
+✓ Your electronic sensor measured accurately.
+✓ Your mechanism lifted the required load.
+✓ Your robot detected and avoided the obstacle.
+Now repeat it…
+100 times. 500 times. 1,000 times.
+Will it still work?
+15
+
+=== PAGE 16 ===
+PILLAR 3 — RELIABILITY
+Reliability Testing
+Does it continue to work consistently?
+Reliability testing evaluates whether a product continues to perform its intended function consistently over time and
+under expected operating conditions.
+PERFORMANCE RELIABILITY
+→
+How well does it work? Does it continue to work that well?
+16
+
+=== PAGE 17 ===
+METHODS
+How Can We Test Reliability?
+1 2 3 4
+Repeated Operation Duration Changing Conditions Failure Observation
+Perform the same Operate continuously for Test across realistic Observe what fails,
+operation repeatedly. a defined period. variations. when, and how
+frequently.
+e.g. 500 pick-and-place e.g. Electronics operating e.g. Loads, lighting,
+cycles 8 hours temperature, battery
+17
+
+=== PAGE 18 ===
+SIDE BY SIDE
+Performance vs Reliability
+Domain Performance Reliability
+How quickly does the application process Does it keep working correctly after repeated
+Computer Science
+one request? requests / prolonged operation?
+Does measurement remain consistent during
+Electronics What is the measurement error?
+prolonged operation?
+Can it repeatedly lift the load without
+Mechanical Can the mechanism lift the required load?
+unacceptable degradation?
+Does it maintain acceptable accuracy over
+Automation What is the positioning accuracy?
+repeated cycles?
+18
+
+=== PAGE 19 ===
+MINDSET SHIFT
+Think Like a Failure Investigator
+How can your MVP fail? Possible examples:
+Sensor failure Mechanical wear Loose connections
+Overheating Battery depletion Software crash
+Communication failure Misalignment Component fatigue
+Performance degradation Environmental variation
+Don’t design tests to prove your MVP is good — design them to discover where it fails.
+19
+
+=== PAGE 20 ===
+ACTIVITY 2 20 MIN
+Try to Break Your MVP… On Paper
+• Step 1: Identify 3 likely failure modes of your MVP.
+• Step 2: Design a reliability test that could expose each failure.
+• Step 3: Define test method, operating conditions, cycles/duration, metric, and acceptance criterion.
+Acceptance
+Possible Failure Reliability Test Conditions Cycles/Duration Metric
+Criterion
+A reliability test that cannot expose a failure tells you very little.
+20
+
+=== PAGE 21 ===
+PILLAR 4 — USABILITY, A CAUTIONARY TALE
+Engineers Have a Usability Problem
+• You give your MVP to a user.
+• The user struggles. Did your product pass
+the usability test?
+• You say: “No, no… click here first.”
+NO.
+• Then: “Select this.”
+• Then: “Now press START.”
+• The user completes the task.
+The engineer just became
+part of the product.
+21
+
+=== PAGE 22 ===
+PILLAR 4 — USABILITY
+Usability Testing
+Can the intended user use it effectively?
+Usability testing involves giving representative users realistic tasks and observing how effectively they can use the
+product.
+What can we observe or measure?
+Task Number of Assistance Points of User
+Time taken Errors made
+completion attempts required confusion perception
+Watch what representative users actually DO with your MVP — not what they say about it.
+A usability test is only useful when the task is realistic and the user is
+representative.
+22
+
+=== PAGE 23 ===
+CHOOSING PARTICIPANTS
+Who Should Be Your Usability Test Participant?
+Choose people who:
+✓ Belong to the intended user group
+✓ Were not involved in developing the product
+✓ Are reasonably unfamiliar with how the MVP works
+Your teammates cannot be your usability test participants.
+They already know:
+• How the product works • What the intended workflow is
+• What the controls mean • What the expected result should be
+They are not fresh users.
+23
+
+=== PAGE 24 ===
+THE RIGHT METHOD
+Don’t Ask. Observe.
+WEAK USABILITY TEST BETTER USABILITY TEST
+"Is our product easy to use?" Give the user a realistic task:
+"Use this system to complete ______."
+User:
+Then observe:
+"Yes."
+• Did they succeed?
+• How long did they take?
+• Where did they hesitate?
+• What errors did they make?
+• Did they require assistance?
+What users DO can reveal more than what users SAY.
+24
+
+=== PAGE 25 ===
+APPLYING IT
+Usability Across Engineering Domains
+Computer Science Electronics Mechanical Automation
+TASK TASK TASK TASK
+Create an account and Connect the device and Adjust the mechanism for Configure and start an
+complete a key workflow. obtain a measurement. a different workpiece. automated operation.
+OBSERVE OBSERVE OBSERVE OBSERVE
+• Completion • Incorrect connections • Adjustment time • Setup errors
+• Time • Setup time • Errors • Sequence confusion
+• Errors • Assistance required • Difficulty handling • Assistance required
+controls
+• Navigation difficulties
+25
+
+=== PAGE 26 ===
+WORKED EXAMPLE
+Example of a Usability Test
+PRODUCT TASK
+"Use this device to test this water sample and
+Portable water-quality testing device
+determine whether the water is suitable for irrigation."
+REPRESENTATIVE USER
+Farmer
+Metric Acceptance Criterion
+Task completion ≥90% users
+Completion time <3 minutes
+Critical errors 0
+Assistance required None
+Ease-of-use rating ≥4/5
+26
+Values are illustrative. Actual criteria must be justified for the product and user context.
+
+=== PAGE 27 ===
+ACTIVITY 3 15 MIN
+Put Your MVP in Someone Else’s Hands
+• Identify: WHO are your representative users? WHAT 2–3 realistic tasks will they perform? What will you OBSERVE or
+measure, and what constitutes a PASS?
+What Will You
+Representative User Task Metric Acceptance Criterion
+Observe?
+Your teammates are NOT usability test participants.
+27
+
+=== PAGE 28 ===
+PILLAR 5 — USER ACCEPTANCE, A TURNING POINT
+It Works. It Is Reliable.
+It Is Easy to Use.
+But the customer still says…
+“NO.”
+✗ Costs ₹3 lakh when the customer expects ₹1 lakh
+✗ Occupies twice the available space
+✗ Requires excessive maintenance
+✗ Produces unacceptable noise
+✗ Cannot integrate with the customer's existing system
+Technically successful does not automatically mean acceptable. 28
+
+=== PAGE 29 ===
+PILLAR 5 — USER ACCEPTANCE
+User Acceptance Testing
+Will the intended user/customer accept it?
+USABILITY USER ACCEPTANCE
+Does the product satisfy the user's/customer's
+Can the user use it effectively?
+requirements sufficiently for actual adoption/use?
+Acceptance may depend on:
+Functionality Performance Reliability Ease of use Cost
+Compatibility/integ Operating
+Safety Size/weight Maintenance
+ration environment
+Other app-specific
+needs
+29
+
+=== PAGE 30 ===
+A SHARP DISTINCTION
+Usability ≠ User Acceptance
+Example: Electronics Product
+The device is: • Easy to operate Usability Test: PASS
+• Accurate
+Can the intended user operate the
+• Compact device correctly?
+But…
+The battery lasts only 4 hours.
+The customer requires operation throughout an 8-hour work shift.
+User Acceptance: FAIL
+A usable product can still be unacceptable.
+30
+
+=== PAGE 31 ===
+APPLYING IT
+User Acceptance Across Engineering Domains
+Computer Science Electronics
+Software works well but cannot integrate with the Device performs accurately but battery life does not
+customer's existing system. meet field requirements.
+Mechanical Automation
+Machine performs the task but its footprint exceeds System achieves required throughput but
+available workspace. changeover time is unacceptable.
+Acceptance is determined in the context of actual use.
+31
+
+=== PAGE 32 ===
+THE FULL PICTURE
+From Prototype to Validated MVP
+F P R U A
+Functionality Performance Reliability Usability User Acceptance
+Does it work? How well does it Does it keep Can the user use it Does it satisfy
+work? working effectively? user/customer
+consistently? needs?
+32
+
+=== PAGE 33 ===
+ROADMAP
+Your E-Co-Op Testing Journey
+REVIEW 2 REVIEW 3 REVIEW 4
+Performance Testing + Usability Performance Testing + Performance + Reliability + User
+Evaluation Reliability Testing Acceptance → Validated MVP
+This progression follows the testing and evaluation sequence specified in the 7th-semester E-Co-Op lesson plan.
+33
+
+=== PAGE 34 ===
+FINAL ACTIVITY
+Build Your Testing Roadmap
+Review all the tests your team developed today. Classify them:
+Need Customer /
+Can Start Now Need Resources Need Users Need Time
+Industry Access
+Repeated
+Tests you can Equipment, Representative Acceptance testing
+operation or long-
+conduct facilities or users must be requires external
+duration testing
+immediately materials required identified stakeholders
+required
+Identify the THREE tests your team must start first.
+34
+
+=== PAGE 35 ===
+CLOSING THOUGHT
+Stop Saying…
+"Our MVP Works."
+Instead, show us:
+What did you test? How did you test it?
+Under what conditions? How many times?
+Against what acceptance criterion? What were the results?
+Engineering claims require evidence.
+35
+

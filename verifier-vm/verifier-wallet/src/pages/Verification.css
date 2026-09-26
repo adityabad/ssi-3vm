@@ -1,0 +1,46 @@
+/* src/pages/Verification.css */
+.verification-page {
+  padding-bottom: 3rem;
+}
+.results-container {
+  margin-top: 2rem;
+  border-top: 1px solid var(--medium-gray);
+  padding-top: 1.5rem;
+}
+.result-box {
+  padding: 1rem;
+  border-radius: var(--border-radius);
+  margin-bottom: 1rem;
+  border: 1px solid;
+}
+.result-box.valid {
+  background-color: #e8f5e9;
+  border-color: #4caf50;
+  color: #2e7d32;
+}
+.result-box.invalid {
+  background-color: #ffeeee; /* <-- CORRECTED TYPO */
+  border-color: #f44336;
+  color: #c62828;
+}
+.error-message {
+  font-family: monospace;
+  font-size: 0.9em;
+  margin-top: 0.5rem;
+  word-break: break-word;
+}
+.log-container {
+  margin-top: 2rem;
+  background-color: var(--dark-gray);
+  color: #fff;
+  padding: 1rem;
+  border-radius: var(--border-radius);
+  max-height: 200px;
+  overflow-y: auto;
+}
+.log-container pre {
+  margin: 0;
+  font-family: monospace;
+  font-size: 0.9em;
+  white-space: pre-wrap;
+}

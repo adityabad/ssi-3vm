@@ -1,0 +1,25 @@
+{
+  "name": "issuer-service",
+  "version": "1.0.0",
+  "description": "A DIDComm agent for issuing VCs",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-wasm-modules app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "did-jwt-vc": "^4.0.16",
+    "did-resolver": "^4.1.0",
+    "didcomm": "^0.4.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.1",
+    "ethr-did": "^3.0.38",
+    "ethr-did-resolver": "^11.0.5",
+    "express": "^4.19.2",
+    "multer": "^2.0.2",
+    "node-fetch": "^3.3.2",
+    "solc": "^0.8.26",
+    "fs-extra": "^11.2.0"
+  }
+}

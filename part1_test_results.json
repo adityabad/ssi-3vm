@@ -1,0 +1,73 @@
+{
+  "timestamp": "2026-09-10T18:03:38.251Z",
+  "totalPassed": 140,
+  "totalFailed": 0,
+  "tests": [
+    {
+      "id": "FT-01",
+      "name": "EIP-1056 DID & Key Derivation",
+      "pillar": "Functionality",
+      "trials": 20,
+      "passed": 20,
+      "failed": 0,
+      "status": "PASS",
+      "avgLatencyMs": "16.41",
+      "details": "Successfully generated 20/20 secp256k1 keypairs with valid did:ethr:4321:0x... checksum addresses."
+    },
+    {
+      "id": "FT-02",
+      "name": "W3C VC JWT Issuance & Cryptographic Signature",
+      "pillar": "Functionality",
+      "trials": 30,
+      "passed": 30,
+      "failed": 0,
+      "status": "PASS",
+      "avgLatencyMs": "15.46",
+      "details": "Signed 30/30 W3C VC JWTs via secp256k1 algorithm with verified document SHA-256 pre-image binding."
+    },
+    {
+      "id": "FT-03",
+      "name": "DIDComm v2 Asynchronous Message Relay",
+      "pillar": "Functionality",
+      "trials": 25,
+      "passed": 25,
+      "failed": 0,
+      "status": "PASS",
+      "avgLatencyMs": "17.47",
+      "details": "Transmitted 25/25 DIDComm v2 messages over Mediator HTTP/WebSocket interface with intact attachment payloads and mailbox queue routing."
+    },
+    {
+      "id": "FT-04",
+      "name": "VP Generation & Anti-Theft Holder Binding",
+      "pillar": "Functionality",
+      "trials": 30,
+      "passed": 30,
+      "failed": 0,
+      "status": "PASS",
+      "avgLatencyMs": "26.43",
+      "details": "Verified 30/30 VP presentations with strict nonce/audience replay protection and 100% detection of unauthorized third-party presentation theft."
+    },
+    {
+      "id": "FT-05",
+      "name": "Smart Contract Revocation & On-Chain State",
+      "pillar": "Functionality",
+      "trials": 15,
+      "passed": 15,
+      "failed": 0,
+      "status": "PASS",
+      "avgLatencyMs": "46.31",
+      "details": "Executed 15/15 revocation state updates via VCRegistry.sol revocation engine with verified on-chain status transitions."
+    },
+    {
+      "id": "FT-06",
+      "name": "Selective Disclosure & Zero-Knowledge Predicates",
+      "pillar": "Functionality",
+      "trials": 20,
+      "passed": 20,
+      "failed": 0,
+      "status": "PASS",
+      "avgLatencyMs": "13.24",
+      "details": "Executed 20/20 selective-disclosure presentations shielding sensitive attributes (GPA, Student ID) behind SHA-256 blind commitments while verifying authenticity."
+    }
+  ]
+}
