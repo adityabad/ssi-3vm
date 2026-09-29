@@ -12,10 +12,16 @@ const ETHR_DID_REGISTRY_ADDRESS = process.env.ETHR_DID_REGISTRY_ADDRESS || "0x01
 
 // 1. Define BOTH contract addresses
 const VC_REGISTRY_ADDRESS = process.env.VC_REGISTRY_ADDRESS || process.env.VC_REGISTRY_ADDR || "0x7f347d1AFb2E5D47eD85FB67E8181d6DaBB37645"; // Your custom VC registry
-const TRUSTED_ISSUER_DID = "did:ethr:4321:0xB00721C14067984af0d3B340Ac0CD1034cD78f8f"; // Replace with the actual trusted issuer DID
+
+// Only credentials signed by these issuers are accepted (comma-separated DIDs).
+const TRUSTED_ISSUER_DIDS = (process.env.TRUSTED_ISSUER_DIDS || "did:ethr:4321:0xB00721C14067984af0d3B340Ac0CD1034cD78f8f")
+  .split(',')
+  .map(d => d.trim().toLowerCase())
+  .filter(Boolean);
 
 const VC_REGISTRY_ABI = [
-  "function isValidVC(bytes32 vcId) external view returns (bool)"
+  "function isValidVC(bytes32 vcId) external view returns (bool)",
+  "function getVC(bytes32 vcId) external view returns (tuple(address issuer, address subject, bool active, uint256 issuedAt))"
 ];
 
 // --- Setup for DID and Blockchain resolution ---
@@ -37,11 +43,7 @@ const didResolver = new Resolver(ethrDidResolver);
 const registryContract = new ethers.Contract(VC_REGISTRY_ADDRESS, VC_REGISTRY_ABI, provider);
 
 
-/**
- * Verifies a VP JWT, all VCs within it, and their on-chain status.
- * @param {string} vpJwt The Verifiable Presentation JWT
- * @returns {Promise<object>} A result object with verification details.
- */
+// Decodes a JWT payload WITHOUT checking its signature. Use for display only.
 export function safeDecodeJwt(jwtStr) {
   if (!jwtStr || typeof jwtStr !== 'string') return null;
   const parts = jwtStr.split('.');
@@ -67,6 +69,36 @@ export function formatVcIdToBytes32(vcId) {
   return ethers.id(str);
 }
 
+export function isTrustedIssuer(did) {
+  return typeof did === 'string' && TRUSTED_ISSUER_DIDS.includes(did.toLowerCase());
+}
+
+// did:ethr:<network>:<address> -> checksummed address, or null if the DID does not end in an address
+export function didToAddress(did) {
+  if (typeof did !== 'string') return null;
+  const last = did.split(':').pop();
+  return ethers.isAddress(last) ? ethers.getAddress(last) : null;
+}
+
+function sameDid(a, b) {
+  return typeof a === 'string' && typeof b === 'string' && a.toLowerCase() === b.toLowerCase();
+}
+
+function describeSelectiveDisclosure(payload) {
+  return Boolean(
+    payload?.vp?.selectiveDisclosure ||
+    payload?.selectiveDisclosure ||
+    payload?.presentationMode === 'selective'
+  );
+}
+
+/**
+ * Verifies a VP JWT, every VC inside it, and each VC's on-chain status.
+ * Fails closed: a presentation is only valid when the holder's signature, each issuer's
+ * signature, the issuer trust list, holder binding and the VCRegistry record all check out.
+ * @param {string} vpJwt The Verifiable Presentation JWT
+ * @returns {Promise<object>} A result object with verification details.
+ */
 export async function verifyFullPresentation(vpJwt) {
   const result = {
     vp: { isValid: false, payload: null, error: null, isSelectiveDisclosure: false },
@@ -74,158 +106,108 @@ export async function verifyFullPresentation(vpJwt) {
     isSelectiveDisclosure: false,
   };
 
-  let vcJwtsToVerify = [];
-  let vpPayload = null;
-
-  // Try standard VP JWT verify or extract payload
-  try {
-    const verifiedVp = await verifyPresentation(vpJwt, didResolver);
-    result.vp.isValid = true;
-    result.vp.payload = verifiedVp.payload;
-    vpPayload = verifiedVp.payload;
-    vcJwtsToVerify = verifiedVp.payload.vp?.verifiableCredential || [];
-  } catch (e) {
-    result.vp.error = e.message;
-    try {
-      const decoded = typeof vpJwt === 'object' ? vpJwt : safeDecodeJwt(vpJwt);
-      if (decoded) {
-        result.vp.isValid = true;
-        result.vp.payload = decoded;
-        vpPayload = decoded;
-        vcJwtsToVerify = decoded.vp?.verifiableCredential || [vpJwt];
-      }
-    } catch (err) {
-      console.warn('[Verifier Agent] Decode failed:', err.message);
-    }
+  if (typeof vpJwt !== 'string') {
+    result.vp.error = 'Presentation must be a signed JWT string.';
+    return result;
   }
 
-  // Detect VP-level Selective Disclosure flags
-  const isVpSelective = Boolean(
-    vpPayload?.vp?.selectiveDisclosure ||
-    vpPayload?.selectiveDisclosure ||
-    vpPayload?.presentationMode === 'selective'
-  );
-  if (isVpSelective) {
+  // Decoded only for display; nothing below trusts it.
+  const unverifiedPayload = safeDecodeJwt(vpJwt);
+  result.vp.payload = unverifiedPayload;
+  if (describeSelectiveDisclosure(unverifiedPayload)) {
     result.vp.isSelectiveDisclosure = true;
     result.isSelectiveDisclosure = true;
   }
 
-  // Verify each VC JWT and query on-chain VCRegistry.sol contract
+  let vpPayload;
+  try {
+    // TODO: bind presentations to this verifier (audience + challenge); wallets currently send placeholder audiences.
+    const verifiedVp = await verifyPresentation(vpJwt, didResolver, { policies: { aud: false } });
+    vpPayload = verifiedVp.payload;
+  } catch (e) {
+    result.vp.error = result.isSelectiveDisclosure
+      ? `Selective disclosure presentations cannot be verified yet: ${e.message}`
+      : `Presentation signature is invalid: ${e.message}`;
+    return result;
+  }
+
+  const vcJwtsToVerify = vpPayload.vp?.verifiableCredential || [];
+  if (vcJwtsToVerify.length === 0) {
+    result.vp.error = 'Presentation contains no credentials.';
+    return result;
+  }
+
+  result.vp.isValid = true;
+  result.vp.payload = vpPayload;
+  const holderDid = vpPayload.iss;
+
   for (const vcJwtItem of vcJwtsToVerify) {
-    let vcJwtStr = '';
-    let directVcObj = null;
-
-    if (typeof vcJwtItem === 'string') {
-      vcJwtStr = vcJwtItem;
-    } else if (vcJwtItem && typeof vcJwtItem === 'object') {
-      directVcObj = vcJwtItem;
-      vcJwtStr = vcJwtItem.proof?.jwt || JSON.stringify(vcJwtItem);
-    }
-
-    let vcResult = {
+    const vcJwtStr = typeof vcJwtItem === 'string' ? vcJwtItem : vcJwtItem?.proof?.jwt;
+    const vcResult = {
       isValid: false,
       onChainValid: false,
       error: null,
       payload: null,
-      jwt: vcJwtStr,
+      jwt: vcJwtStr || null,
       isSelectiveDisclosure: false,
       disclosedClaims: {},
       redactedClaims: []
     };
+    result.vcs.push(vcResult);
 
-    try {
-      // Decode VC payload
-      let payload = null;
-      if (directVcObj && directVcObj.vc) {
-        payload = directVcObj;
-      } else {
-        try {
-          const verifiedVc = await verifyCredential(vcJwtStr, didResolver);
-          payload = verifiedVc.payload;
-        } catch (err) {
-          payload = safeDecodeJwt(vcJwtStr);
-        }
-      }
-
-      vcResult.payload = payload;
-
-      if (payload) {
-        const credentialSubject = payload.vc?.credentialSubject || payload.credentialSubject || {};
-        const isVcSelective = Boolean(
-          isVpSelective ||
-          payload.selectiveDisclosure ||
-          payload.vc?.selectiveDisclosure ||
-          payload.vc?.type?.includes('SelectiveDisclosureCredential') ||
-          payload.disclosedClaims ||
-          credentialSubject._sd ||
-          Object.values(credentialSubject).some(v => typeof v === 'string' && v.includes('REDACTED'))
-        );
-
-        if (isVcSelective) {
-          vcResult.isSelectiveDisclosure = true;
-          result.isSelectiveDisclosure = true;
-          result.vp.isSelectiveDisclosure = true;
-
-          // Extract disclosed vs redacted claims
-          const disclosed = {};
-          const redacted = [];
-
-          if (payload.disclosedClaims) {
-            Object.assign(disclosed, payload.disclosedClaims);
-          }
-          if (Array.isArray(payload.redactedClaims)) {
-            redacted.push(...payload.redactedClaims);
-          }
-
-          for (const [key, val] of Object.entries(credentialSubject)) {
-            if (key === '_sd' || key === 'vcId') continue;
-            if (typeof val === 'string' && val.includes('REDACTED')) {
-              if (!redacted.some(r => (typeof r === 'string' ? r === key : r.field === key))) {
-                redacted.push({ field: key, status: 'REDACTED_BY_HOLDER', digest: ethers.id(`${key}:${val}`) });
-              }
-            } else {
-              disclosed[key] = val;
-            }
-          }
-
-          vcResult.disclosedClaims = disclosed;
-          vcResult.redactedClaims = redacted;
-        }
-
-        const vcId = payload.jti || credentialSubject.vcId || payload.id || payload.vc?.id;
-        if (vcId) {
-          const vcIdBytes32 = formatVcIdToBytes32(vcId);
-          try {
-            // Query on-chain smart contract VCRegistry
-            const isOnChainMined = await registryContract.isValidVC(vcIdBytes32);
-            vcResult.onChainValid = Boolean(isOnChainMined);
-
-            if (isOnChainMined) {
-              vcResult.isValid = true;
-              console.log(`[Verifier Agent] ✅ On-chain check passed for VC ${vcId} (${vcIdBytes32}) on VCRegistry ${VC_REGISTRY_ADDRESS}`);
-            } else {
-              vcResult.isValid = false;
-              vcResult.error = `VC ID (${vcId}) is NOT registered or mined on-chain on VCRegistry contract.`;
-              console.warn(`[Verifier Agent] ❌ On-chain check failed: VC ${vcId} (${vcIdBytes32}) not active on VCRegistry ${VC_REGISTRY_ADDRESS}`);
-            }
-          } catch (contractErr) {
-            // If RPC node or contract call fails/unreachable
-            vcResult.onChainValid = false;
-            vcResult.isValid = false;
-            vcResult.error = `On-Chain VCRegistry RPC Error: ${contractErr.message}`;
-            console.warn(`[Verifier Agent] RPC Query Error for VC ${vcId}:`, contractErr.message);
-          }
-        } else {
-          vcResult.isValid = true; // Valid signature even if unindexed vcId
-        }
-      } else {
-        vcResult.error = 'Could not parse VC payload from presentation.';
-      }
-    } catch (err) {
-      vcResult.error = err.message;
+    if (!vcJwtStr) {
+      vcResult.error = 'Credential must be a signed JWT.';
+      continue;
     }
 
-    result.vcs.push(vcResult);
+    let payload;
+    try {
+      payload = (await verifyCredential(vcJwtStr, didResolver)).payload;
+    } catch (err) {
+      vcResult.payload = safeDecodeJwt(vcJwtStr);
+      vcResult.error = `Credential signature is invalid: ${err.message}`;
+      continue;
+    }
+    vcResult.payload = payload;
+
+    if (!isTrustedIssuer(payload.iss)) {
+      vcResult.error = `Issuer ${payload.iss} is not a trusted issuer.`;
+      continue;
+    }
+    if (!sameDid(payload.sub, holderDid)) {
+      vcResult.error = `Credential subject ${payload.sub} does not match presenting holder ${holderDid}.`;
+      continue;
+    }
+
+    const issuerAddress = didToAddress(payload.iss);
+    const vcId = payload.jti || payload.vc?.credentialSubject?.vcId || payload.vc?.id;
+    if (!issuerAddress || !vcId) {
+      vcResult.error = 'Credential has no id or issuer address to check against VCRegistry.';
+      continue;
+    }
+
+    const vcIdBytes32 = formatVcIdToBytes32(vcId);
+    try {
+      const [isActive, record] = await Promise.all([
+        registryContract.isValidVC(vcIdBytes32),
+        registryContract.getVC(vcIdBytes32),
+      ]);
+      const onChainIssuerMatches = ethers.getAddress(record.issuer) === issuerAddress;
+      vcResult.onChainValid = Boolean(isActive && record.active && onChainIssuerMatches);
+
+      if (vcResult.onChainValid) {
+        vcResult.isValid = true;
+        console.log(`[Verifier Agent] ✅ On-chain check passed for VC ${vcId} (${vcIdBytes32}) on VCRegistry ${VC_REGISTRY_ADDRESS}`);
+      } else if (!onChainIssuerMatches && record.issuer !== ethers.ZeroAddress) {
+        vcResult.error = `VC ID (${vcId}) is registered on-chain by ${record.issuer}, not by issuer ${issuerAddress}.`;
+      } else {
+        vcResult.error = `VC ID (${vcId}) is NOT registered or is revoked on VCRegistry contract.`;
+        console.warn(`[Verifier Agent] ❌ On-chain check failed: VC ${vcId} (${vcIdBytes32}) not active on VCRegistry ${VC_REGISTRY_ADDRESS}`);
+      }
+    } catch (contractErr) {
+      vcResult.error = `On-Chain VCRegistry RPC Error: ${contractErr.message}`;
+      console.warn(`[Verifier Agent] RPC Query Error for VC ${vcId}:`, contractErr.message);
+    }
   }
 
   return result;

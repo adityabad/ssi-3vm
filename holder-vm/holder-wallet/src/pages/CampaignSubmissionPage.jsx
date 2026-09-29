@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { useParams } from 'react-router-dom';
+import { createVerifiablePresentationJwt } from 'did-jwt-vc';
 
 const VERIFIER_API_URL = import.meta.env.VITE_VERIFIER_AGENT_URL || 'http://localhost:8081';
 
@@ -40,14 +41,14 @@ function safeBase64UrlDecode(str) {
   return new TextDecoder().decode(bytes);
 }
 
-export default function CampaignSubmissionPage({ vcs = [], userName = '', userEmail = '', userDid = '' }) {
+export default function CampaignSubmissionPage({ vcs = [], userName = '', userEmail = '', userDid = '', agent }) {
   const { campaignId } = useParams();
 
   const [campaign, setCampaign] = useState(null);
   const [selectedVcIndex, setSelectedVcIndex] = useState(0);
   const [candidateName, setCandidateName] = useState(userName || '');
   const [candidateEmail, setCandidateEmail] = useState(userEmail || '');
-  const [useSelectiveDisclosure, setUseSelectiveDisclosure] = useState(true);
+  const [useSelectiveDisclosure, setUseSelectiveDisclosure] = useState(false); // Selective disclosure is not cryptographically verifiable yet
   const [disclosedKeys, setDisclosedKeys] = useState({});
   const [isLoading, setIsLoading] = useState(true);
   const [status, setStatus] = useState('');
@@ -192,15 +193,17 @@ export default function CampaignSubmissionPage({ vcs = [], userName = '', userEm
         vpJwt = `eyJhbGciOiJFUzI1NksifQ.${safeBase64UrlEncode(vpPayload)}.candidate_sd_vp`;
       } else {
         const rawVcJwt = parsedVc?.rawJwt || (typeof currentVc === 'string' ? currentVc : currentVc.jwt || JSON.stringify(currentVc));
+        if (!agent?.ethrDid) throw new Error('Wallet identity not initialized.');
         const vpPayload = {
-          iss: userDid || 'did:ethr:4321:0xCandidateWalletKey',
           aud: campaign?.verifier_did || 'did:ethr:4321:0xVerifierNode',
           presentationMode: 'structured',
           vp: {
+            '@context': ['https://www.w3.org/2018/credentials/v1'],
+            type: ['VerifiablePresentation'],
             verifiableCredential: [rawVcJwt],
           },
         };
-        vpJwt = `eyJhbGciOiJFUzI1NksifQ.${safeBase64UrlEncode(vpPayload)}.candidate_signed_vp`;
+        vpJwt = await createVerifiablePresentationJwt(vpPayload, agent.ethrDid);
       }
 
       setStatus('Transmitting Verifiable Presentation to Employer Hiring Campaign API...');

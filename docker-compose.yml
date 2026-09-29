@@ -50,6 +50,7 @@ services:
       - PORT=8081
       - MEDIATOR_URL=http://didcomm-mediator:4000
       - RPC_URL=${RPC_URL:-http://192.168.245.65:8545}
+      - TRUSTED_ISSUER_DIDS=${TRUSTED_ISSUER_DIDS:-did:ethr:4321:0xB00721C14067984af0d3B340Ac0CD1034cD78f8f}
 
     depends_on:
       - didcomm-mediator

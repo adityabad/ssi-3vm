@@ -623,6 +623,7 @@ export default function App() {
                 userName={authSession?.name}
                 userEmail={authSession?.userEmail}
                 userDid={agent?.did}
+                agent={agent}
               />
             }
           />

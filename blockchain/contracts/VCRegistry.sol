@@ -25,10 +25,14 @@ contract VCRegistry {
     address public trustedForwarder;
     address public owner;
 
+    // Only addresses the owner has registered may anchor credentials
+    mapping(address => bool) public registeredIssuers;
+
     event VCIssued(string vcId, address indexed issuer, string tenantId);
     event VCRevoked(string vcId, address indexed issuer);
     event HolderSignatureStored(bytes32 indexed vpHash, address indexed holder);
     event TrustedForwarderUpdated(address indexed newForwarder);
+    event IssuerRegistered(address indexed issuer, bool allowed);
 
     constructor() {
         owner = msg.sender;
@@ -36,6 +40,11 @@ contract VCRegistry {
 
     modifier onlyOwner() {
         require(msg.sender == owner, "Only contract owner");
+        _;
+    }
+
+    modifier onlyRegisteredIssuer() {
+        require(registeredIssuers[_msgSender()], "Sender is not a registered issuer");
         _;
     }
 
@@ -49,6 +58,11 @@ contract VCRegistry {
         emit TrustedForwarderUpdated(forwarder);
     }
 
+    function setRegisteredIssuer(address issuer, bool allowed) external onlyOwner {
+        registeredIssuers[issuer] = allowed;
+        emit IssuerRegistered(issuer, allowed);
+    }
+
     function isTrustedForwarder(address forwarder) public view returns (bool) {
         return forwarder == trustedForwarder;
     }
@@ -57,18 +71,18 @@ contract VCRegistry {
         if (isTrustedForwarder(msg.sender)) {
             // The assembly code extracts the sender address appended by the Trusted Forwarder
             assembly {
-                sender := shrinkptr(sub(calldatasize(), 20))
+                sender := shr(96, calldataload(sub(calldatasize(), 20)))
             }
         } else {
             return msg.sender;
         }
     }
 
-    function issueVC(string memory vcId, bytes memory issuerSignature) public {
+    function issueVC(string memory vcId, bytes memory issuerSignature) public onlyRegisteredIssuer {
         issueVCTenant(vcId, issuerSignature, "default");
     }
 
-    function issueVCTenant(string memory vcId, bytes memory issuerSignature, string memory tenantId) public {
+    function issueVCTenant(string memory vcId, bytes memory issuerSignature, string memory tenantId) public onlyRegisteredIssuer {
         require(VCs[vcId].issuer == address(0), "VC already exists");
         address issuer = _msgSender();
         VCs[vcId] = VC(issuer, issuerSignature, false, tenantId);
