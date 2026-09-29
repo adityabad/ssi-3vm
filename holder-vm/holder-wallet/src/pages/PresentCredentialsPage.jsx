@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
+import { createVerifiablePresentationJwt } from 'did-jwt-vc';
 
 const PRESET_VERIFIERS = [
   {
@@ -92,7 +93,7 @@ export default function PresentCredentialsPage({ vcs = [], agent, setStatus }) {
   const [verifierDid, setVerifierDid] = useState(PRESET_VERIFIERS[0].did);
   const [customDidInput, setCustomDidInput] = useState('');
   const [useCustomDid, setUseCustomDid] = useState(false);
-  const [presentationMode, setPresentationMode] = useState('selective'); // Default to Selective Disclosure
+  const [presentationMode, setPresentationMode] = useState('structured'); // Selective disclosure is not cryptographically verifiable yet
   const [attachedFile, setAttachedFile] = useState(null);
 
   // Selective Disclosure Claim Selection State
@@ -260,9 +261,9 @@ export default function PresentCredentialsPage({ vcs = [], agent, setStatus }) {
 
       return `eyJhbGciOiJFUzI1NksifQ.${safeBase64UrlEncode(vpPayload)}.holder_sd_vp_signature`;
     } else {
-      // Full structured presentation
+      // Full structured presentation, signed with the holder's key
+      if (!agent?.ethrDid) throw new Error('Wallet identity not initialized.');
       const vpPayload = {
-        iss: agent?.did || 'did:ethr:4321:0xHolderKey',
         aud: targetAudience || 'did:ethr:4321:0xVerifierNode',
         presentationMode: 'structured',
         vp: {
@@ -271,7 +272,7 @@ export default function PresentCredentialsPage({ vcs = [], agent, setStatus }) {
           verifiableCredential: [selectedVc],
         },
       };
-      return `eyJhbGciOiJFUzI1NksifQ.${safeBase64UrlEncode(vpPayload)}.holder_vp_signature`;
+      return createVerifiablePresentationJwt(vpPayload, agent.ethrDid);
     }
   };
 
