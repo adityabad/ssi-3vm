@@ -6,6 +6,8 @@ from docx.oxml import OxmlElement, parse_xml
 from docx.oxml.ns import nsdecls, qn
 import os
 
+REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+
 def set_cell_background(cell, fill_hex):
     tcPr = cell._tc.get_or_add_tcPr()
     shd = parse_xml(f'<w:shd {nsdecls("w")} w:fill="{fill_hex}"/>')
@@ -304,13 +306,13 @@ def build_document():
 
     doc.add_paragraph("The entire system can be launched in separate live terminal windows using the created launcher script:")
     add_code_block(doc,
-        ":: In workspace root (c:\\Users\\Admin\\Downloads\\ssi-3vm):\n"
-        "start-all.bat      :: Starts all 7 microservices in labeled windows\n"
-        "stop-all.bat       :: Stops all Node & Vite services cleanly"
+        ":: From the repository root:\n"
+        "scripts\\windows\\start-all.bat      :: Starts all 7 microservices in labeled windows\n"
+        "scripts\\windows\\stop-all.bat       :: Stops all Node & Vite services cleanly"
     )
 
     # Output path
-    output_path = r"c:\Users\Admin\Downloads\ssi-3vm\SSI_3VM_MASTER_TECHNICAL_REPORT.docx"
+    output_path = os.path.join(REPO_ROOT, "docs", "reports", "SSI_3VM_MASTER_TECHNICAL_REPORT.docx")
     doc.save(output_path)
     print(f"Report saved to {output_path}")
 

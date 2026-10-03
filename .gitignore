@@ -1,4 +1,3 @@
-@"
 .env
 .env.*
 !.env.example
@@ -12,4 +11,6 @@ dist/
 build/
 *.log
 .DS_Store
-"@ | Set-Content .gitignore
+
+# Word lock files created while a report is open
+~$*.docx
