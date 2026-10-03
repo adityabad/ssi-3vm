@@ -6,6 +6,10 @@ from docx.oxml import OxmlElement, parse_xml
 from docx.oxml.ns import nsdecls, qn
 import os
 
+REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+SCREENSHOTS_DIR = os.path.join(REPO_ROOT, "docs", "testing")
+REPORTS_DIR = os.path.join(REPO_ROOT, "docs", "reports")
+
 def set_cell_background(cell, fill_hex):
     tcPr = cell._tc.get_or_add_tcPr()
     shd = parse_xml(f'<w:shd {nsdecls("w")} w:fill="{fill_hex}"/>')
@@ -138,7 +142,7 @@ def add_callout(doc, text, title="KEY PRINCIPLE", bg_hex="EFF6FF", border_hex="2
     doc.add_paragraph()
 
 def add_screenshot_figure(doc, img_rel_path, caption_title, caption_desc):
-    img_abs = os.path.join(os.getcwd(), img_rel_path)
+    img_abs = os.path.join(SCREENSHOTS_DIR, img_rel_path)
     if os.path.exists(img_abs):
         p_img = doc.add_paragraph()
         p_img.alignment = WD_ALIGN_PARAGRAPH.CENTER
@@ -239,42 +243,42 @@ def build_testing_document():
     add_heading_2(doc, "Part 1 Visual Proof: Backend Logs & Frontend UI Interfaces")
     add_screenshot_figure(
         doc,
-        "test_screenshots/backend_terminal_logs_proof.png",
+        "screenshots/backend_terminal_logs_proof.png",
         "Part 1 Backend Microservice Terminal Logs",
         "Live backend execution logs showing Issuer Service (Port 3000), DIDComm Mediator (Port 4000), Verifier Agent (Port 8081), and test runner."
     )
 
     add_screenshot_figure(
         doc,
-        "test_screenshots/part1_test_evidence.png",
+        "screenshots/part1_test_evidence.png",
         "Part 1 Cryptographic Test Evidence Dashboard",
         "Interactive test evidence console showing all 6 functional test cards, pass/fail status badges, and mean latency breakdown."
     )
 
     add_screenshot_figure(
         doc,
-        "test_screenshots/issuer_dashboard_templates.png",
+        "screenshots/issuer_dashboard_templates.png",
         "Issuer VM — Credential Templates & Custom Schema Designer",
         "Interactive React 19 UI displaying pre-configured W3C VC templates, custom schema designer, and JSON export/import utilities."
     )
 
     add_screenshot_figure(
         doc,
-        "test_screenshots/issuer_onchain_ledger.png",
+        "screenshots/issuer_onchain_ledger.png",
         "Issuer VM — On-Chain Credential Ledger & Revocation Controls",
         "Live ledger showing issued credentials, recipient DIDs, timestamped records, and on-chain revocation triggers targeting VCRegistry.sol."
     )
 
     add_screenshot_figure(
         doc,
-        "test_screenshots/student_wallet_proof.png",
+        "screenshots/student_wallet_proof.png",
         "Holder VM — Student Digital Wallet & Credential Vault",
         "Student wallet displaying claimed academic credentials, DIDComm v2 real-time connection status, and QR presentation generator."
     )
 
     add_screenshot_figure(
         doc,
-        "test_screenshots/verifier_portal_proof.png",
+        "screenshots/verifier_portal_proof.png",
         "Verifier Portal — In-Memory Cryptographic Verification Engine",
         "Employer portal performing real-time signature recovery, DID resolution, and on-chain revocation verification."
     )
@@ -305,14 +309,14 @@ def build_testing_document():
     add_heading_2(doc, "Part 2 Visual Proof: Benchmark Terminal Execution & Mass Bulk Roster UI")
     add_screenshot_figure(
         doc,
-        "test_screenshots/backend_part2_benchmark_proof.png",
+        "screenshots/backend_part2_benchmark_proof.png",
         "Part 2 Performance Benchmark Execution Terminal",
         "Live node.js runtime execution log profiling 335+ trials across PT-01 to PT-05, showing quantiles (p50, p95, p99), throughput, and EVM gas usage."
     )
 
     add_screenshot_figure(
         doc,
-        "test_screenshots/issuer_bulk_roster_proof.png",
+        "screenshots/issuer_bulk_roster_proof.png",
         "Issuer VM — 30-Student Database Roster & 1-Click Bulk Issuance UI",
         "Live React 19 UI displaying the full university student database roster with roll numbers, degree programs, and 1-click batch issuance trigger."
     )
@@ -408,7 +412,7 @@ def build_testing_document():
         "SSI_3VM_TESTING_EVIDENCE_WITH_SCREENSHOTS.docx"
     ]
     for name in target_names:
-        path_to_save = os.path.join(os.getcwd(), name)
+        path_to_save = os.path.join(REPORTS_DIR, name)
         try:
             doc.save(path_to_save)
             saved_paths.append(path_to_save)
@@ -417,7 +421,7 @@ def build_testing_document():
             print(f"Notice: {name} is currently open or locked. Skipping.")
 
     if not saved_paths:
-        timestamp_path = os.path.join(os.getcwd(), "SSI_3VM_COMPLETE_TESTING_REPORT_LATEST.docx")
+        timestamp_path = os.path.join(REPORTS_DIR, "SSI_3VM_COMPLETE_TESTING_REPORT_LATEST.docx")
         doc.save(timestamp_path)
         print(f"Saved to alternative path: {timestamp_path}")
 

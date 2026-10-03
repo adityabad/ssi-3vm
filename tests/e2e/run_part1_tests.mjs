@@ -7,7 +7,7 @@ const require = createRequire(import.meta.url);
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const issuerModules = path.resolve(__dirname, "issuer-vm/issuer-service/node_modules");
+const issuerModules = path.resolve(__dirname, "../../issuer-vm/issuer-service/node_modules");
 
 function getModule(name) {
   try {
@@ -500,7 +500,7 @@ async function main() {
     "Status": t.status
   })));
 
-  const outPath = path.resolve(__dirname, "part1_test_results.json");
+  const outPath = path.resolve(__dirname, "../results/part1_test_results.json");
   fs.writeFileSync(outPath, JSON.stringify(testResults, null, 2));
   console.log(`💾 Saved test results to ${outPath}`);
 }
